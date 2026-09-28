@@ -1,0 +1,174 @@
+2026/09/28-08:38:24.450 2cb68e Reusing MANIFEST /Users/didi/.workbuddy/app/session/Local Storage/leveldb/MANIFEST-000001
+2026/09/28-08:38:24.452 2cb68e Recovering log #31
+2026/09/28-08:38:24.452 2cb68e Reusing old log /Users/didi/.workbuddy/app/session/Local Storage/leveldb/000031.log 
+2026/09/28-08:39:24.405 2cb68e Level-0 table #35: started
+2026/09/28-08:39:24.409 2cb68e Level-0 table #35: 36304 bytes OK
+2026/09/28-08:39:24.414 2cb68e Delete type=0 #31
+2026/09/28-08:47:44.753 2cb68e Level-0 table #37: started
+2026/09/28-08:47:44.757 2cb68e Level-0 table #37: 34580 bytes OK
+2026/09/28-08:47:44.767 2cb68e Delete type=0 #34
+2026/09/28-08:47:44.767 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-08:47:44.770 2cb68e Generated table #38@0: 94 keys, 38746 bytes
+2026/09/28-08:47:44.770 2cb68e Compacted 4@0 + 1@1 files => 38746 bytes
+2026/09/28-08:47:44.774 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-08:47:44.774 2cb68e Delete type=2 #28
+2026/09/28-08:47:44.774 2cb68e Delete type=2 #35
+2026/09/28-08:47:44.774 2cb68e Delete type=2 #37
+2026/09/28-08:47:44.774 2cb68e Delete type=2 #32
+2026/09/28-08:47:44.774 2cb68e Delete type=2 #30
+2026/09/28-09:09:01.831 2cb68e Level-0 table #40: started
+2026/09/28-09:09:01.838 2cb68e Level-0 table #40: 34628 bytes OK
+2026/09/28-09:09:01.844 2cb68e Delete type=0 #36
+2026/09/28-10:56:32.865 2cb68e Level-0 table #42: started
+2026/09/28-10:56:32.871 2cb68e Level-0 table #42: 34609 bytes OK
+2026/09/28-10:56:32.877 2cb68e Delete type=0 #39
+2026/09/28-11:01:34.079 2cb68e Level-0 table #44: started
+2026/09/28-11:01:34.083 2cb68e Level-0 table #44: 34580 bytes OK
+2026/09/28-11:01:34.090 2cb68e Delete type=0 #41
+2026/09/28-11:06:35.522 2cb68e Level-0 table #46: started
+2026/09/28-11:06:35.528 2cb68e Level-0 table #46: 34567 bytes OK
+2026/09/28-11:06:35.533 2cb68e Delete type=0 #43
+2026/09/28-11:06:35.535 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-11:06:35.541 2cb68e Generated table #47@0: 95 keys, 38701 bytes
+2026/09/28-11:06:35.541 2cb68e Compacted 4@0 + 1@1 files => 38701 bytes
+2026/09/28-11:06:35.543 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-11:06:35.544 2cb68e Delete type=2 #38
+2026/09/28-11:06:35.544 2cb68e Delete type=2 #42
+2026/09/28-11:06:35.544 2cb68e Delete type=2 #40
+2026/09/28-11:06:35.544 2cb68e Delete type=2 #44
+2026/09/28-11:06:35.544 2cb68e Delete type=2 #46
+2026/09/28-11:11:35.983 2cb68e Level-0 table #49: started
+2026/09/28-11:11:35.987 2cb68e Level-0 table #49: 34559 bytes OK
+2026/09/28-11:11:35.993 2cb68e Delete type=0 #45
+2026/09/28-11:16:38.012 2cb68e Level-0 table #51: started
+2026/09/28-11:16:38.016 2cb68e Level-0 table #51: 34587 bytes OK
+2026/09/28-11:16:38.023 2cb68e Delete type=0 #48
+2026/09/28-11:21:38.927 2cb68e Level-0 table #53: started
+2026/09/28-11:21:38.933 2cb68e Level-0 table #53: 34569 bytes OK
+2026/09/28-11:21:38.938 2cb68e Delete type=0 #50
+2026/09/28-11:26:41.570 2cb68e Level-0 table #55: started
+2026/09/28-11:26:41.575 2cb68e Level-0 table #55: 34592 bytes OK
+2026/09/28-11:26:41.580 2cb68e Delete type=0 #52
+2026/09/28-11:26:41.580 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-11:26:41.585 2cb68e Generated table #56@0: 95 keys, 38680 bytes
+2026/09/28-11:26:41.586 2cb68e Compacted 4@0 + 1@1 files => 38680 bytes
+2026/09/28-11:26:41.590 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-11:26:41.591 2cb68e Delete type=2 #49
+2026/09/28-11:26:41.591 2cb68e Delete type=2 #55
+2026/09/28-11:26:41.591 2cb68e Delete type=2 #51
+2026/09/28-11:26:41.591 2cb68e Delete type=2 #47
+2026/09/28-11:26:41.591 2cb68e Delete type=2 #53
+2026/09/28-11:31:51.044 2cb68e Level-0 table #58: started
+2026/09/28-11:31:51.049 2cb68e Level-0 table #58: 34572 bytes OK
+2026/09/28-11:31:51.054 2cb68e Delete type=0 #54
+2026/09/28-11:36:51.954 2cb68e Level-0 table #60: started
+2026/09/28-11:36:51.960 2cb68e Level-0 table #60: 34561 bytes OK
+2026/09/28-11:36:51.965 2cb68e Delete type=0 #57
+2026/09/28-11:41:53.158 2cb68e Level-0 table #62: started
+2026/09/28-11:41:53.163 2cb68e Level-0 table #62: 34602 bytes OK
+2026/09/28-11:41:53.169 2cb68e Delete type=0 #59
+2026/09/28-11:46:54.089 2cb68e Level-0 table #64: started
+2026/09/28-11:46:54.095 2cb68e Level-0 table #64: 34582 bytes OK
+2026/09/28-11:46:54.102 2cb68e Delete type=0 #61
+2026/09/28-11:46:54.103 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-11:46:54.110 2cb68e Generated table #65@0: 95 keys, 38723 bytes
+2026/09/28-11:46:54.110 2cb68e Compacted 4@0 + 1@1 files => 38723 bytes
+2026/09/28-11:46:54.116 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-11:46:54.117 2cb68e Delete type=2 #62
+2026/09/28-11:46:54.117 2cb68e Delete type=2 #60
+2026/09/28-11:46:54.117 2cb68e Delete type=2 #64
+2026/09/28-11:46:54.117 2cb68e Delete type=2 #58
+2026/09/28-11:46:54.117 2cb68e Delete type=2 #56
+2026/09/28-11:51:55.100 2cb68e Level-0 table #67: started
+2026/09/28-11:51:55.105 2cb68e Level-0 table #67: 34587 bytes OK
+2026/09/28-11:51:55.113 2cb68e Delete type=0 #63
+2026/09/28-11:56:56.148 2cb68e Level-0 table #69: started
+2026/09/28-11:56:56.153 2cb68e Level-0 table #69: 34585 bytes OK
+2026/09/28-11:56:56.159 2cb68e Delete type=0 #66
+2026/09/28-12:16:55.826 2cb68e Level-0 table #71: started
+2026/09/28-12:16:55.831 2cb68e Level-0 table #71: 34559 bytes OK
+2026/09/28-12:16:55.835 2cb68e Delete type=0 #68
+2026/09/28-12:21:56.930 2cb68e Level-0 table #73: started
+2026/09/28-12:21:56.935 2cb68e Level-0 table #73: 34583 bytes OK
+2026/09/28-12:21:56.942 2cb68e Delete type=0 #70
+2026/09/28-12:21:56.944 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-12:21:56.950 2cb68e Generated table #74@0: 95 keys, 38714 bytes
+2026/09/28-12:21:56.950 2cb68e Compacted 4@0 + 1@1 files => 38714 bytes
+2026/09/28-12:21:56.956 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-12:21:56.957 2cb68e Delete type=2 #71
+2026/09/28-12:21:56.957 2cb68e Delete type=2 #65
+2026/09/28-12:21:56.957 2cb68e Delete type=2 #73
+2026/09/28-12:21:56.957 2cb68e Delete type=2 #67
+2026/09/28-12:21:56.957 2cb68e Delete type=2 #69
+2026/09/28-12:26:57.849 2cb68e Level-0 table #76: started
+2026/09/28-12:26:57.854 2cb68e Level-0 table #76: 34591 bytes OK
+2026/09/28-12:26:57.858 2cb68e Delete type=0 #72
+2026/09/28-12:31:58.828 2cb68e Level-0 table #78: started
+2026/09/28-12:31:58.833 2cb68e Level-0 table #78: 34571 bytes OK
+2026/09/28-12:31:58.839 2cb68e Delete type=0 #75
+2026/09/28-12:36:59.993 2cb68e Level-0 table #80: started
+2026/09/28-12:36:59.998 2cb68e Level-0 table #80: 34601 bytes OK
+2026/09/28-12:37:00.005 2cb68e Delete type=0 #77
+2026/09/28-12:42:00.890 2cb68e Level-0 table #82: started
+2026/09/28-12:42:00.895 2cb68e Level-0 table #82: 34562 bytes OK
+2026/09/28-12:42:00.900 2cb68e Delete type=0 #79
+2026/09/28-12:42:00.901 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-12:42:00.906 2cb68e Generated table #83@0: 95 keys, 38679 bytes
+2026/09/28-12:42:00.906 2cb68e Compacted 4@0 + 1@1 files => 38679 bytes
+2026/09/28-12:42:00.910 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-12:42:00.910 2cb68e Delete type=2 #76
+2026/09/28-12:42:00.910 2cb68e Delete type=2 #74
+2026/09/28-12:42:00.911 2cb68e Delete type=2 #80
+2026/09/28-12:42:00.911 2cb68e Delete type=2 #82
+2026/09/28-12:42:00.911 2cb68e Delete type=2 #78
+2026/09/28-12:47:02.138 2cb68e Level-0 table #85: started
+2026/09/28-12:47:02.142 2cb68e Level-0 table #85: 34611 bytes OK
+2026/09/28-12:47:02.147 2cb68e Delete type=0 #81
+2026/09/28-12:52:02.935 2cb68e Level-0 table #87: started
+2026/09/28-12:52:02.939 2cb68e Level-0 table #87: 34604 bytes OK
+2026/09/28-12:52:02.946 2cb68e Delete type=0 #84
+2026/09/28-12:57:03.935 2cb68e Level-0 table #89: started
+2026/09/28-12:57:03.940 2cb68e Level-0 table #89: 34588 bytes OK
+2026/09/28-12:57:03.944 2cb68e Delete type=0 #86
+2026/09/28-13:02:04.895 2cb68e Level-0 table #91: started
+2026/09/28-13:02:04.900 2cb68e Level-0 table #91: 34588 bytes OK
+2026/09/28-13:02:04.905 2cb68e Delete type=0 #88
+2026/09/28-13:02:04.906 2cb68c Compacting 4@0 + 1@1 files
+2026/09/28-13:02:04.910 2cb68c Generated table #92@0: 95 keys, 38694 bytes
+2026/09/28-13:02:04.911 2cb68c Compacted 4@0 + 1@1 files => 38694 bytes
+2026/09/28-13:02:04.916 2cb68c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-13:02:04.917 2cb68c Delete type=2 #89
+2026/09/28-13:02:04.917 2cb68c Delete type=2 #83
+2026/09/28-13:02:04.917 2cb68c Delete type=2 #87
+2026/09/28-13:02:04.917 2cb68c Delete type=2 #91
+2026/09/28-13:02:04.917 2cb68c Delete type=2 #85
+2026/09/28-13:07:06.006 2cb68e Level-0 table #94: started
+2026/09/28-13:07:06.011 2cb68e Level-0 table #94: 34571 bytes OK
+2026/09/28-13:07:06.018 2cb68e Delete type=0 #90
+2026/09/28-13:09:34.033 2cb68e Level-0 table #96: started
+2026/09/28-13:09:34.039 2cb68e Level-0 table #96: 34566 bytes OK
+2026/09/28-13:09:34.044 2cb68e Delete type=0 #93
+2026/09/28-13:17:06.850 2cb68e Level-0 table #98: started
+2026/09/28-13:17:06.855 2cb68e Level-0 table #98: 34699 bytes OK
+2026/09/28-13:17:06.862 2cb68e Delete type=0 #95
+2026/09/28-13:22:07.859 2cb68e Level-0 table #100: started
+2026/09/28-13:22:07.863 2cb68e Level-0 table #100: 34573 bytes OK
+2026/09/28-13:22:07.870 2cb68e Delete type=0 #97
+2026/09/28-13:22:07.871 2cb68e Compacting 4@0 + 1@1 files
+2026/09/28-13:22:07.875 2cb68e Generated table #101@0: 95 keys, 38743 bytes
+2026/09/28-13:22:07.875 2cb68e Compacted 4@0 + 1@1 files => 38743 bytes
+2026/09/28-13:22:07.879 2cb68e compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/09/28-13:22:07.880 2cb68e Delete type=2 #100
+2026/09/28-13:22:07.880 2cb68e Delete type=2 #98
+2026/09/28-13:22:07.880 2cb68e Delete type=2 #94
+2026/09/28-13:22:07.880 2cb68e Delete type=2 #96
+2026/09/28-13:22:07.881 2cb68e Delete type=2 #92
+2026/09/28-13:27:08.929 2cb68e Level-0 table #103: started
+2026/09/28-13:27:08.934 2cb68e Level-0 table #103: 34568 bytes OK
+2026/09/28-13:27:08.942 2cb68e Delete type=0 #99
+2026/09/28-13:32:09.819 2cb68e Level-0 table #105: started
+2026/09/28-13:32:09.824 2cb68e Level-0 table #105: 34592 bytes OK
+2026/09/28-13:32:09.832 2cb68e Delete type=0 #102
+2026/09/28-13:37:10.889 2cb68e Level-0 table #107: started
+2026/09/28-13:37:10.895 2cb68e Level-0 table #107: 34590 bytes OK
+2026/09/28-13:37:10.901 2cb68e Delete type=0 #104

@@ -1,0 +1,43 @@
+{
+  "name": "fantasy-novel-writer",
+  "version": "1.0.0",
+  "description": "[TODO: English one-line description]",
+  "author": {
+    "name": "[TODO: author name]",
+    "email": "[TODO: author email]"
+  },
+  "agents": ["./agents/fantasy-novel-writer.md"],
+
+  "expertType": "agent",
+  "agentName": "fantasy-novel-writer",
+
+  "displayName": {
+    "en": "[TODO: English display name]",
+    "zh": "[TODO: 中文显示名称]"
+  },
+  "profession": {
+    "en": "[TODO: English profession]",
+    "zh": "[TODO: 中文职业头衔]"
+  },
+  "displayDescription": {
+    "en": "[TODO: English detailed description]",
+    "zh": "[TODO: 中文详细描述，40-50字]"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "[TODO: XX-CategoryName]",
+  "defaultInitPrompt": {
+    "zh": "[TODO: 中文首次对话提示]",
+    "en": "[TODO: English first prompt]"
+  },
+  "plugin": "fantasy-novel-writer",
+  "tags": [
+    { "en": "[TODO: Tag1]", "zh": "[TODO: 标签1]" },
+    { "en": "[TODO: Tag2]", "zh": "[TODO: 标签2]" },
+    { "en": "[TODO: Tag3]", "zh": "[TODO: 标签3]" }
+  ],
+  "quickPrompts": [
+    { "en": "[TODO: Prompt1, same as defaultInitPrompt]", "zh": "[TODO: 提示词1，同defaultInitPrompt]" },
+    { "en": "[TODO: Prompt2]", "zh": "[TODO: 提示词2]" },
+    { "en": "[TODO: Prompt3]", "zh": "[TODO: 提示词3]" }
+  ]
+}

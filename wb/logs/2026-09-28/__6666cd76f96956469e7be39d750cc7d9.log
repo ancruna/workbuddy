@@ -1,0 +1,543 @@
+Workspace Path: /
+[9/28/2026, 8:00:11 AM.587] [Info] [WorkflowMemProbe] tick runId=(none) | rss=82.3MB heap=108.4/110.7MB external=53.3MB arrayBuffers=0MB
+[9/28/2026, 8:00:11 AM.601] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:00:11 AM.601] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:00:11 AM.604] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/28/2026, 8:00:11 AM.786] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:00:11 AM.786] [Info] [CloudProductManager]  Fetched configuration from remote [184ms]
+[9/28/2026, 8:00:11 AM.787] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:00:11 AM.787] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:00:11 AM.787] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:00:11 AM.792] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:00:11 AM.792] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:00:11 AM.792] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:00:11 AM.792] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.792] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:11 AM.804] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:00:11 AM.804] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:00:11 AM.804] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:00:11 AM.805] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:00:13 AM.797] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:00:13 AM.798] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:00:41 AM.591] [Info] [WorkflowMemProbe] tick runId=(none) | rss=89MB heap=112.8/116.5MB external=53.8MB arrayBuffers=0MB
+[9/28/2026, 8:16:15 AM.690] [Info] [WorkflowMemProbe] tick runId=(none) | rss=96.9MB heap=113/116.8MB external=53.9MB arrayBuffers=0MB
+[9/28/2026, 8:16:15 AM.702] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:16:15 AM.702] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:16:15 AM.739] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/28/2026, 8:16:16 AM.495] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:16:16 AM.496] [Info] [CloudProductManager]  Fetched configuration from remote [792ms]
+[9/28/2026, 8:16:16 AM.497] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:16:16 AM.497] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:16:16 AM.497] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:16:16 AM.503] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:16:16 AM.503] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:16:16 AM.503] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:16:16 AM.503] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.503] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.516] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:16:16 AM.516] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:16:16 AM.516] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:16:16 AM.516] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:16:18 AM.509] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:16:18 AM.509] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:16:45 AM.694] [Info] [WorkflowMemProbe] tick runId=(none) | rss=106MB heap=115.2/120.4MB external=53.9MB arrayBuffers=0MB
+[9/28/2026, 8:23:48 AM.641] [Info] [WorkflowMemProbe] tick runId=(none) | rss=98MB heap=115.3/120.4MB external=53.9MB arrayBuffers=0MB
+[9/28/2026, 8:24:18 AM.643] [Info] [WorkflowMemProbe] tick runId=(none) | rss=72.3MB heap=115.6/120.4MB external=53.9MB arrayBuffers=0MB
+[9/28/2026, 8:24:18 AM.672] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:24:18 AM.673] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:24:18 AM.674] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/28/2026, 8:24:18 AM.797] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:24:18 AM.797] [Info] [CloudProductManager]  Fetched configuration from remote [123ms]
+[9/28/2026, 8:24:18 AM.799] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:24:18 AM.799] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:24:18 AM.799] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:24:18 AM.809] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:24:18 AM.809] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:24:18 AM.809] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:24:18 AM.809] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.809] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.810] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:18 AM.822] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:24:18 AM.822] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:24:18 AM.822] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:24:18 AM.822] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:24:20 AM.816] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:24:20 AM.816] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:24:48 AM.643] [Info] [WorkflowMemProbe] tick runId=(none) | rss=67.9MB heap=108.3/115MB external=53.2MB arrayBuffers=0MB
+[9/28/2026, 8:25:18 AM.647] [Info] [WorkflowMemProbe] tick runId=(none) | rss=65MB heap=108.6/115MB external=53.2MB arrayBuffers=0MB
+[9/28/2026, 8:25:48 AM.649] [Info] [WorkflowMemProbe] tick runId=(none) | rss=75.9MB heap=108.8/115MB external=53.2MB arrayBuffers=0MB
+[9/28/2026, 8:26:18 AM.651] [Info] [WorkflowMemProbe] tick runId=(none) | rss=68.9MB heap=109/115MB external=53.3MB arrayBuffers=0MB
+[9/28/2026, 8:26:48 AM.650] [Info] [WorkflowMemProbe] tick runId=(none) | rss=72.6MB heap=109.1/115MB external=53.3MB arrayBuffers=0MB
+[9/28/2026, 8:27:18 AM.652] [Info] [WorkflowMemProbe] tick runId=(none) | rss=67.4MB heap=109.3/115MB external=53.3MB arrayBuffers=0MB
+[9/28/2026, 8:27:48 AM.653] [Info] [WorkflowMemProbe] tick runId=(none) | rss=73.7MB heap=109.5/115MB external=53.3MB arrayBuffers=0MB
+[9/28/2026, 8:28:12 AM.618] [Error] [ProcessExit] signal | reason=SIGTERM
+[9/28/2026, 8:35:46 AM.594] [Warning] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/28/2026, 8:35:46 AM.605] [Warning] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/28/2026, 8:35:46 AM.605] [Warning] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/28/2026, 8:35:46 AM.605] [Warning] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/28/2026, 8:35:46 AM.605] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/28/2026, 8:35:46 AM.605] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/28/2026, 8:35:46 AM.605] [Info] [LSPManager]  LSP Manager initialized
+[9/28/2026, 8:35:46 AM.605] [Info] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/28/2026, 8:35:46 AM.605] [Info] [HotReload] cwd changed to "/", rebinding watchers & invalidating project caches
+[9/28/2026, 8:35:46 AM.605] [Info] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/28/2026, 8:35:46 AM.605] [Info] [MCP] config scope=project changed — scheduling desired revision 1
+[9/28/2026, 8:35:46 AM.605] [Info] [MCP] config scope=local changed — scheduling desired revision 2
+[9/28/2026, 8:35:46 AM.605] [Info] [RemoteControlLifecycle]  Remote Control module initializing...
+[9/28/2026, 8:35:46 AM.605] [Info] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/28/2026, 8:35:46 AM.605] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/28/2026, 8:35:46 AM.605] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/28/2026, 8:35:46 AM.606] [Info] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/28/2026, 8:35:46 AM.606] [Info] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/28/2026, 8:35:46 AM.607] [Info] [CliSettingsProvider]  CLI settings initialized: {}
+[9/28/2026, 8:35:46 AM.608] [Info] [WorkflowMemProbe] installed
+[9/28/2026, 8:35:46 AM.630] [Info] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/28/2026, 8:35:46 AM.630] [Info] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/28/2026, 8:35:46 AM.630] [Info] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/28/2026, 8:35:46 AM.630] [Info] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/28/2026, 8:35:46 AM.630] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:35:46 AM.630] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:35:46 AM.637] [Info] [SandboxAudit] SDK initialized | endpoint=https://xti.qq.com/api/v4/claw/audit | deviceId=4D6CEDE0-B354-523B-BF1F-9AD4D9EC28D2
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlApiClient]  API client initialized
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlMessageHandler]  Message handler initialized
+[9/28/2026, 8:35:46 AM.643] [Info] [CentrifugoClient]  Centrifugo client initialized
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlLifecycle]  Registered 1 long connection client(s): centrifugo:default
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlService]  Remote Control Service created, deferring async initialization...
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlLifecycle]  Remote Control module initialized successfully
+[9/28/2026, 8:35:46 AM.643] [Info] [PrewarmServer]  Prewarm IPC listening at /tmp/codebuddy-prewarm-wb-pool-1790555745454-fc782b.sock (id=wb-pool-1790555745454-fc782b)
+[9/28/2026, 8:35:46 AM.643] [Info] [CliDispatcher]  [Prewarm] standby ready, IPC at /tmp/codebuddy-prewarm-wb-pool-1790555745454-fc782b.sock
+[9/28/2026, 8:35:46 AM.643] [Info] [RemoteControlService]  Initializing Remote Control Service...
+[9/28/2026, 8:35:46 AM.647] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:35:46 AM.651] [Info] [AuthenticationSessionListener] [auth_success: 青石]  认证成功,执行 Notification 钩子:
+[9/28/2026, 8:35:46 AM.651] [Info] [AuthenticationManager]  [00000000000000000000000000000000] Start refresh session...
+[9/28/2026, 8:35:46 AM.654] [Info] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  Remote Control baseUrl resolution: ENV_REMOTE_CONTROL_BASE_URL=(not set), SETTINGS_REMOTE_CONTROL_BASE_URL=(not set), ENV_CODEBUDDY_BASE_URL=(not set), DEFAULT=https://tencent.sso.codebuddy.cn/v2, finalBaseUrl=https://tencent.sso.codebuddy.cn/v2
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  Generated hostId: e65db616-c5ce-4569-adc4-13efdb2a1c09
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlApiClient]  Config set, baseUrl: https://tencent.sso.codebuddy.cn/v2
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  Initialized, enabled: true, hostId: e65db616-c5ce-4569-adc4-13efdb2a1c09
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  User logged in, starting remote control service...
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  Starting remote control service...
+[9/28/2026, 8:35:46 AM.658] [Info] [RemoteControlService]  Remote control service started
+[9/28/2026, 8:35:46 AM.658] [Info] [MemoryLoader]  No memory rules loaded
+[9/28/2026, 8:35:46 AM.670] [Info] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/28/2026, 8:35:46 AM.678] [Info] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/28/2026, 8:35:46 AM.678] [Info] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/28/2026, 8:35:46 AM.679] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:35:46 AM.679] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:35:47 AM.092] [Error] [ProcessExit] signal | reason=SIGTERM
+[9/28/2026, 8:35:58 AM.274] [Warning] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/28/2026, 8:35:58 AM.283] [Warning] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/28/2026, 8:35:58 AM.284] [Warning] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/28/2026, 8:35:58 AM.284] [Warning] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/28/2026, 8:35:58 AM.284] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/28/2026, 8:35:58 AM.284] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/28/2026, 8:35:58 AM.284] [Info] [LSPManager]  LSP Manager initialized
+[9/28/2026, 8:35:58 AM.284] [Info] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/28/2026, 8:35:58 AM.284] [Info] [HotReload] cwd changed to "/", rebinding watchers & invalidating project caches
+[9/28/2026, 8:35:58 AM.284] [Info] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/28/2026, 8:35:58 AM.284] [Info] [MCP] config scope=project changed — scheduling desired revision 1
+[9/28/2026, 8:35:58 AM.284] [Info] [MCP] config scope=local changed — scheduling desired revision 2
+[9/28/2026, 8:35:58 AM.284] [Info] [RemoteControlLifecycle]  Remote Control module initializing...
+[9/28/2026, 8:35:58 AM.284] [Info] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/28/2026, 8:35:58 AM.284] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/28/2026, 8:35:58 AM.284] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/28/2026, 8:35:58 AM.284] [Info] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/28/2026, 8:35:58 AM.284] [Info] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/28/2026, 8:35:58 AM.284] [Info] [CliSettingsProvider]  CLI settings initialized: {}
+[9/28/2026, 8:35:58 AM.285] [Info] [WorkflowMemProbe] installed
+[9/28/2026, 8:35:58 AM.305] [Info] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/28/2026, 8:35:58 AM.305] [Info] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/28/2026, 8:35:58 AM.305] [Info] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/28/2026, 8:35:58 AM.305] [Info] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/28/2026, 8:35:58 AM.306] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:35:58 AM.306] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:35:58 AM.311] [Info] [SandboxAudit] SDK initialized | endpoint=https://xti.qq.com/api/v4/claw/audit | deviceId=4D6CEDE0-B354-523B-BF1F-9AD4D9EC28D2
+[9/28/2026, 8:35:58 AM.315] [Info] [RemoteControlApiClient]  API client initialized
+[9/28/2026, 8:35:58 AM.315] [Info] [RemoteControlMessageHandler]  Message handler initialized
+[9/28/2026, 8:35:58 AM.315] [Info] [CentrifugoClient]  Centrifugo client initialized
+[9/28/2026, 8:35:58 AM.315] [Info] [RemoteControlLifecycle]  Registered 1 long connection client(s): centrifugo:default
+[9/28/2026, 8:35:58 AM.315] [Info] [RemoteControlService]  Remote Control Service created, deferring async initialization...
+[9/28/2026, 8:35:58 AM.315] [Info] [RemoteControlLifecycle]  Remote Control module initialized successfully
+[9/28/2026, 8:35:58 AM.316] [Info] [PrewarmServer]  Prewarm IPC listening at /tmp/codebuddy-prewarm-wb-pool-1790555757230-6caa57.sock (id=wb-pool-1790555757230-6caa57)
+[9/28/2026, 8:35:58 AM.316] [Info] [CliDispatcher]  [Prewarm] standby ready, IPC at /tmp/codebuddy-prewarm-wb-pool-1790555757230-6caa57.sock
+[9/28/2026, 8:35:58 AM.316] [Info] [RemoteControlService]  Initializing Remote Control Service...
+[9/28/2026, 8:35:58 AM.319] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:35:58 AM.321] [Info] [AuthenticationSessionListener] [auth_success: 青石]  认证成功,执行 Notification 钩子:
+[9/28/2026, 8:35:58 AM.322] [Info] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  Remote Control baseUrl resolution: ENV_REMOTE_CONTROL_BASE_URL=(not set), SETTINGS_REMOTE_CONTROL_BASE_URL=(not set), ENV_CODEBUDDY_BASE_URL=(not set), DEFAULT=https://tencent.sso.codebuddy.cn/v2, finalBaseUrl=https://tencent.sso.codebuddy.cn/v2
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  Generated hostId: 7bd72e6c-e289-4af4-a9f7-f7d448e8e657
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlApiClient]  Config set, baseUrl: https://tencent.sso.codebuddy.cn/v2
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  Initialized, enabled: true, hostId: 7bd72e6c-e289-4af4-a9f7-f7d448e8e657
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  User logged in, starting remote control service...
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  Starting remote control service...
+[9/28/2026, 8:35:58 AM.325] [Info] [RemoteControlService]  Remote control service started
+[9/28/2026, 8:35:58 AM.325] [Info] [MemoryLoader]  No memory rules loaded
+[9/28/2026, 8:35:58 AM.336] [Info] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/28/2026, 8:35:58 AM.344] [Info] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/28/2026, 8:35:58 AM.344] [Info] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/28/2026, 8:35:58 AM.345] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:35:58 AM.345] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:35:58 AM.348] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/28/2026, 8:35:58 AM.515] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:35:58 AM.515] [Info] [CloudProductManager]  Fetched configuration from remote [169ms]
+[9/28/2026, 8:35:58 AM.547] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:35:58 AM.547] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:35:58 AM.547] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:35:58 AM.552] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.552] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.553] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:35:58 AM.553] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.553] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.565] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:35:58 AM.565] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:35:58 AM.565] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:35:58 AM.565] [Info] [PluginPolicyService]  [MergedPlugins] Merged plugins changed, firing onDidChange
+[9/28/2026, 8:35:58 AM.568] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:35:58 AM.597] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:35:58 AM.597] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:35:58 AM.597] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:35:58 AM.601] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.601] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.602] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:35:58 AM.602] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.602] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.613] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:35:58 AM.613] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:35:58 AM.613] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:35:58 AM.615] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:35:58 AM.652] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:35:58 AM.652] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:35:58 AM.652] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:35:58 AM.656] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.656] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:35:58 AM.656] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:35:58 AM.656] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.656] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:35:58 AM.667] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:35:58 AM.667] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:35:58 AM.667] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:35:58 AM.667] [Info] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:35:59 AM.809] [Info] [TracingService]  Galileo dual-report enabled: primary OTLP processor attached to global provider.
+[9/28/2026, 8:35:59 AM.809] [Info] [GalileoService] initialized successfully
+[9/28/2026, 8:36:00 AM.234] [Info] [ShellSnapshotService]  Shell snapshot warmup started
+[9/28/2026, 8:36:00 AM.234] [Info] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/28/2026, 8:36:00 AM.234] [Info] [ShellSnapshotService]  Snapshot child process started. pid=2902
+[9/28/2026, 8:36:00 AM.247] [Info] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:36:00 AM.263] [Info] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=30, stdoutLen=0, stderrLen=0
+[9/28/2026, 8:36:00 AM.266] [Info] [ShellSnapshotService]  Shell snapshot created successfully (1614 bytes)
+[9/28/2026, 8:36:00 AM.266] [Info] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/28/2026, 8:36:00 AM.324] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v2/report → DIRECT
+[9/28/2026, 8:36:28 AM.274] [Info] [WorkflowMemProbe] tick runId=(none) | rss=234.8MB heap=134.7/181.3MB external=54.3MB arrayBuffers=0MB
+[9/28/2026, 8:36:58 AM.276] [Info] [WorkflowMemProbe] tick runId=(none) | rss=187.4MB heap=134.9/181.3MB external=54.3MB arrayBuffers=0MB
+[9/28/2026, 8:37:28 AM.276] [Info] [WorkflowMemProbe] tick runId=(none) | rss=184.2MB heap=135.6/182.2MB external=54.3MB arrayBuffers=0MB
+[9/28/2026, 8:37:58 AM.277] [Info] [WorkflowMemProbe] tick runId=(none) | rss=153.7MB heap=107.7/116.5MB external=53.2MB arrayBuffers=0MB
+[9/28/2026, 8:38:19 AM.392] [Error] [ProcessExit] signal | reason=SIGTERM
+[9/28/2026, 8:38:40 AM.031] [Info] [pid=3433] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/28/2026, 8:38:40 AM.033] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/28/2026, 8:38:40 AM.033] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/28/2026, 8:38:40 AM.033] [Warning] [pid=3433] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/28/2026, 8:38:40 AM.033] [Warning] [pid=3433] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/28/2026, 8:38:40 AM.034] [Warning] [pid=3433] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/28/2026, 8:38:40 AM.034] [Warning] [pid=3433] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [LSPManager]  LSP Manager initialized
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [AuthenticationManager]  [AuthenticationManager] prewarm standby: defer init until activate
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ev]  [ProductManager] prewarm standby: defer init until activate
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [LoggerUploadService]  Auto upload disabled by configuration
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [HotReload] cwd changed to "/", rebinding watchers & invalidating project caches
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [MCP] config scope=project changed — scheduling desired revision 1
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [MCP] config scope=local changed — scheduling desired revision 2
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSettingsProvider]  CLI settings initialized: {}
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliDispatcher]  [CredentialBootstrap] CBC receiver {"eventAtMs":1790555919743,"elapsedMs":0,"route":"prewarm","policy":"fields","readyConfig":"disabled","cbcPid":3433,"parentPid":3378,"receiverOutcome":"not-applicable","runtimeStatus":"pending","wholeFileProtectionReady":false}
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliDispatcher]  [ColdStart] cli onStart pid=3433 version=5.6.2
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliDispatcher]  [Prewarm] prewarm standby pid=3433 prewarmId=wb-pool-1790555919526-713f28 force=false
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/28/2026, 8:38:40 AM.034] [Warning] [pid=3433] [AtRestEncryption] unavailable adapter=credential-fields resource=settings/user operation=read category=missing-key role=cbc; continuing
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PrewarmServer]  Prewarm IPC listening at /tmp/codebuddy-prewarm-wb-pool-1790555919526-713f28.sock (id=wb-pool-1790555919526-713f28)
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CliDispatcher]  [Prewarm] standby ready, IPC at /tmp/codebuddy-prewarm-wb-pool-1790555919526-713f28.sock
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [SettingsEndpointProductProvider] resolved endpoint=<unset> env=internal settingScopes=user,project,project-local | settings: enterpriseEndpoint=<unset> endpoint=<unset> envRouteMode=<unset>
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CloudProductProvider]  cloud product fetch skipped: reason=config-disabled, owner=cloud-product
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://www.workbuddy.cn
+[9/28/2026, 8:38:40 AM.034] [Warning] [pid=3433] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [AgentModelResolver] product config input: 53 models, 19 agents
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:38:40 AM.034] [Info] [pid=3433] [PluginPolicyService]  [MergedPlugins] Merged plugins changed, firing onDidChange
+[9/28/2026, 8:38:40 AM.051] [Info] [pid=3433] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:38:40 AM.053] [Info] [pid=3433] [MemoryLoader]  No memory rules loaded
+[9/28/2026, 8:38:40 AM.061] [Info] [pid=3433] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/28/2026, 8:38:40 AM.201] [Info] [pid=3433] [TracingService]  Galileo dual-report enabled: primary OTLP processor attached to global provider.
+[9/28/2026, 8:38:40 AM.201] [Info] [pid=3433] [GalileoService] initialized successfully
+[9/28/2026, 8:38:40 AM.201] [Info] [pid=3433] [GalileoService] detectGpuInfo started, platform: darwin
+[9/28/2026, 8:38:40 AM.733] [Info] [pid=3433] [HotReload] Triggered by settings change: /Users/didi/.workbuddy/settings.json
+[9/28/2026, 8:38:40 AM.733] [Info] [pid=3433] [HotReload] Completed for settings
+[9/28/2026, 8:38:40 AM.734] [Info] [pid=3433] [HotReload] Triggered by settings change: /Users/didi/.workbuddy/settings.json
+[9/28/2026, 8:38:40 AM.734] [Info] [pid=3433] [HotReload] Completed for settings
+[9/28/2026, 8:38:40 AM.737] [Info] [pid=3433] [SettingsEndpointProductProvider] resolved endpoint=<unset> env=internal settingScopes=user,project,project-local | settings: enterpriseEndpoint=<unset> endpoint=<unset> envRouteMode=<unset>
+[9/28/2026, 8:38:41 AM.921] [Info] [pid=3433] [ShellSnapshotService]  Shell snapshot warmup started
+[9/28/2026, 8:38:41 AM.921] [Info] [pid=3433] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/28/2026, 8:38:41 AM.921] [Info] [pid=3433] [ShellSnapshotService]  Snapshot child process started. pid=3451
+[9/28/2026, 8:38:41 AM.951] [Info] [pid=3433] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:38:41 AM.955] [Info] [pid=3433] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=34, stdoutLen=0, stderrLen=0
+[9/28/2026, 8:38:41 AM.958] [Info] [pid=3433] [ShellSnapshotService]  Shell snapshot created successfully (1673 bytes)
+[9/28/2026, 8:38:41 AM.958] [Info] [pid=3433] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/28/2026, 8:40:24 AM.381] [Info] [pid=3634] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [LSPManager]  LSP Manager initialized
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [AuthenticationManager]  [AuthenticationManager] prewarm standby: defer init until activate
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ev]  [ProductManager] prewarm standby: defer init until activate
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [LoggerUploadService]  Auto upload disabled by configuration
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [HotReload] cwd changed to "/", rebinding watchers & invalidating project caches
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [MCP] config scope=project changed — scheduling desired revision 1
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [MCP] config scope=local changed — scheduling desired revision 2
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSettingsProvider]  CLI settings initialized: {}
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliDispatcher]  [CredentialBootstrap] CBC receiver {"eventAtMs":1790556024050,"elapsedMs":1,"route":"prewarm","policy":"fields","readyConfig":"disabled","cbcPid":3634,"parentPid":3378,"receiverOutcome":"not-applicable","runtimeStatus":"pending","wholeFileProtectionReady":false}
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliDispatcher]  [ColdStart] cli onStart pid=3634 version=5.6.2
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliDispatcher]  [Prewarm] prewarm standby pid=3634 prewarmId=wb-pool-1790556023841-23f8f5 force=false
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [AtRestEncryption] unavailable adapter=credential-fields resource=settings/user operation=read category=missing-key role=cbc; continuing
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PrewarmServer]  Prewarm IPC listening at /tmp/codebuddy-prewarm-wb-pool-1790556023841-23f8f5.sock (id=wb-pool-1790556023841-23f8f5)
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CliDispatcher]  [Prewarm] standby ready, IPC at /tmp/codebuddy-prewarm-wb-pool-1790556023841-23f8f5.sock
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [HotReload] Watching 3 paths for changes
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [SettingsEndpointProductProvider] resolved endpoint=<unset> env=internal settingScopes=user,project,project-local | settings: enterpriseEndpoint=<unset> endpoint=<unset> envRouteMode=<unset>
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CloudProductProvider]  cloud product fetch skipped: reason=config-disabled, owner=cloud-product
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://www.workbuddy.cn
+[9/28/2026, 8:40:24 AM.384] [Warning] [pid=3634] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [AgentModelResolver] product config input: 53 models, 19 agents
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:40:24 AM.384] [Info] [pid=3634] [PluginPolicyService]  [MergedPlugins] Merged plugins changed, firing onDidChange
+[9/28/2026, 8:40:24 AM.403] [Info] [pid=3634] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 8:40:24 AM.405] [Info] [pid=3634] [MemoryLoader]  No memory rules loaded
+[9/28/2026, 8:40:24 AM.414] [Info] [pid=3634] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/28/2026, 8:40:24 AM.516] [Info] [pid=3634] [TracingService]  Galileo dual-report enabled: primary OTLP processor attached to global provider.
+[9/28/2026, 8:40:24 AM.516] [Info] [pid=3634] [GalileoService] initialized successfully
+[9/28/2026, 8:40:24 AM.516] [Info] [pid=3634] [GalileoService] detectGpuInfo started, platform: darwin
+[9/28/2026, 8:40:26 AM.258] [Info] [pid=3634] [ShellSnapshotService]  Shell snapshot warmup started
+[9/28/2026, 8:40:26 AM.258] [Info] [pid=3634] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/28/2026, 8:40:26 AM.258] [Info] [pid=3634] [ShellSnapshotService]  Snapshot child process started. pid=3655
+[9/28/2026, 8:40:26 AM.282] [Info] [pid=3634] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=25, stdoutLen=0, stderrLen=0
+[9/28/2026, 8:40:26 AM.287] [Info] [pid=3634] [ShellSnapshotService]  Shell snapshot created successfully (1673 bytes)
+[9/28/2026, 8:40:26 AM.287] [Info] [pid=3634] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/28/2026, 8:40:26 AM.287] [Info] [pid=3634] [HotReload] Watching 3 paths for changes
+[9/28/2026, 9:08:52 AM.211] [Error] [pid=3634] [ProcessExit] signal | reason=SIGTERM
+[9/28/2026, 1:12:57 PM.784] [Info] [pid=19700] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [LSPManager]  LSP Manager initialized
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [AuthenticationManager]  [AuthenticationManager] prewarm standby: defer init until activate
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ev]  [ProductManager] prewarm standby: defer init until activate
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [LoggerUploadService]  Auto upload disabled by configuration
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [HotReload] cwd changed to "/", rebinding watchers & invalidating project caches
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [MCP] config scope=project changed — scheduling desired revision 1
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [MCP] config scope=local changed — scheduling desired revision 2
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSettingsProvider]  CLI settings initialized: {}
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliDispatcher]  [CredentialBootstrap] CBC receiver {"eventAtMs":1790572377468,"elapsedMs":1,"route":"prewarm","policy":"fields","readyConfig":"disabled","cbcPid":19700,"parentPid":3378,"receiverOutcome":"not-applicable","runtimeStatus":"pending","wholeFileProtectionReady":false}
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliDispatcher]  [ColdStart] cli onStart pid=19700 version=5.6.2
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliDispatcher]  [Prewarm] prewarm standby pid=19700 prewarmId=wb-pool-1790572377250-ac278d force=false
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliSettingsProvider]  CLI settings reloaded: {}
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [AtRestEncryption] unavailable adapter=credential-fields resource=settings/user operation=read category=missing-key role=cbc; continuing
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PrewarmServer]  Prewarm IPC listening at /tmp/codebuddy-prewarm-wb-pool-1790572377250-ac278d.sock (id=wb-pool-1790572377250-ac278d)
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CliDispatcher]  [Prewarm] standby ready, IPC at /tmp/codebuddy-prewarm-wb-pool-1790572377250-ac278d.sock
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [HotReload] Watching 3 paths for changes
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [SettingsEndpointProductProvider] resolved endpoint=<unset> env=internal settingScopes=user,project,project-local | settings: enterpriseEndpoint=<unset> endpoint=<unset> envRouteMode=<unset>
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CloudProductProvider]  cloud product fetch skipped: reason=config-disabled, owner=cloud-product
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginsProductProvider.provide] active=0, ids=[]
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=false waitForSettle=false cacheNow=[] allServers=[]
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://www.workbuddy.cn
+[9/28/2026, 1:12:57 PM.791] [Warning] [pid=19700] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [AgentModelResolver] product config input: 53 models, 19 agents
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 1:12:57 PM.791] [Info] [pid=19700] [PluginPolicyService]  [MergedPlugins] Merged plugins changed, firing onDidChange
+[9/28/2026, 1:12:57 PM.809] [Info] [pid=19700] [LoggerUploadService]  Auto upload disabled: current env "internal" not in allowed list [iOA]
+[9/28/2026, 1:12:57 PM.810] [Info] [pid=19700] [MemoryLoader]  No memory rules loaded
+[9/28/2026, 1:12:57 PM.818] [Info] [pid=19700] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/28/2026, 1:12:58 PM.032] [Info] [pid=19700] [TracingService]  Galileo dual-report enabled: primary OTLP processor attached to global provider.
+[9/28/2026, 1:12:58 PM.032] [Info] [pid=19700] [GalileoService] initialized successfully
+[9/28/2026, 1:12:58 PM.032] [Info] [pid=19700] [GalileoService] detectGpuInfo started, platform: darwin
+[9/28/2026, 1:12:59 PM.655] [Info] [pid=19700] [ShellSnapshotService]  Shell snapshot warmup started
+[9/28/2026, 1:12:59 PM.655] [Info] [pid=19700] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/28/2026, 1:12:59 PM.655] [Info] [pid=19700] [ShellSnapshotService]  Snapshot child process started. pid=19757
+[9/28/2026, 1:12:59 PM.685] [Info] [pid=19700] [HotReload] Watching 3 paths for changes
+[9/28/2026, 1:12:59 PM.689] [Info] [pid=19700] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=34, stdoutLen=0, stderrLen=0
+[9/28/2026, 1:12:59 PM.692] [Info] [pid=19700] [ShellSnapshotService]  Shell snapshot created successfully (1673 bytes)
+[9/28/2026, 1:12:59 PM.692] [Info] [pid=19700] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/28/2026, 1:28:00 PM.213] [Error] [pid=19700] [ProcessExit] signal | reason=SIGTERM

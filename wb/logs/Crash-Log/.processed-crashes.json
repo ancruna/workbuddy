@@ -1,0 +1,14 @@
+{
+  "files": {
+    "crash-report-main-5676-20260830T091410.json": 9,
+    "crash-report-sidecar-5729-20260830T091412.json": 10,
+    "crash-report-main-922-20260907T110235.json": 1,
+    "crash-report-sidecar-1925-20260907T110245.json": 7,
+    "crash-report-main-1004-20260922T095219.json": 20,
+    "crash-report-sidecar-1746-20260922T095228.json": 13,
+    "crash-report-daemon-1710-20260922T095225.json": 1,
+    "crash-report-main-2736-20260928T083544.json": 1,
+    "crash-report-daemon-2761-20260928T083545.json": 5,
+    "crash-report-sidecar-2792-20260928T083546.json": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "mcp-miora",
+  "version": "5.6.2-wb.39298511.g37a65c0b.hbf00e3f3d64d",
+  "description": "WorkBuddy bundled MCP app resource: miora-mcp — Miora canvas (write/open) + multimodal media generation (text/edit-image, text/frame/reference-to-video) + task status query (recover after generation timeouts).",
+  "author": {
+    "name": "WorkBuddy"
+  },
+  "category": "mcp-app",
+  "keywords": [
+    "workbuddy",
+    "mcp-app",
+    "stdio",
+    "miora"
+  ],
+  "workbuddy": {
+    "welcomeModes": [
+      "design"
+    ],
+    "runtimeOwner": "agent-cli"
+  }
+}

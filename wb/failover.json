@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "mode": "active",
+  "trustedOrigins": [
+    "https://www.workbuddy.cn",
+    "https://copilot.tencent.com",
+    "https://wb.tencentbuddy.com"
+  ],
+  "capabilities": {
+    "configFailover": true,
+    "chatPreselect": true
+  },
+  "fallbackAddresses": {
+    "enabled": true,
+    "addresses": [
+      "162.14.3.241"
+    ]
+  },
+  "circuit": {
+    "failureWindowMs": 60000,
+    "infraFailureThreshold": 3,
+    "openDurationMs": 15000,
+    "failedProbeBackoffMs": [
+      30000,
+      60000,
+      120000
+    ]
+  },
+  "health": {
+    "https://www.workbuddy.cn": {
+      "failures": [],
+      "failedRecoveryCount": 0,
+      "lastSuccessAt": 1790573870201
+    },
+    "https://copilot.tencent.com": {
+      "failures": [],
+      "failedRecoveryCount": 0
+    },
+    "https://wb.tencentbuddy.com": {
+      "failures": [
+        1790563540578
+      ],
+      "failedRecoveryCount": 0,
+      "lastFailureAt": 1790563540578
+    }
+  },
+  "updatedAt": 1790573870201
+}

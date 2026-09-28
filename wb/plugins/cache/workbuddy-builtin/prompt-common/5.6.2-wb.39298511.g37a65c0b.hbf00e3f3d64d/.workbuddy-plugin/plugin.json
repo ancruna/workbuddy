@@ -1,0 +1,14 @@
+{
+  "name": "prompt-common",
+  "version": "5.6.2-wb.39298511.g37a65c0b.hbf00e3f3d64d",
+  "description": "WorkBuddy shared prompt fragments for welcomeMode templates.",
+  "author": {
+    "name": "WorkBuddy"
+  },
+  "category": "template",
+  "keywords": [
+    "workbuddy",
+    "prompt",
+    "template"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "launchedAt": "2026-09-22T09:52:28.456+08:00",
+  "pid": 1746,
+  "processName": "sidecar",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-24T18:58:57.222+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-25T21:42:31.913+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-25T22:04:02.057+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-25T22:04:02.070+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-26T12:09:46.264+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T18:14:04.194+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T18:56:54.222+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:47:32.682+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T20:35:21.482+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T21:10:58.742+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-27T22:40:01.086+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-28T08:16:16.387+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    },
+    {
+      "timestamp": "2026-09-28T08:28:10.491+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    }
+  ],
+  "droppedCount": 0
+}

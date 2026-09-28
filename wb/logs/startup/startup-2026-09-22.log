@@ -1,0 +1,12 @@
+[2026-09-22T01:52:23.417Z] [bootstrap +0ms] bootstrapMainProcess entered
+[2026-09-22T01:52:23.443Z] [bootstrap +26ms] platform created, version=5.3.14
+[2026-09-22T01:52:23.453Z] [bootstrap +36ms] database service skipped for desktop host
+[2026-09-22T01:52:24.327Z] [bootstrap +910ms] CellJS container ready
+[2026-09-22T01:52:24.338Z] [bootstrap +921ms] CellJS deps resolved
+[2026-09-22T01:52:24.450Z] [bootstrap +1033ms] CrashLogExporter started
+[2026-09-22T01:52:24.464Z] [bootstrap +1047ms] migrateFallbackData completed
+[2026-09-22T01:52:24.465Z] [bootstrap +1048ms] starting daemon bootstrap
+[2026-09-22T01:52:24.491Z] [localstorage-migration] migrate() called: sourceSessionPath=/Users/didi/Library/Application Support/WorkBuddy, originUrl=vscode-file://vscode-app
+[2026-09-22T01:52:24.492Z] [localstorage-migration] source session path does not exist, skipping
+[2026-09-22T01:52:33.362Z] [bootstrap +9945ms] remote migration status poll: phase=done
+[2026-09-22T01:52:33.363Z] [bootstrap +9946ms] remote migration wait resolved phase=done

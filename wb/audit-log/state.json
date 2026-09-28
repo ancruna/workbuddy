@@ -1,0 +1,9 @@
+{
+  "sequence": 59,
+  "lastHash": "8d22a69ae8d3c8264abe0e7afa598dbb925391cd6ab1dc1acaec42870b65724d",
+  "currentSegment": "2026-09-28.jsonl",
+  "closedSegments": [
+    "2026-08-25.jsonl",
+    "2026-09-27.jsonl"
+  ]
+}

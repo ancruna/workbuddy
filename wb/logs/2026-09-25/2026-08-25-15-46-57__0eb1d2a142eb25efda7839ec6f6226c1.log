@@ -1,0 +1,1341 @@
+Workspace Path: /Users/didi/WorkBuddy/2026-08-25-15-46-57
+[9/25/2026, 9:48:19 PM.991] [Warning] [WecomApiClient] Not fully configured for sending. Missing env vars: CODEBUDDY_GATEWAY_WECOM_CORP_ID, CODEBUDDY_GATEWAY_WECOM_CORP_SECRET, CODEBUDDY_GATEWAY_WECOM_AGENT_ID
+[9/25/2026, 9:48:19 PM.998] [Warning] [WecomAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECOM_TOKEN, CODEBUDDY_GATEWAY_WECOM_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECOM_CORP_ID
+[9/25/2026, 9:48:19 PM.998] [Warning] [WechatKfApiClient] Not fully configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_SECRET
+[9/25/2026, 9:48:19 PM.998] [Warning] [WechatKfAdapter] Not configured. Missing env vars: CODEBUDDY_GATEWAY_WECHAT_KF_TOKEN, CODEBUDDY_GATEWAY_WECHAT_KF_ENCODING_AES_KEY, CODEBUDDY_GATEWAY_WECHAT_KF_CORP_ID
+[9/25/2026, 9:48:19 PM.998] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] PluginPolicyService @PostConstruct - calling loadPolicies for the first time
+[9/25/2026, 9:48:19 PM.998] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 0 merged plugin entries
+[9/25/2026, 9:48:19 PM.998] [Info] [Startup] McpReadyService: headless mode — initializing MCP config (DYNAMIC scope)
+[9/25/2026, 9:48:19 PM.998] [Info] [Startup] McpManager.setNonInteractiveMode(true)
+[9/25/2026, 9:48:19 PM.998] [Info] [Startup] McpManager: non-interactive projection enabled, calling list()...
+[9/25/2026, 9:48:19 PM.998] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:19 PM.998] [Info] [LSPManager]  LSP Manager initialized
+[9/25/2026, 9:48:19 PM.998] [Info] [ShellService]  Shell snapshot warmup scheduled in 2000ms
+[9/25/2026, 9:48:19 PM.998] [Info] [HotReload] cwd changed to "/Users/didi/WorkBuddy/2026-08-25-15-46-57", rebinding watchers & invalidating project caches
+[9/25/2026, 9:48:19 PM.998] [Info] [SubdirectoryMemoryLoader]  Subdirectory memory cache cleared
+[9/25/2026, 9:48:19 PM.998] [Info] [MCP] config scope=project changed — scheduling desired revision 1
+[9/25/2026, 9:48:19 PM.998] [Info] [MCP] config scope=local changed — scheduling desired revision 2
+[9/25/2026, 9:48:19 PM.998] [Info] [RemoteControlLifecycle]  Remote Control module initializing...
+[9/25/2026, 9:48:19 PM.998] [Info] [SessionHistoryCleanService]  Session history cleanup service disabled by environment
+[9/25/2026, 9:48:19 PM.998] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] initialize
+[9/25/2026, 9:48:19 PM.999] [Info] [CliSvnCommitWatcher]  [CliSvnCommitWatcher] code-adoption-rate not enabled at startup; subscribing for late config push
+[9/25/2026, 9:48:19 PM.999] [Info] [CliSettingSourcesProvider]  Setting sources initialized: user -> project -> local
+[9/25/2026, 9:48:19 PM.999] [Info] [MCP] reconcile revision=0 started (list)
+[9/25/2026, 9:48:19 PM.999] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:19 PM.999] [Info] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/25/2026, 9:48:19 PM.999] [Info] [CliSettingsProvider]  Loaded CLI settings with 3 key(s)
+[9/25/2026, 9:48:19 PM.999] [Info] [CliSettingsProvider]  CLI --model option set: auto
+[9/25/2026, 9:48:20 PM.000] [Info] [WorkflowMemProbe] installed
+[9/25/2026, 9:48:20 PM.000] [Info] [CliSettingsProvider]  CLI settings initialized: {"enabledPlugins":{"interactionmode-expert@workbuddy-builtin":true,"prompt-common@workbuddy-builtin":true},"trustedDirectories":["/Users/didi/WorkBuddy/2026-08-25-15-46-57/**"],"language":"简体中文","model":"auto"}
+[9/25/2026, 9:48:20 PM.000] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.020] [Info] [CliSettingSourcesProvider]  Setting sources reloaded: user -> project -> local
+[9/25/2026, 9:48:20 PM.020] [Info] [Startup] McpConfigManager.list: scope=internal read completed (25ms)
+[9/25/2026, 9:48:20 PM.021] [Info] [PromptVarsFileContextInitializer] prompt vars cache miss | file=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7.prompt-vars.json
+[9/25/2026, 9:48:20 PM.021] [Info] [CliSettingsProvider]  Loaded CLI settings with 3 key(s)
+[9/25/2026, 9:48:20 PM.021] [Info] [CliSettingsProvider]  CLI --model option set: auto
+[9/25/2026, 9:48:20 PM.021] [Info] [PluginRuntime] refresh started (startup)
+[9/25/2026, 9:48:20 PM.021] [Info] [CliDispatcher]  [Dispatch] entry opts: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7 serve=true acp=false permissionMode=bypassPermissions model=auto agent=N/A systemPromptFile=N/A mcpConfig={"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:50052/mcp","defer_loading":true,"tools":{"present_files":{"defer_loading":false},"connect_cloud_service":{"defer_loading":true,"bare_name":true},"connect_open_platform":{"defer_loading":true,"bare_name":true},"automation_update":{"defer_loading":false},"read_me":{"defer_loading":false},"show_widget":{"defer_loading":false},"conversation_search":{"defer_loading":true,"bare_name":true},"workbuddy_cloudstudio_deploy":{"defer_loading":true,"bare_name":true},"agentic_search":{"defer_loading":true,"bare_name":true},"workbuddy_marketplace_skill":{"defer_loading":true,"bare_name":true},"mcp__agent-mail__upload_attachment":{"defer_loading":true,"bare_name":true},"mcp__agent-mail__download_attachment":{"defer_loading":true,"bare_name":true},"netdrive_tdrive.file_upload_complete":{"server_name":"netdrive"},"netdrive_tdrive.file_download":{"server_name":"netdrive"},"netdrive_tdrive.search_content":{"server_name":"netdrive"},"netdrive_tdrive.file_delete":{"server_name":"netdrive"},"netdrive_tdrive.file_upload":{"server_name":"netdrive"},"netdrive_tdrive.search_file":{"server_name":"netdrive"},"netdrive_tdrive.dir_list":{"server_name":"netdrive"},"netdrive_tdrive.dir_create":{"server_name":"netdrive"},"netdrive_tdrive.file_rename":{"server_name":"netdrive"},"netdrive_tdrive.file_move":{"server_name":"netdrive"},"agent-mail_GetMe":{"server_name":"agent-mail"},"agent-mail_ListMessages":{"server_name":"agent-mail"},"agent-mail_GetMessage":{"server_name":"agent-mail"},"agent-mail_SendMessage":{"server_name":"agent-mail"},"agent-mail_ReplyMessage":{"server_name":"agent-mail"},"agent-mail_ForwardMessage":{"server_name":"agent-mail"},"agent-mail_DeleteMessage":{"server_name":"agent-mail"},"agent-mail_PermanentDeleteMessage":{"server_name":"agent-mail"},"agent-mail_ClearTrash":{"server_name":"agent-mail"},"agent-mail_ListAttachments":{"server_name":"agent-mail"},"agent-mail_SearchMessages":{"server_name":"agent-mail"}},"transparent_proxy":true,"builtin_tools":["present_files","connect_cloud_service","connect_open_platform","automation_update","read_me","show_widget","conversation_search","workbuddy_cloudstudio_deploy","agentic_search","workbuddy_marketplace_skill","mcp__agent-mail__upload_attachment","mcp__agent-mail__download_attachment"],"headers":{"Authorization":"Bearer cOfL-tskOzH0GIoU-_2Ciwsc0rZlFnTW6fsU7kmm21Q","X-WorkBuddy-Session-Id":"c5e4c3f0-d040-4b36-b925-a1ec2eab98a7","X-WorkBuddy-Project-Id":"p_cbfff243436246c1897a31c3bea2897d"}},"wb-issues":{"url":"https://copilot.tencent.com/console/agent-gateway/wb-issues/_internal/issues/mcp","type":"http","description":"Project todo/issue management MCP. Tools: todo_list (filter by status/scope), todo_show (details + allowed transitions + attachments), todo_create, todo_update, todo_delete, todo_transition (status change), todo_statuses, todo_history, todo_comments, todo_add_comment, todo_update_comment, todo_delete_comment, todo_add_attachment, todo_remove_attachment, project_members.","defer_loading":true,"headers":{"Authorization":"Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJteWZFenA3ODNLaV9KQ3g4Vm5jM1hfaXg2alpyYjZDZjVPTWtHWk1QSTNzIn0.eyJleHAiOjE3OTUwOTU3NTIsImlhdCI6MTc5MDM0Mzc1MiwiYXV0aF90aW1lIjoxNzg3NjQwNDcxLCJqdGkiOiIyMzFhMDJhZi1kODMzLTRjYjgtOTVjYi1jOTE0ZjhiZDM3MzciLCJpc3MiOiJodHRwczovL3d3dy53b3JrYnVkZHkuY24vYXV0aC9yZWFsbXMvY29waWxvdCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJmZGVlM2Q1NC05NWI2LTRlOWMtYWFmZi01MGFkOTUwNWFhYjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJjb25zb2xlIiwic2lkIjoiOWJhMmVkYjYtZjlkZS00ZTcyLTk5MTAtYTljZmQyNjM5YWJjIiwiYWNyIjoiMCIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgb2ZmbGluZV9hY2Nlc3MgZW1haWwiLCJhcHBfdHlwZSI6ImNvZGVidWRkeSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmlja25hbWUiOiLpnZLnn7MiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIxODYwMDM5MDY5MiJ9.bqouB5tL-kXen1t4xTk24sfEl9p3MoqfLQFMEUKW1kwdaLQ71F5jn4XF-DX0K95s0ryzZG_OQsiV_SzdPTPohlGNAt4DtAi1g3ZtSRd10tm5ISUbej4GgDTK505B2LXmWqeqE3rvE_zsNeHYNdxCbIZxseGw6wdeP6KahXtcDc80qHHcpsBZbcnk0W5TILiCn7o2ZInv0xNxGreFmpoxQQLrC9bSxYio5Hb6pVQXm7vE9yhOk0PvSH3SC41UH6nphPVniQNxlTmDcUD9Ja59vQ7h-QRcowt4wYhLQBqTjNQqRHLJQg8VyXl5sadsfscewP88DdH6IPDFTdQ-NW3uRQ","x-user-id":"fdee3d54-95b6-4e9c-aaff-50ad9505aab4","x-project-id":"p_cbfff243436246c1897a31c3bea2897d"}}}} strictMcpConfig=true settingsLen=195 allowedTools=["present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)"] port=0 argv=["/Applications/WorkBuddy.app/Contents/MacOS/Electron","/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/codebuddy","--serve","--session-id","c5e4c3f0-d040-4b36-b925-a1ec2eab98a7","--permission-mode","bypassPermissions","--permission-mode-before-plan","bypassPermissions","--allowedTools","present_files","read_me","show_widget","connect_cloud_service","connect_open_platform","WebFetch","Bash(mcporter:*)","--model","auto","--settings","{\"enabledPlugins\":{\"interactionmode-expert@workbuddy-builtin\":true,\"prompt-common@workbuddy-builtin\":true},\"trustedDirectories\":[\"/Users/didi/WorkBuddy/2026-08-25-15-46-57/**\"],\"language\":\"简体中文\"}","--mcp-config","{\"mcpServers\":{\"connector-proxy\":{\"type\":\"http\",\"url\":\"http://127.0.0.1:50052/mcp\",\"defer_loading\":true,\"tools\":{\"present_files\":{\"defer_loading\":false},\"connect_cloud_service\":{\"defer_loading\":true,\"bare_name\":true},\"connect_open_platform\":{\"defer_loading\":true,\"bare_name\":true},\"automation_update\":{\"defer_loading\":false},\"read_me\":{\"defer_loading\":false},\"show_widget\":{\"defer_loading\":false},\"conversation_search\":{\"defer_loading\":true,\"bare_name\":true},\"workbuddy_cloudstudio_deploy\":{\"defer_loading\":true,\"bare_name\":true},\"agentic_search\":{\"defer_loading\":true,\"bare_name\":true},\"workbuddy_marketplace_skill\":{\"defer_loading\":true,\"bare_name\":true},\"mcp__agent-mail__upload_attachment\":{\"defer_loading\":true,\"bare_name\":true},\"mcp__agent-mail__download_attachment\":{\"defer_loading\":true,\"bare_name\":true},\"netdrive_tdrive.file_upload_complete\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.file_download\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.search_content\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.file_delete\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.file_upload\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.search_file\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.dir_list\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.dir_create\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.file_rename\":{\"server_name\":\"netdrive\"},\"netdrive_tdrive.file_move\":{\"server_name\":\"netdrive\"},\"agent-mail_GetMe\":{\"server_name\":\"agent-mail\"},\"agent-mail_ListMessages\":{\"server_name\":\"agent-mail\"},\"agent-mail_GetMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_SendMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_ReplyMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_ForwardMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_DeleteMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_PermanentDeleteMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_ClearTrash\":{\"server_name\":\"agent-mail\"},\"agent-mail_ListAttachments\":{\"server_name\":\"agent-mail\"},\"agent-mail_SearchMessages\":{\"server_name\":\"agent-mail\"}},\"transparent_proxy\":true,\"builtin_tools\":[\"present_files\",\"connect_cloud_service\",\"connect_open_platform\",\"automation_update\",\"read_me\",\"show_widget\",\"conversation_search\",\"workbuddy_cloudstudio_deploy\",\"agentic_search\",\"workbuddy_marketplace_skill\",\"mcp__agent-mail__upload_attachment\",\"mcp__agent-mail__download_attachment\"],\"headers\":{\"Authorization\":\"Bearer cOfL-tskOzH0GIoU-_2Ciwsc0rZlFnTW6fsU7kmm21Q\",\"X-WorkBuddy-Session-Id\":\"c5e4c3f0-d040-4b36-b925-a1ec2eab98a7\",\"X-WorkBuddy-Project-Id\":\"p_cbfff243436246c1897a31c3bea2897d\"}},\"wb-issues\":{\"url\":\"https://copilot.tencent.com/console/agent-gateway/wb-issues/_internal/issues/mcp\",\"type\":\"http\",\"description\":\"Project todo/issue management MCP. Tools: todo_list (filter by status/scope), todo_show (details + allowed transitions + attachments), todo_create, todo_update, todo_delete, todo_transition (status change), todo_statuses, todo_history, todo_comments, todo_add_comment, todo_update_comment, todo_delete_comment, todo_add_attachment, todo_remove_attachment, project_members.\",\"defer_loading\":true,\"headers\":{\"Authorization\":\"Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJteWZFenA3ODNLaV9KQ3g4Vm5jM1hfaXg2alpyYjZDZjVPTWtHWk1QSTNzIn0.eyJleHAiOjE3OTUwOTU3NTIsImlhdCI6MTc5MDM0Mzc1MiwiYXV0aF90aW1lIjoxNzg3NjQwNDcxLCJqdGkiOiIyMzFhMDJhZi1kODMzLTRjYjgtOTVjYi1jOTE0ZjhiZDM3MzciLCJpc3MiOiJodHRwczovL3d3dy53b3JrYnVkZHkuY24vYXV0aC9yZWFsbXMvY29waWxvdCIsImF1ZCI6ImFjY291bnQiLCJzdWIiOiJmZGVlM2Q1NC05NWI2LTRlOWMtYWFmZi01MGFkOTUwNWFhYjQiLCJ0eXAiOiJCZWFyZXIiLCJhenAiOiJjb25zb2xlIiwic2lkIjoiOWJhMmVkYjYtZjlkZS00ZTcyLTk5MTAtYTljZmQyNjM5YWJjIiwiYWNyIjoiMCIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzIiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgb2ZmbGluZV9hY2Nlc3MgZW1haWwiLCJhcHBfdHlwZSI6ImNvZGVidWRkeSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmlja25hbWUiOiLpnZLnn7MiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiIxODYwMDM5MDY5MiJ9.bqouB5tL-kXen1t4xTk24sfEl9p3MoqfLQFMEUKW1kwdaLQ71F5jn4XF-DX0K95s0ryzZG_OQsiV_SzdPTPohlGNAt4DtAi1g3ZtSRd10tm5ISUbej4GgDTK505B2LXmWqeqE3rvE_zsNeHYNdxCbIZxseGw6wdeP6KahXtcDc80qHHcpsBZbcnk0W5TILiCn7o2ZInv0xNxGreFmpoxQQLrC9bSxYio5Hb6pVQXm7vE9yhOk0PvSH3SC41UH6nphPVniQNxlTmDcUD9Ja59vQ7h-QRcowt4wYhLQBqTjNQqRHLJQg8VyXl5sadsfscewP88DdH6IPDFTdQ-NW3uRQ\",\"x-user-id\":\"fdee3d54-95b6-4e9c-aaff-50ad9505aab4\",\"x-project-id\":\"p_cbfff243436246c1897a31c3bea2897d\"}}}}","--strict-mcp-config","--prompt-vars-file","/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/workbuddy-prompt-vars/c5e4c3f0-d040-4b36-b925-a1ec2eab98a7.prompt-vars.json","--port","0"]
+[9/25/2026, 9:48:20 PM.021] [Info] [CliDispatcher]  stdin is TTY, skipping stdin read
+[9/25/2026, 9:48:20 PM.021] [Info] [ClientProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.json
+[9/25/2026, 9:48:20 PM.021] [Info] [ClientProductProvider]  Product configuration loaded and cached successfully
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.021] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/25/2026, 9:48:20 PM.021] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/25/2026, 9:48:20 PM.021] [Info] [CliSettingsProvider]  CLI settings reloaded: {"enabledPlugins":{"interactionmode-expert@workbuddy-builtin":true,"prompt-common@workbuddy-builtin":true},"trustedDirectories":["/Users/didi/WorkBuddy/2026-08-25-15-46-57/**"],"language":"简体中文","model":"auto"}
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: scope=sdk read completed (16ms)
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager: reading MCP servers from plugins...
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager: got 0 active plugins
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager: total MCP servers from plugins: 0
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: scope=plugin read completed (0ms)
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: scope=user read completed (0ms)
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: scope=project read completed (0ms)
+[9/25/2026, 9:48:20 PM.021] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=local read completed (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [MCP] reconcile revision=0 projected (retained=0, pending=2, evicted=0)
+[9/25/2026, 9:48:20 PM.022] [Info] [MCP] reconcile revision=1 started (config:project)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [MCP] reconcile revision=1 projected (retained=2, pending=0, evicted=0)
+[9/25/2026, 9:48:20 PM.022] [Info] [MCP] reconcile revision=2 started (config:local)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.022] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.023] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.023] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.023] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.023] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.023] [Info] [MCP] reconcile revision=2 projected (retained=2, pending=0, evicted=0)
+[9/25/2026, 9:48:20 PM.026] [Info] [SandboxAudit] SDK initialized | endpoint=https://xti.qq.com/api/v4/claw/audit | deviceId=4D6CEDE0-B354-523B-BF1F-9AD4D9EC28D2
+[9/25/2026, 9:48:20 PM.028] [Info] [RemoteControlApiClient]  API client initialized
+[9/25/2026, 9:48:20 PM.028] [Info] [RemoteControlMessageHandler]  Message handler initialized
+[9/25/2026, 9:48:20 PM.028] [Info] [CentrifugoClient]  Centrifugo client initialized
+[9/25/2026, 9:48:20 PM.028] [Info] [RemoteControlLifecycle]  Registered 1 long connection client(s): centrifugo:default
+[9/25/2026, 9:48:20 PM.028] [Info] [RemoteControlService]  Remote Control Service created, deferring async initialization...
+[9/25/2026, 9:48:20 PM.028] [Info] [RemoteControlLifecycle]  Remote Control module initialized successfully
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] status setter: server=connector-proxy pending -> connecting
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] changedSubject.next #1: server=connector-proxy status=connecting
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] run#1 ENTER (inflight=1): trigger=connector-proxy status=connecting isActive=false | cacheBefore=[] (size=0)
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] run#1 activeNow=[] | allServers=[connector-proxy:connecting,wb-issues:pending]
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] run#1 cache rebuilt: cacheAfter=[] (size=0)
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] run#1 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] serverManager.create() set "connector-proxy" | serverCache keys=[connector-proxy]
+[9/25/2026, 9:48:20 PM.029] [Info] [MCP][cacheDbg] doConnect START: server=connector-proxy type=http
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.029] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] status setter: server=wb-issues pending -> connecting
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] changedSubject.next #2: server=wb-issues status=connecting
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] run#2 ENTER (inflight=1): trigger=wb-issues status=connecting isActive=false | cacheBefore=[] (size=0)
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] run#2 activeNow=[] | allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] run#2 cache rebuilt: cacheAfter=[] (size=0)
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] run#2 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] serverManager.create() set "wb-issues" | serverCache keys=[connector-proxy,wb-issues]
+[9/25/2026, 9:48:20 PM.031] [Info] [MCP][cacheDbg] doConnect START: server=wb-issues type=http
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.031] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.032] [Info] [RemoteControlService]  Initializing Remote Control Service...
+[9/25/2026, 9:48:20 PM.033] [Info] [MarketplaceStorage]  [MarketplaceStorage] doEnsureConfigFile ensureDir=11ms pathExists=0ms writeFile=0ms total=11ms dir=/Users/didi/.workbuddy/plugins
+[9/25/2026, 9:48:20 PM.034] [Info] [PromptVarsFileContextInitializer] prompt vars cache loaded | file=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7.prompt-vars.json | variableCount=30
+[9/25/2026, 9:48:20 PM.041] [Info] [AuthenticationSessionListener] [auth_success: 青石]  认证成功,执行 Notification 钩子:
+[9/25/2026, 9:48:20 PM.045] [Info] [PTY Service] WebSocket server initialized on HTTP upgrade
+[9/25/2026, 9:48:20 PM.045] [Info] [ACP Server] HTTP Server ready, auto-starting streamable-http mode
+[9/25/2026, 9:48:20 PM.046] [Info] [GatewayAuth]  Auth enabled (mode: password)
+[9/25/2026, 9:48:20 PM.047] [Info] [HotReload] Watching 3 paths for changes
+[9/25/2026, 9:48:20 PM.053] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=11ms readAndRepair=21ms migration=0ms total=32ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.053] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.058] [Info] [AgentManager] runtime cli agent view ready: 24 agents (used for registration and Agent tool descriptions)
+[9/25/2026, 9:48:20 PM.058] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.058] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.059] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.059] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.059] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.059] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.059] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.059] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.059] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.060] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.060] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.060] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.061] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.061] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.061] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=2ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=2ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=contextSummary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=contentAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=terminalTitleGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=promptSuggestion mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=memorySelector mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=summaryGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=autoModeClassifier mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=promptHookEvaluator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=insightsAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][registerAgent] agent=agentInstructions mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[] allServers=[connector-proxy:connecting,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][cacheDbg] getConnectedServers() returning: [] (size=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.061] [Info] [MCP][buildMcpServers] connected servers=[] (count=0)
+[9/25/2026, 9:48:20 PM.062] [Info] [GatewayCors]  CORS allowed origins: [http://127.0.0.1:63532, http://localhost:63532, http://[::1]:63532]
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  Remote Control baseUrl resolution: ENV_REMOTE_CONTROL_BASE_URL=(not set), SETTINGS_REMOTE_CONTROL_BASE_URL=(not set), ENV_CODEBUDDY_BASE_URL=(not set), DEFAULT=https://tencent.sso.codebuddy.cn/v2, finalBaseUrl=https://tencent.sso.codebuddy.cn/v2
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  Generated hostId: c45fff99-f5db-4830-a79c-9f7c20460a0d
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlApiClient]  Config set, baseUrl: https://tencent.sso.codebuddy.cn/v2
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  Initialized, enabled: true, hostId: c45fff99-f5db-4830-a79c-9f7c20460a0d
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  User logged in, starting remote control service...
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  Starting remote control service...
+[9/25/2026, 9:48:20 PM.069] [Info] [RemoteControlService]  Remote control service started
+[9/25/2026, 9:48:20 PM.070] [Info] [MCP][cacheDbg] status setter: server=connector-proxy connecting -> connected
+[9/25/2026, 9:48:20 PM.070] [Info] [MCP][cacheDbg] changedSubject.next #3: server=connector-proxy status=connected
+[9/25/2026, 9:48:20 PM.070] [Info] [MCP][cacheDbg] doConnect OK: server=connector-proxy elapsed=40ms
+[9/25/2026, 9:48:20 PM.070] [Info] [MCP][cacheDbg] run#3 ENTER (inflight=1): trigger=connector-proxy status=connected isActive=true | cacheBefore=[] (size=0)
+[9/25/2026, 9:48:20 PM.070] [Info] Indexing deferred tools for server: connector-proxy
+[9/25/2026, 9:48:20 PM.072] [Info] [AcpConnectionGuard]  Setup complete: maxConnections=32, tokenTtlMs=86400000
+[9/25/2026, 9:48:20 PM.072] [Info] [ACP Server] Creating AgentSideConnection for connectionId=stdio-main
+[9/25/2026, 9:48:20 PM.072] [Info] [ACP Server] Setting connection on agent, connectionId=stdio-main
+[9/25/2026, 9:48:20 PM.072] [Info] [AcpAgentManager]  Agent registered: stdio-main
+[9/25/2026, 9:48:20 PM.072] [Info] [ACP Server] Agent registered for connectionId=stdio-main
+[9/25/2026, 9:48:20 PM.075] [Info] [ClientInternetEnviromentProductProvider]  Reading product configuration from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/product.internal.json
+[9/25/2026, 9:48:20 PM.075] [Info] [ClientInternetEnviromentProductProvider]  Product configuration for environment 'internal' loaded and cached successfully
+[9/25/2026, 9:48:20 PM.076] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/25/2026, 9:48:20 PM.076] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/25/2026, 9:48:20 PM.076] [Info] [WorkerRegistryLifecycle]  Worker registered with endpoint: http://127.0.0.1:63532
+[9/25/2026, 9:48:20 PM.083] [Info] [MCP][cacheDbg] run#3 activeNow=[connector-proxy] | allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.083] [Info] [MCP][cacheDbg] run#3 cache rebuilt: cacheAfter=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.083] [Info] [MCP][cacheDbg] run#3 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.084] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/25/2026, 9:48:20 PM.094] [Info] starting POST /api/v1/acp/connect
+[9/25/2026, 9:48:20 PM.099] [Info] [AcpConnectionGuard]  Token issued for connectionId=1e78bdd3-30a5-4bc4-8f25-357fad849e08, active=1/32
+[9/25/2026, 9:48:20 PM.099] [Info] [GatewayAudit]  [AUDIT] connection.open from=127.0.0.1 conn=1e78bdd3
+[9/25/2026, 9:48:20 PM.099] [Info] [ACP Server] Creating AgentSideConnection for connectionId=1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 9:48:20 PM.099] [Info] [ACP Server] Setting connection on agent, connectionId=1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 9:48:20 PM.099] [Info] [AcpAgentManager]  Agent registered: 1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 9:48:20 PM.099] [Info] [ACP Server] Agent registered for connectionId=1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 9:48:20 PM.099] [Info] ending POST /api/v1/acp/connect [5ms]
+[9/25/2026, 9:48:20 PM.101] [Info] starting GET /api/v1/acp
+[9/25/2026, 9:48:20 PM.102] [Info] ending GET /api/v1/acp [1ms]
+[9/25/2026, 9:48:20 PM.104] [Info] starting POST /api/v1/acp
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP StreamManager] handlePost: hasPrompt=false, inFlightPromptCount=0, messages=initialize
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP StreamManager] handlePost: Creating stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2 for requests
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP StreamManager] handlePost: Mapped request id=1 (method=initialize) to stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP StreamManager] handlePost: After mapping, requestToStreamMapping keys=[1]
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP Agent] initialize() called
+[9/25/2026, 9:48:20 PM.107] [Info] [ACP Agent] initialize() returning response
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: Sending response for request 1
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: requestToStreamMapping size=1, keys=[1]
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: Found stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2 for request 1
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: stream exists=true, writableEnded=false
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: Writing SSE event to stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] sendToClient: SSE event written successfully
+[9/25/2026, 9:48:20 PM.108] [Info] [ACP StreamManager] scheduleStreamClose: Scheduling delayed close for stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2 (0ms)
+[9/25/2026, 9:48:20 PM.108] [Info] ending POST /api/v1/acp [5ms]
+[9/25/2026, 9:48:20 PM.109] [Info] [ACP StreamManager] scheduleStreamClose: Delayed close timer fired for stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2
+[9/25/2026, 9:48:20 PM.109] [Info] [ACP StreamManager] handlePost: Stream 5a4ec62d-a6bf-4a62-af3f-25107ab705e2 closed
+[9/25/2026, 9:48:20 PM.110] [Info] starting POST /api/v1/acp
+[9/25/2026, 9:48:20 PM.111] [Info] [ACP StreamManager] handlePost: hasPrompt=false, inFlightPromptCount=0, messages=session/resume
+[9/25/2026, 9:48:20 PM.111] [Info] [ACP StreamManager] handlePost: Creating stream e07a35ad-69cb-4a20-98d2-2ad764fbe001 for requests
+[9/25/2026, 9:48:20 PM.111] [Info] [ACP StreamManager] handlePost: Mapped request id=2 (method=session/resume) to stream e07a35ad-69cb-4a20-98d2-2ad764fbe001
+[9/25/2026, 9:48:20 PM.111] [Info] [ACP StreamManager] handlePost: After mapping, requestToStreamMapping keys=[2]
+[9/25/2026, 9:48:20 PM.111] [Info] [ACP Agent] unstable_resumeSession() called, sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.112] [Info] [ACP Agent] initializeSession: type=resume, sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.112] [Info] [ACP Agent] initializeSession: sending request to http://127.0.0.1:63532/internal/agent
+[9/25/2026, 9:48:20 PM.112] [Info] ending POST /api/v1/acp [3ms]
+[9/25/2026, 9:48:20 PM.112] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=91ms storage=32ms builtIn=0ms autoUpdate=17ms
+[9/25/2026, 9:48:20 PM.112] [Info] [MemoryLoader]  No memory rules loaded
+[9/25/2026, 9:48:20 PM.113] [Info] starting POST /internal/agent
+[9/25/2026, 9:48:20 PM.114] [Info] [Startup] SessionMiddleware.handle: START
+[9/25/2026, 9:48:20 PM.114] [Info] [SessionMiddleware] getOrCreateSession: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, forkSession=undefined, resume=undefined
+[9/25/2026, 9:48:20 PM.114] [Info] [SessionMiddleware] findExistingSession called with sessionId: c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, shouldContinue: undefined
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (1ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [DeferredToolBridge] registered globalThis.__codebuddyResolveDeferredTool
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.136] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.137] [Info] [PromptVarsFileContextInitializer] prompt vars cache hit | file=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7.prompt-vars.json | variableCount=30
+[9/25/2026, 9:48:20 PM.149] [Info] [MCP][registerAgent] agent=compact mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.150] [Info] [MCP][registerAgent] agent=pulse mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.150] [Info] [MCP][registerAgent] agent=handoff-summary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.150] [Info] [MCP][registerAgent] agent=enhance-prompt mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.150] [Info] [MCP][registerAgent] agent=sheet-agent mcpServers=[] (count=0) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=statusline-setup mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=Plan mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=cli mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=general-purpose mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=Explore mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=doc-converter mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=doc-formatter mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=doc-writer mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [MCP][registerAgent] agent=work mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.157] [Info] [Startup] AgentManager.rebuildAgents: completed in 166ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.158] [Info] [SessionMiddleware] sessionManager.get(c5e4c3f0-d040-4b36-b925-a1ec2eab98a7) returned: found, history length: 24
+[9/25/2026, 9:48:20 PM.158] [Info] [SessionMiddleware] Found existing session, returning it
+[9/25/2026, 9:48:20 PM.158] [Info] [Startup] SessionMiddleware.handle: getOrCreateSession completed in 44ms (source=resume)
+[9/25/2026, 9:48:20 PM.162] [Info] [SandboxExecPolicy] user rules reloaded | allow=0 forbidden=0
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] SessionMiddleware.handle: initializeContext completed in 4ms
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] SessionMiddleware.handle: executionSessionStartHook fired in 0ms (async, not awaited)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] SessionMiddleware.handle: updatePermissionMode completed in 0ms
+[9/25/2026, 9:48:20 PM.164] [Info] [WorkerRegistryLifecycle]  Worker PID file synced with session UUID: c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.164] [Info] [TerminalTitleUpdater]  Terminal title updated to: 撰写玄幻小说大纲
+[9/25/2026, 9:48:20 PM.164] [Info] [GatewayAcpBridge]  [setPrimarySession] Primary session set: c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.164] [Info] [waitFor] Registered mainSession: id=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, meta=null
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] SessionMiddleware.handle: pre-next() total=51ms, calling next()
+[9/25/2026, 9:48:20 PM.164] [Info] SessionAbortMiddleware: Starting to handle request
+[9/25/2026, 9:48:20 PM.164] [Info] SessionAbortMiddleware: Skipping for ACP session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpManager.setNonInteractiveMode(true)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpManager: non-interactive projection enabled, calling list()...
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.164] [Info] [MCP] config scope=dynamic changed — scheduling desired revision 3
+[9/25/2026, 9:48:20 PM.164] [Info] [MCP] reconcile revision=3 started (config:dynamic)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.164] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP][cacheDbg] serverManager.delete("wb-issues")
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP] reconcile revision=3 projected (retained=1, pending=1, evicted=1)
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP][cacheDbg] status setter: server=wb-issues connecting -> disconnected
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP][cacheDbg] changedSubject.next #4: server=wb-issues status=disconnected
+[9/25/2026, 9:48:20 PM.166] [Warning] [MCP][cacheDbg] doConnect FAIL: server=wb-issues error=MCP error -32000: Connection closed
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP] ignoring stale connection result: server=wb-issues currentGeneration=3
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP][cacheDbg] run#4 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.166] [Info] [MCP] discarded stale connect result: server=wb-issues generation=2
+[9/25/2026, 9:48:20 PM.167] [Info] [Startup] AgentController.run: received request (print=undefined, hasPrompt=false)
+[9/25/2026, 9:48:20 PM.168] [Info] [AcpView]  Got agent for connectionId: 1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 9:48:20 PM.168] [Info] [AcpView]  Processing session request: type=resume, sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] setSession called for session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] initializeSession: session received: c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.168] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] status setter: server=wb-issues pending -> connecting
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] changedSubject.next #5: server=wb-issues status=connecting
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] run#5 ENTER (inflight=1): trigger=wb-issues status=connecting isActive=false | cacheBefore=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] serverManager.create() set "wb-issues" | serverCache keys=[connector-proxy,wb-issues]
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] run#5 activeNow=[connector-proxy] | allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] run#5 cache rebuilt: cacheAfter=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] run#5 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.168] [Info] [MCP][cacheDbg] doConnect START: server=wb-issues type=http
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.168] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.171] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.172] [Info] [ACP Agent] unstable_resumeSession() returning response
+[9/25/2026, 9:48:20 PM.173] [Info] [ACP Agent] workspace_info sent: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7 isGitWorkspace=false isProjectionActive=undefined
+[9/25/2026, 9:48:20 PM.179] [Info] [AcpUsagePublisher]  [AcpUsagePublisher] credit consumed source=resume_session sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7 requestId=unknown messageId=6cce7f48bef24457a89fd60977d23116 credit=0.58
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: Sending response for request 2
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: requestToStreamMapping size=1, keys=[2]
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: Found stream e07a35ad-69cb-4a20-98d2-2ad764fbe001 for request 2
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: stream exists=true, writableEnded=false
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: Writing SSE event to stream e07a35ad-69cb-4a20-98d2-2ad764fbe001
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] sendToClient: SSE event written successfully
+[9/25/2026, 9:48:20 PM.179] [Info] [ACP StreamManager] scheduleStreamClose: Scheduling delayed close for stream e07a35ad-69cb-4a20-98d2-2ad764fbe001 (0ms)
+[9/25/2026, 9:48:20 PM.180] [Info] [ACP StreamManager] scheduleStreamClose: Delayed close timer fired for stream e07a35ad-69cb-4a20-98d2-2ad764fbe001
+[9/25/2026, 9:48:20 PM.180] [Info] [ACP StreamManager] handlePost: Stream e07a35ad-69cb-4a20-98d2-2ad764fbe001 closed
+[9/25/2026, 9:48:20 PM.181] [Info] starting POST /api/v1/acp
+[9/25/2026, 9:48:20 PM.182] [Info] [ACP StreamManager] handlePost: hasPrompt=false, inFlightPromptCount=0, messages=session/set_mode
+[9/25/2026, 9:48:20 PM.182] [Info] [ACP StreamManager] handlePost: Creating stream 190c34e2-53d6-4245-872d-ca88653c70e3 for requests
+[9/25/2026, 9:48:20 PM.182] [Info] [ACP StreamManager] handlePost: Mapped request id=3 (method=session/set_mode) to stream 190c34e2-53d6-4245-872d-ca88653c70e3
+[9/25/2026, 9:48:20 PM.182] [Info] [ACP StreamManager] handlePost: After mapping, requestToStreamMapping keys=[3]
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP Agent] setSessionMode called: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, modeId=bypassPermissions
+[9/25/2026, 9:48:20 PM.183] [Info] [AcpView]  Applying mode bypassPermissions to session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.183] [Info] [AcpView]  Config changed: mode = bypassPermissions
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: Sending response for request 3
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: requestToStreamMapping size=1, keys=[3]
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: Found stream 190c34e2-53d6-4245-872d-ca88653c70e3 for request 3
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: stream exists=true, writableEnded=false
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: Writing SSE event to stream 190c34e2-53d6-4245-872d-ca88653c70e3
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] sendToClient: SSE event written successfully
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP StreamManager] scheduleStreamClose: Scheduling delayed close for stream 190c34e2-53d6-4245-872d-ca88653c70e3 (0ms)
+[9/25/2026, 9:48:20 PM.183] [Info] ending POST /api/v1/acp [2ms]
+[9/25/2026, 9:48:20 PM.183] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP StreamManager] flushDelayedStreamClose: Flushing delayed close for stream 190c34e2-53d6-4245-872d-ca88653c70e3
+[9/25/2026, 9:48:20 PM.184] [Info] [ACP StreamManager] handlePost: Stream 190c34e2-53d6-4245-872d-ca88653c70e3 closed
+[9/25/2026, 9:48:20 PM.188] [Info] starting POST /api/v1/acp
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP StreamManager] handlePost: hasPrompt=false, inFlightPromptCount=0, messages=session/set_config_option
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP StreamManager] handlePost: Creating stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b for requests
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP StreamManager] handlePost: Mapped request id=4 (method=session/set_config_option) to stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP StreamManager] handlePost: After mapping, requestToStreamMapping keys=[4]
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP Agent] setSessionConfigOption called: configId=sandbox, value=true
+[9/25/2026, 9:48:20 PM.189] [Info] [CliSettingsProvider]  CLI setting updated: sandbox = {"enabled":true}
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP Agent] Applied sandbox.enabled=true to session-level settings for session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7
+[9/25/2026, 9:48:20 PM.189] [Info] [AcpView]  Config changed: sandbox = true
+[9/25/2026, 9:48:20 PM.189] [Info] ending POST /api/v1/acp [2ms]
+[9/25/2026, 9:48:20 PM.189] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: START
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: got defaultAgent=cli
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: got 17 models
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: sessionId=c5e4c3f0-d040-4b36-b925-a1ec2eab98a7, currentModelId=auto, reqOptModel=<none>, optModel=auto
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP Agent] getModelsInfo: END, returning 17 models
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: Sending response for request 4
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: requestToStreamMapping size=1, keys=[4]
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: Found stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b for request 4
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: stream exists=true, writableEnded=false
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: Writing SSE event to stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] sendToClient: SSE event written successfully
+[9/25/2026, 9:48:20 PM.190] [Info] [ACP StreamManager] scheduleStreamClose: Scheduling delayed close for stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b (0ms)
+[9/25/2026, 9:48:20 PM.191] [Info] [ACP StreamManager] scheduleStreamClose: Delayed close timer fired for stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b
+[9/25/2026, 9:48:20 PM.191] [Info] [ACP StreamManager] handlePost: Stream 2ec3a2e7-53f2-49a3-8387-35c580d1cf0b closed
+[9/25/2026, 9:48:20 PM.223] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:20 PM.223] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.223] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.223] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=0ms migration=0ms total=0ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.223] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:20 PM.223] [Info] [PluginManager]  Checking for marketplaces to install from settings...
+[9/25/2026, 9:48:20 PM.224] [Info] [PluginManager]  No new marketplaces to install from settings
+[9/25/2026, 9:48:20 PM.224] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=0ms migration=0ms total=0ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.224] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.226] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=2ms storage=0ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.226] [Info] [PluginManager]  Checking for missing enabled plugins...
+[9/25/2026, 9:48:20 PM.230] [Info] [PluginManager]  All enabled plugins are already installed
+[9/25/2026, 9:48:20 PM.247] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/25/2026, 9:48:20 PM.247] [Info] [CloudProductManager]  Fetched configuration from remote [171ms]
+[9/25/2026, 9:48:20 PM.268] [Info] [PluginManager]  Loaded 12 installed plugins total=37ms
+[9/25/2026, 9:48:20 PM.303] [Info] [PluginsProductProvider.provide] active=0, ids=[]
+[9/25/2026, 9:48:20 PM.303] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.303] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.307] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.307] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.308] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/25/2026, 9:48:20 PM.308] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] product config input: 54 models, 19 agents
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.308] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.318] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/25/2026, 9:48:20 PM.318] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/25/2026, 9:48:20 PM.318] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/25/2026, 9:48:20 PM.318] [Info] [PluginPolicyService]  [MergedPlugins] Merged plugins changed, firing onDidChange
+[9/25/2026, 9:48:20 PM.318] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.322] [Info] [AgentManager] runtime cli agent view ready: 19 agents (used for registration and Agent tool descriptions)
+[9/25/2026, 9:48:20 PM.322] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.322] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.322] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting]
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=contextSummary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=contentAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=terminalTitleGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=promptSuggestion mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=memorySelector mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=summaryGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=autoModeClassifier mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=promptHookEvaluator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=insightsAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][registerAgent] agent=agentInstructions mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.323] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.323] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.324] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.325] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.327] [Info] [MCP][registerAgent] agent=compact mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.327] [Info] [MCP][registerAgent] agent=pulse mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.327] [Info] [MCP][registerAgent] agent=handoff-summary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.327] [Info] [MCP][registerAgent] agent=enhance-prompt mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.330] [Info] [MCP][registerAgent] agent=statusline-setup mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.330] [Info] [MCP][registerAgent] agent=Plan mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.330] [Info] [MCP][registerAgent] agent=cli mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.330] [Info] [MCP][registerAgent] agent=general-purpose mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.330] [Info] [MCP][registerAgent] agent=Explore mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.330] [Info] [Startup] AgentManager.rebuildAgents: completed in 19ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.330] [Info] [PluginManager]  [BuiltInMarketplace-HotReload] Subscribed to ProductManager.onDidChange
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  [PluginManager] doInit done total=309ms loadMarketplaces=91ms loadInstalledPlugins=37ms
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:20 PM.331] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.331] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=0ms migration=0ms total=0ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  Checking for marketplaces to install from settings...
+[9/25/2026, 9:48:20 PM.331] [Info] [PluginManager]  No new marketplaces to install from settings
+[9/25/2026, 9:48:20 PM.332] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.332] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.334] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=3ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.334] [Info] [PluginManager]  Checking for missing enabled plugins...
+[9/25/2026, 9:48:20 PM.347] [Info] [PluginManager]  All enabled plugins are already installed
+[9/25/2026, 9:48:20 PM.347] [Info] [PluginManager]  [ManagedPolicy] Startup apply managed policies (fallback)
+[9/25/2026, 9:48:20 PM.347] [Info] [PluginManager]  [MergedPlugins] Applying 1 merged plugin policies...
+[9/25/2026, 9:48:20 PM.347] [Info] [PluginManager]  [MergedPlugins][DEBUG] applySinglePolicy called for agent-browser@codebuddy-plugins-official, scope=user, autoEnable=true
+[9/25/2026, 9:48:20 PM.347] [Info] [PluginManager]  [MergedPlugins][DEBUG] agent-browser@codebuddy-plugins-official: installed=true, installedPath=/Users/didi/.workbuddy/plugins/cache/codebuddy-plugins-official/agent-browser/1.3.0, enabledState={"enabled":true,"scope":"user"}
+[9/25/2026, 9:48:20 PM.348] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.348] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.349] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=2ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.349] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.349] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=2ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.349] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.349] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=2ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.349] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.352] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=5ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.352] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=5ms storage=2ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.352] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=5ms storage=2ms builtIn=0ms autoUpdate=1ms
+[9/25/2026, 9:48:20 PM.352] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=5ms storage=2ms builtIn=0ms autoUpdate=1ms
+[9/25/2026, 9:48:20 PM.378] [Info] [PluginManager]  Loaded 12 installed plugins total=31ms
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for weixinpay@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for tencent-docs-plugin@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for tencent-pptx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for tencent-docx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for agent-browser@codebuddy-plugins-official
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for find-skills@codebuddy-plugins-official
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for interactionmode-expert@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for prompt-common@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for agent-browser@inline
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginManager]  Loading plugin components for find-skills@inline
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for weixinpay@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.107
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for agent-browser@codebuddy-plugins-official from /Users/didi/.workbuddy/plugins/cache/codebuddy-plugins-official/agent-browser/1.3.0
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for find-skills@codebuddy-plugins-official from /Users/didi/.workbuddy/plugins/cache/codebuddy-plugins-official/find-skills/1.0.0
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for interactionmode-expert@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/interactionmode-expert/0.1.1
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for prompt-common@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/prompt-common/0.1.2
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for agent-browser@inline from /Users/didi/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/agent-browser
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for find-skills@inline from /Users/didi/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/find-skills
+[9/25/2026, 9:48:20 PM.381] [Info] [PluginLoaderManager]  Loading plugin components for tencent-docs-plugin@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/tencent-docs-plugin/1.0.0
+[9/25/2026, 9:48:20 PM.382] [Info] [PluginLoaderManager]  Loading plugin components for sheetagent@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/0.1.1784877812
+[9/25/2026, 9:48:20 PM.382] [Info] [PluginLoaderManager]  Loading plugin components for tencent-pptx@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/tencent-pptx/v20260727
+[9/25/2026, 9:48:20 PM.382] [Info] [PluginLoaderManager]  Loading plugin components for tencent-docx@workbuddy-builtin from /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/tencent-docx/0.3.0
+[9/25/2026, 9:48:20 PM.382] [Info] [PluginLoaderManager]  Loaded plugin components for interactionmode-expert@workbuddy-builtin: 0 agent(s), 0 command(s), 0 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.382] [Info] [PluginLoaderManager]  Loaded plugin components for prompt-common@workbuddy-builtin: 0 agent(s), 0 command(s), 0 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.387] [Info] [SkillExtensionLoader]  Loaded 1 skill(s) from extension: agent-browser@inline [agent-browser]
+[9/25/2026, 9:48:20 PM.387] [Info] [PluginLoaderManager]  Loaded plugin components for agent-browser@inline: 0 agent(s), 0 command(s), 1 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.387] [Error] [HookExtensionLoader] [Error: EISDIR: illegal operation on a directory, read]  Failed to load hooks from file /Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/tencent-docs-plugin/1.0.0:
+[9/25/2026, 9:48:20 PM.387] [Info] [SkillExtensionLoader]  Loaded 1 skill(s) from extension: agent-browser@codebuddy-plugins-official [agent-browser]
+[9/25/2026, 9:48:20 PM.387] [Info] [PluginLoaderManager]  Loaded plugin components for agent-browser@codebuddy-plugins-official: 0 agent(s), 0 command(s), 1 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.389] [Info] [MCPExtensionLoader]  Loaded 1 MCP server(s) from extension: weixinpay@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.389] [Info] [SkillExtensionLoader]  Loaded 3 skill(s) from extension: weixinpay@workbuddy-builtin [weixinpay-feedback,weixinpay-pay,weixinpay-register]
+[9/25/2026, 9:48:20 PM.389] [Info] [PluginLoaderManager]  Loaded plugin components for weixinpay@workbuddy-builtin: 0 agent(s), 0 command(s), 3 skill(s), 0 hook(s), 1 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.389] [Info] [SkillExtensionLoader]  Loaded 1 skill(s) from extension: find-skills@codebuddy-plugins-official [find-skills]
+[9/25/2026, 9:48:20 PM.389] [Info] [PluginLoaderManager]  Loaded plugin components for find-skills@codebuddy-plugins-official: 0 agent(s), 0 command(s), 1 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.389] [Info] [SkillExtensionLoader]  Loaded 1 skill(s) from extension: find-skills@inline [find-skills]
+[9/25/2026, 9:48:20 PM.389] [Info] [PluginLoaderManager]  Loaded plugin components for find-skills@inline: 0 agent(s), 0 command(s), 1 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.391] [Info] [AgentExtensionLoader]  Loaded 1 agent(s) from extension: sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.393] [Info] [SkillExtensionLoader]  Loaded 2 skill(s) from extension: tencent-docs-plugin@workbuddy-builtin [tencent-docs,tencent-saas-docs]
+[9/25/2026, 9:48:20 PM.393] [Info] [PluginLoaderManager]  Loaded plugin components for tencent-docs-plugin@workbuddy-builtin: 0 agent(s), 0 command(s), 2 skill(s), 0 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.393] [Info] [SkillExtensionLoader]  Loaded 2 skill(s) from extension: sheetagent@workbuddy-builtin [tencent-docs-sheet-generation,tencent-docs-sheetagent]
+[9/25/2026, 9:48:20 PM.393] [Info] [HookExtensionLoader]  Loaded hooks configuration from extension: tencent-pptx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.393] [Info] [HookExtensionLoader]  Loaded hooks configuration from extension: sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.393] [Info] [SkillExtensionLoader]  Loaded 1 skill(s) from extension: tencent-pptx@workbuddy-builtin [tencent-pptx]
+[9/25/2026, 9:48:20 PM.393] [Info] [PluginLoaderManager]  Loaded plugin components for tencent-pptx@workbuddy-builtin: 0 agent(s), 0 command(s), 1 skill(s), 2 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.393] [Info] [MCPExtensionLoader]  Loaded 1 MCP server(s) from extension: sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.393] [Info] [HookExtensionLoader]  Loaded hooks configuration from extension: tencent-docx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.394] [Info] [CommandExtensionLoader]  Loaded 2 command(s) from extension: sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.394] [Info] [PluginLoaderManager]  Loaded plugin components for sheetagent@workbuddy-builtin: 1 agent(s), 2 command(s), 2 skill(s), 2 hook(s), 1 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.395] [Info] [AgentExtensionLoader]  Loaded 3 agent(s) from extension: tencent-docx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.402] [Info] [SkillExtensionLoader]  Loaded 11 skill(s) from extension: tencent-docx@workbuddy-builtin [design-token,doc-typeset,format-extract,generate-fillable-contract-html,html-review,html-to-docx,humanizer,humanizer-zh,tdoc-orchestrator,underline-toolkit,tencent-docx]
+[9/25/2026, 9:48:20 PM.402] [Info] [PluginLoaderManager]  Loaded plugin components for tencent-docx@workbuddy-builtin: 3 agent(s), 0 command(s), 11 skill(s), 2 hook(s), 0 MCP server(s), 0 LSP server(s), 0 output style(s)
+[9/25/2026, 9:48:20 PM.403] [Info] [PluginManager]  [PluginManager] active plugins refreshed: 11 enabled, errors=0
+[9/25/2026, 9:48:20 PM.403] [Info] [MCP] config scope=plugin changed — scheduling desired revision 4
+[9/25/2026, 9:48:20 PM.403] [Info] [MCP] reconcile revision=4 started (config:plugin)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: reading MCP servers from plugins...
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: got 11 active plugins
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: weixinpay@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: plugin weixinpay has 1 MCP servers
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: tencent-docs-plugin@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: sheetagent@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: plugin sheetagent has 1 MCP servers
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: tencent-pptx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: tencent-docx@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: agent-browser@codebuddy-plugins-official
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: find-skills@codebuddy-plugins-official
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: interactionmode-expert@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: prompt-common@workbuddy-builtin
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: agent-browser@inline
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: loading components for enabled plugin: find-skills@inline
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager: total MCP servers from plugins: 2
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=plugin read completed (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.403] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.403] [Info] [MCP] reconcile revision=4 projected (retained=2, pending=2, evicted=0)
+[9/25/2026, 9:48:20 PM.403] [Info] [LSPManager]  Shutting down all LSP servers
+[9/25/2026, 9:48:20 PM.403] [Info] [LSPManager]  All LSP servers shut down
+[9/25/2026, 9:48:20 PM.403] [Info] [LSPManager]  Loaded LSP configurations from all enabled plugins
+[9/25/2026, 9:48:20 PM.403] [Info] [MCP][cacheDbg] status setter: server=weixinpay pending -> connecting
+[9/25/2026, 9:48:20 PM.403] [Info] [MCP][cacheDbg] changedSubject.next #6: server=weixinpay status=connecting
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP][cacheDbg] run#6 ENTER (inflight=1): trigger=weixinpay status=connecting isActive=false | cacheBefore=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP][cacheDbg] run#6 activeNow=[connector-proxy] | allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:pending]
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP][cacheDbg] run#6 cache rebuilt: cacheAfter=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP][cacheDbg] run#6 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP] instantiateServer stdio env: server=weixinpay providerValue=elicitation.form,weixinpay.interception envFallback=elicitation.form,weixinpay.interception final=elicitation.form,weixinpay.interception
+[9/25/2026, 9:48:20 PM.404] [Info] [MCP][cacheDbg] serverManager.create() set "weixinpay" | serverCache keys=[connector-proxy,wb-issues,weixinpay]
+[9/25/2026, 9:48:20 PM.405] [Info] [MCP][cacheDbg] doConnect START: server=weixinpay type=stdio
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.405] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] status setter: server=sheetagent pending -> connecting
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] changedSubject.next #7: server=sheetagent status=connecting
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] run#7 ENTER (inflight=1): trigger=sheetagent status=connecting isActive=false | cacheBefore=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] run#7 activeNow=[connector-proxy] | allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] run#7 cache rebuilt: cacheAfter=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] run#7 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP] instantiateServer stdio env: server=sheetagent providerValue=elicitation.form,weixinpay.interception envFallback=elicitation.form,weixinpay.interception final=elicitation.form,weixinpay.interception
+[9/25/2026, 9:48:20 PM.407] [Info] [MCP][cacheDbg] serverManager.create() set "sheetagent" | serverCache keys=[connector-proxy,wb-issues,weixinpay,sheetagent]
+[9/25/2026, 9:48:20 PM.408] [Info] [MCP][cacheDbg] doConnect START: server=sheetagent type=stdio
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: loading scope=dynamic
+[9/25/2026, 9:48:20 PM.408] [Info] [Startup] McpConfigManager.list: scope=dynamic cache hit (0ms)
+[9/25/2026, 9:48:20 PM.418] [Info] [PluginsProductProvider.provide] active=11, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,interactionmode-expert@workbuddy-builtin,prompt-common@workbuddy-builtin,agent-browser@inline,find-skills@inline]
+[9/25/2026, 9:48:20 PM.419] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.419] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.422] [Info] [WorkbuddyEnvAgentsPatchProductProvider] patched env agents inline: key=ACC_PRODUCT_CONFIG_V3, before=19, after=23
+[9/25/2026, 9:48:20 PM.426] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.426] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.426] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/25/2026, 9:48:20 PM.426] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.426] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.441] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/25/2026, 9:48:20 PM.441] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/25/2026, 9:48:20 PM.441] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/25/2026, 9:48:20 PM.441] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.443] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:20 PM.443] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.443] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.446] [Info] [AgentManager] runtime cli agent view ready: 23 agents (used for registration and Agent tool descriptions)
+[9/25/2026, 9:48:20 PM.446] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.447] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.447] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.447] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.448] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.448] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.448] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.448] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.448] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.448] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=contextSummary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=contentAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=terminalTitleGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=promptSuggestion mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=memorySelector mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=summaryGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=autoModeClassifier mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=promptHookEvaluator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=insightsAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][registerAgent] agent=agentInstructions mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.449] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.449] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connecting,weixinpay:connecting,sheetagent:connecting]
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.450] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy] (count=1)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.450] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=internal
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=internal cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.451] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: loading scope=sdk
+[9/25/2026, 9:48:20 PM.452] [Info] [Startup] McpConfigManager.list: scope=sdk cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=plugin
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=plugin cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=user
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=user cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=project
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=project cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: loading scope=local
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpConfigManager.list: scope=local cache hit (0ms)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.453] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.457] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=14ms migration=0ms total=14ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.457] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:20 PM.457] [Info] [MCP][registerAgent] agent=compact mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.458] [Info] [MCP][registerAgent] agent=pulse mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.458] [Info] [MCP][registerAgent] agent=handoff-summary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.458] [Info] [MCP][registerAgent] agent=enhance-prompt mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.458] [Info] [MCP][registerAgent] agent=sheet-agent mcpServers=[] (count=0) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.463] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=6ms migration=0ms total=6ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.463] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.463] [Info] [MCP][registerAgent] agent=statusline-setup mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=Plan mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=cli mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=general-purpose mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=Explore mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=doc-converter mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=doc-formatter mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [MCP][registerAgent] agent=doc-writer mcpServers=[connector-proxy] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.464] [Info] [Startup] AgentManager.rebuildAgents: completed in 34ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.473] [Info] [MCP][cacheDbg] status setter: server=wb-issues connecting -> connected
+[9/25/2026, 9:48:20 PM.473] [Info] [MCP][cacheDbg] changedSubject.next #8: server=wb-issues status=connected
+[9/25/2026, 9:48:20 PM.473] [Info] [MCP][cacheDbg] doConnect OK: server=wb-issues elapsed=305ms
+[9/25/2026, 9:48:20 PM.473] [Info] [MCP][cacheDbg] run#8 ENTER (inflight=1): trigger=wb-issues status=connected isActive=true | cacheBefore=[connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.473] [Info] Indexing deferred tools for server: wb-issues
+[9/25/2026, 9:48:20 PM.475] [Info] [MCP][cacheDbg] status setter: server=weixinpay connecting -> connected
+[9/25/2026, 9:48:20 PM.475] [Info] [MCP][cacheDbg] changedSubject.next #9: server=weixinpay status=connected
+[9/25/2026, 9:48:20 PM.475] [Info] [MCP][cacheDbg] doConnect OK: server=weixinpay elapsed=71ms
+[9/25/2026, 9:48:20 PM.476] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=19ms storage=6ms builtIn=0ms autoUpdate=9ms
+[9/25/2026, 9:48:20 PM.486] [Info] [MCP][cacheDbg] status setter: server=sheetagent connecting -> connected
+[9/25/2026, 9:48:20 PM.486] [Info] [MCP][cacheDbg] changedSubject.next #10: server=sheetagent status=connected
+[9/25/2026, 9:48:20 PM.486] [Info] [MCP][cacheDbg] doConnect OK: server=sheetagent elapsed=79ms
+[9/25/2026, 9:48:20 PM.505] [Info] [PluginsProductProvider.provide] active=11, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,interactionmode-expert@workbuddy-builtin,prompt-common@workbuddy-builtin,agent-browser@inline,find-skills@inline]
+[9/25/2026, 9:48:20 PM.505] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.505] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.510] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.510] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.511] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/25/2026, 9:48:20 PM.511] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.511] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.524] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/25/2026, 9:48:20 PM.524] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/25/2026, 9:48:20 PM.524] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/25/2026, 9:48:20 PM.524] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.524] [Info] [Startup] AgentManager.rebuildAgents: completed in 10ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.526] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:20 PM.526] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.526] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.527] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.527] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:20 PM.528] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.528] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.530] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=3ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.559] [Info] [PluginsProductProvider.provide] active=11, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,interactionmode-expert@workbuddy-builtin,prompt-common@workbuddy-builtin,agent-browser@inline,find-skills@inline]
+[9/25/2026, 9:48:20 PM.559] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.559] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy] (size=1)
+[9/25/2026, 9:48:20 PM.564] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.564] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:20 PM.564] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/25/2026, 9:48:20 PM.564] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.565] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:20 PM.578] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/25/2026, 9:48:20 PM.578] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/25/2026, 9:48:20 PM.578] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/25/2026, 9:48:20 PM.578] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.578] [Info] [Startup] AgentManager.rebuildAgents: completed in 10ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.578] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:20 PM.578] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.578] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.580] [Info] [MCP][cacheDbg] run#8 activeNow=[connector-proxy,wb-issues,weixinpay,sheetagent] | allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.580] [Info] [MCP][cacheDbg] run#8 cache rebuilt: cacheAfter=[connector-proxy,wb-issues] (size=2)
+[9/25/2026, 9:48:20 PM.580] [Info] [Startup] McpReadyService.resolve: marked resolved
+[9/25/2026, 9:48:20 PM.580] [Info] [MCP][cacheDbg] run#8 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.581] [Info] [MCP][cacheDbg] run#9 ENTER (inflight=1): trigger=weixinpay status=connected isActive=true | cacheBefore=[connector-proxy,wb-issues] (size=2)
+[9/25/2026, 9:48:20 PM.581] [Info] Indexing deferred tools for server: weixinpay
+[9/25/2026, 9:48:20 PM.581] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=3ms migration=0ms total=3ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.581] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:20 PM.583] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=2ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:20 PM.583] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:20 PM.583] [Info] [MCP][cacheDbg] run#9 activeNow=[connector-proxy,wb-issues,weixinpay,sheetagent] | allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.583] [Info] [MCP][cacheDbg] run#9 cache rebuilt: cacheAfter=[connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.583] [Info] [MCP][cacheDbg] run#9 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.583] [Info] [MCP][cacheDbg] run#10 ENTER (inflight=1): trigger=sheetagent status=connected isActive=true | cacheBefore=[connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.583] [Info] Indexing deferred tools for server: sheetagent
+[9/25/2026, 9:48:20 PM.584] [Info] Initialized 3 output styles
+[9/25/2026, 9:48:20 PM.584] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:20 PM.585] [Info] [AgentManager] runtime cli agent view ready: 23 agents (used for registration and Agent tool descriptions)
+[9/25/2026, 9:48:20 PM.585] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.585] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.585] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.585] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.585] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.586] [Info] [Startup] McpReadyService.waitForServersReady: config projection triggered; network connections continue asynchronously
+[9/25/2026, 9:48:20 PM.586] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.586] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.587] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.587] [Info] [Startup] McpManager.list: starting (scope=all)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=contextSummary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=contentAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=terminalTitleGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=promptSuggestion mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=memorySelector mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=summaryGenerator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=autoModeClassifier mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=promptHookEvaluator mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=insightsAnalyzer mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][registerAgent] agent=agentInstructions mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=1ms getConnectedServers=0ms
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.587] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay] (size=3)
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] wait breakdown: waitForServersReady=0ms getConnectedServers=1ms
+[9/25/2026, 9:48:20 PM.588] [Info] [MCP][buildMcpServers] connected servers=[connector-proxy,wb-issues,weixinpay] (count=3)
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][cacheDbg] run#10 activeNow=[connector-proxy,wb-issues,weixinpay,sheetagent] | allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][cacheDbg] run#10 cache rebuilt: cacheAfter=[connector-proxy,wb-issues,weixinpay,sheetagent] (size=4)
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][cacheDbg] run#10 EXIT (inflight=0)
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=compact mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=statusline-setup mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=Plan mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=pulse mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=handoff-summary mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.601] [Info] [MCP][registerAgent] agent=enhance-prompt mcpServers=[] (count=0) grantMcpAccess=false
+[9/25/2026, 9:48:20 PM.602] [Info] [MCP][registerAgent] agent=sheet-agent mcpServers=[sheetagent] (count=1) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.603] [Info] [MCP][registerAgent] agent=Explore mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.603] [Info] [MCP][registerAgent] agent=cli mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.603] [Info] [MCP][registerAgent] agent=general-purpose mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.604] [Info] [MCP][registerAgent] agent=doc-converter mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.604] [Info] [MCP][registerAgent] agent=doc-formatter mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.604] [Info] [MCP][registerAgent] agent=doc-writer mcpServers=[connector-proxy,wb-issues,weixinpay,sheetagent] (count=4) grantMcpAccess=true
+[9/25/2026, 9:48:20 PM.604] [Info] [Startup] AgentManager.rebuildAgents: completed in 20ms, resolving readyDeferred
+[9/25/2026, 9:48:20 PM.604] [Info] [PluginRuntime] refresh completed (startup), active=11
+[9/25/2026, 9:48:20 PM.604] [Info] [Startup] executionSessionStartHook: skipping directoryTrust (print=false, acp=true)
+[9/25/2026, 9:48:20 PM.609] [Info] [HookExecutor] spawn pid=9593 shell=/bin/bash timeout=5000ms cmd=bash "/Users/didi/.workbuddy/plugins/cache/workbuddy-builtin/tencent-docx/0.3.0/scripts/wb/local/setup.sh" </dev/null >/dev/null 2>&1 &
+[9/25/2026, 9:48:20 PM.610] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=29ms storage=2ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:20 PM.613] [Info] [SessionHookManager] executeSessionStartHooks source=resume hasHooksCheck=0ms executeHooks=9ms total=9ms
+[9/25/2026, 9:48:20 PM.613] [Info] [Startup] executionSessionStartHook: emitSessionStart completed in 9ms, total=451ms
+[9/25/2026, 9:48:20 PM.947] [Info] [TracingService]  Galileo dual-report enabled: primary OTLP processor attached to global provider.
+[9/25/2026, 9:48:20 PM.947] [Info] [GalileoService] initialized successfully
+[9/25/2026, 9:48:21 PM.973] [Info] [ShellSnapshotService]  Shell snapshot warmup started
+[9/25/2026, 9:48:21 PM.973] [Info] [ShellSnapshotService]  Snapshot script exec start. shellPath=/bin/bash, timeoutMs=10000, maxBuffer=1048576
+[9/25/2026, 9:48:21 PM.973] [Info] [ShellSnapshotService]  Snapshot child process started. pid=9637
+[9/25/2026, 9:48:21 PM.977] [Info] [HotReload] Watching 3 paths for changes
+[9/25/2026, 9:48:22 PM.022] [Info] [ShellSnapshotService]  Snapshot script exec finished. shellPath=/bin/bash, elapsedMs=55, stdoutLen=0, stderrLen=0
+[9/25/2026, 9:48:22 PM.026] [Info] [ShellSnapshotService]  Shell snapshot created successfully (1614 bytes)
+[9/25/2026, 9:48:22 PM.026] [Info] [ShellSnapshotService]  Shell snapshot warmup completed successfully
+[9/25/2026, 9:48:22 PM.045] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v2/report → DIRECT
+[9/25/2026, 9:48:23 PM.488] [Info] [ProductManager.sync] Triggered by MCP server status changes
+[9/25/2026, 9:48:23 PM.502] [Info] [PluginsProductProvider.provide] active=11, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,interactionmode-expert@workbuddy-builtin,prompt-common@workbuddy-builtin,agent-browser@inline,find-skills@inline]
+[9/25/2026, 9:48:23 PM.503] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,wb-issues,weixinpay,sheetagent] allServers=[connector-proxy:connected,wb-issues:connected,weixinpay:connected,sheetagent:connected]
+[9/25/2026, 9:48:23 PM.503] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,wb-issues,weixinpay,sheetagent] (size=4)
+[9/25/2026, 9:48:23 PM.517] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:23 PM.517] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/25/2026, 9:48:23 PM.517] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/25/2026, 9:48:23 PM.517] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.518] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/25/2026, 9:48:23 PM.541] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/25/2026, 9:48:23 PM.541] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/25/2026, 9:48:23 PM.541] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/25/2026, 9:48:23 PM.541] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/25/2026, 9:48:23 PM.541] [Info] [Startup] AgentManager.rebuildAgents: completed in 16ms, resolving readyDeferred
+[9/25/2026, 9:48:23 PM.541] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/25/2026, 9:48:23 PM.541] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:23 PM.541] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:23 PM.542] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:23 PM.542] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/25/2026, 9:48:23 PM.543] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/25/2026, 9:48:23 PM.543] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/25/2026, 9:48:23 PM.544] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=2ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/25/2026, 9:48:25 PM.367] [Info] [PluginManager]  Starting auto-update check for marketplaces
+[9/25/2026, 9:48:25 PM.367] [Info] [PluginManager]  No marketplaces need auto-update
+[9/25/2026, 9:48:25 PM.526] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/25/2026, 9:48:25 PM.526] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/25/2026, 10:04:01 PM.527] [Info] [WorkflowMemProbe] tick runId=(none) | rss=177MB heap=173.2/223.4MB external=54.7MB arrayBuffers=0MB
+[9/25/2026, 10:04:01 PM.554] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/25/2026, 10:04:01 PM.554] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/25/2026, 10:04:01 PM.685] [Info] [ProxyResolver] L0 PAC: https://copilot.tencent.com/v3/config → DIRECT
+[9/25/2026, 10:04:01 PM.702] [Info] starting DELETE /api/v1/acp
+[9/25/2026, 10:04:01 PM.703] [Info] [AcpConnectionGuard]  Token revoked for connectionId=1e78bdd3-30a5-4bc4-8f25-357fad849e08, active=0/32
+[9/25/2026, 10:04:01 PM.703] [Info] [GatewayAudit]  [AUDIT] connection.close from=127.0.0.1 conn=1e78bdd3
+[9/25/2026, 10:04:01 PM.703] [Info] [AcpAgentManager]  Agent removed: 1e78bdd3-30a5-4bc4-8f25-357fad849e08
+[9/25/2026, 10:04:01 PM.703] [Info] ending DELETE /api/v1/acp [1ms]
+[9/25/2026, 10:04:01 PM.703] [Error] [ProcessExit] signal | reason=SIGTERM

@@ -1,0 +1,123 @@
+[2026/9/28 08:48:17.302][8372806208][sandbox-center][I] sandbox-cli-gc 启动: workspace=/Users/didi/.workbuddy/workspace, sessions_root=/Users/didi/.workbuddy/workspace/sessions, config_path=/Users/didi/.workbuddy/workspace/sessions/gc_config.json, retain_window=1800s, parent_pid=Some(3392)
+[2026/9/28 08:48:17.302][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 08:48:17.303][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 08:48:17.303][8372806208][sandbox-center][I] sandbox-cli-gc: 监控线程已启动，进入 GC 循环
+[2026/9/28 08:48:17.315][6100824064][sandbox-center][I] watcher(mac): FSEventStream 已启动, sessions_root=/Users/didi/.workbuddy/workspace/sessions
+[2026/9/28 08:48:47.303][8372806208][sandbox-center][I] gc 循环: 快照 0 sessions, total_size=0, max_size=3145728000
+[2026/9/28 08:48:47.303][8372806208][sandbox-center][I] sandbox-cli-gc: 无需删除
+[2026/9/28 08:53:17.336][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 08:53:17.337][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 08:53:17.338][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 10:56:06.933][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 10:56:06.934][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 10:56:06.935][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:01:06.973][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:01:06.974][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:01:06.975][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:06:07.017][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:06:07.018][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:06:07.019][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:11:07.056][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:11:07.057][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:11:07.057][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:16:07.087][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:16:07.087][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:16:07.089][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:21:07.116][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:21:07.117][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:21:07.118][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:26:07.177][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:26:07.178][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:26:07.180][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:31:07.221][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:31:07.221][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:31:07.222][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:36:07.260][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:36:07.261][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:36:07.264][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:41:07.307][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:41:07.307][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:41:07.308][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:46:07.352][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:46:07.353][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:46:07.355][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:51:07.394][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:51:07.395][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:51:07.396][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 11:56:07.298][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 11:56:07.299][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 11:56:07.302][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:01:08.189][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:01:08.190][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:01:08.191][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:21:06.490][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:21:06.491][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:21:06.493][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:26:06.548][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:26:06.549][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:26:06.551][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:31:06.611][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:31:06.613][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:31:06.614][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:36:06.748][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:36:06.749][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:36:06.750][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:41:06.806][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:41:06.806][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:41:06.807][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:46:06.861][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:46:06.862][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:46:06.863][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:51:06.924][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:51:06.926][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:51:06.927][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 12:56:07.004][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 12:56:07.006][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 12:56:07.008][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:01:07.073][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 13:01:07.073][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:01:07.074][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:06:07.122][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 13:06:07.123][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:06:07.124][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:11:07.168][8372806208][sandbox-center][I] build_initial_index: 0 sessions, total_size=0
+[2026/9/28 13:11:07.171][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:11:07.172][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:13:20.079][6100824064][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:13:20.079][6100824064][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:14:30.124][6100824064][sandbox-center][I] watcher: + c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/modify_backup/1.a.f4a6e177.正文_第一卷_第9章.md (0 B)
+[2026/9/28 13:14:37.189][8372806208][sandbox-center][I] gc 循环: 快照 1 sessions, total_size=0, max_size=3145728000
+[2026/9/28 13:14:37.189][8372806208][sandbox-center][I] sandbox-cli-gc: 无需删除
+[2026/9/28 13:16:04.854][6100824064][sandbox-center][I] watcher: + c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/modify_backup/1.m.0e2b3c7d.2026-09-28.md (4174 B)
+[2026/9/28 13:16:07.199][8372806208][sandbox-center][I]   session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7: 2 snapshots, 1 commits, 2 path_hashes, size=4174
+[2026/9/28 13:16:07.200][8372806208][sandbox-center][I] build_initial_index: 1 sessions, total_size=4174
+[2026/9/28 13:16:07.201][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:16:07.203][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:16:07.203][8372806208][sandbox-center][I] gc 循环: 快照 1 sessions, total_size=4174, max_size=3145728000
+[2026/9/28 13:16:07.203][8372806208][sandbox-center][I] sandbox-cli-gc: 无需删除
+[2026/9/28 13:16:23.562][6100824064][sandbox-center][I] watcher: - c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/.modify_backup_meta/1..1.commit (meta)
+[2026/9/28 13:20:04.461][6100824064][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:20:04.461][6100824064][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:21:04.511][6100824064][sandbox-center][I] watcher: + c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/modify_backup/2.a.c4089133.正文_第一卷_第10章.md (0 B)
+[2026/9/28 13:21:07.196][8372806208][sandbox-center][I]   session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7: 3 snapshots, 2 commits, 3 path_hashes, size=4174
+[2026/9/28 13:21:07.197][8372806208][sandbox-center][I] build_initial_index: 1 sessions, total_size=4174
+[2026/9/28 13:21:07.197][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:21:07.199][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:22:36.659][6100824064][sandbox-center][I] watcher: + c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/modify_backup/2.m.0e2b3c7d.2026-09-28.md (5288 B)
+[2026/9/28 13:22:37.209][8372806208][sandbox-center][I] gc 循环: 快照 1 sessions, total_size=9462, max_size=3145728000
+[2026/9/28 13:22:37.209][8372806208][sandbox-center][I] sandbox-cli-gc: 无需删除
+[2026/9/28 13:22:52.845][6100824064][sandbox-center][I] watcher: - c5e4c3f0-d040-4b36-b925-a1ec2eab98a7/.modify_backup_meta/2..2.commit (meta)
+[2026/9/28 13:26:07.225][8372806208][sandbox-center][I]   session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7: 4 snapshots, 2 commits, 3 path_hashes, size=9462
+[2026/9/28 13:26:07.226][8372806208][sandbox-center][I] build_initial_index: 1 sessions, total_size=9462
+[2026/9/28 13:26:07.226][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:26:07.227][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:31:07.260][8372806208][sandbox-center][I]   session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7: 4 snapshots, 2 commits, 3 path_hashes, size=9462
+[2026/9/28 13:31:07.262][8372806208][sandbox-center][I] build_initial_index: 1 sessions, total_size=9462
+[2026/9/28 13:31:07.263][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:31:07.264][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:36:07.296][8372806208][sandbox-center][I]   session c5e4c3f0-d040-4b36-b925-a1ec2eab98a7: 4 snapshots, 2 commits, 3 path_hashes, size=9462
+[2026/9/28 13:36:07.297][8372806208][sandbox-center][I] build_initial_index: 1 sessions, total_size=9462
+[2026/9/28 13:36:07.297][8372806208][sandbox-center][I] gc_config: max_size_mb=Some(3000) (3145728000B)
+[2026/9/28 13:36:07.298][8372806208][sandbox-center][I] gc: 定时 rescan 完成
+[2026/9/28 13:39:07.315][8372806208][sandbox-center][I] sandbox-cli-gc: 拉起者/无 sandbox-center 进程存活 (parent_pid=Some(3392))，自动退出
+[2026/9/28 13:39:07.315][8372806208][sandbox-center][I] sandbox-cli-gc 退出

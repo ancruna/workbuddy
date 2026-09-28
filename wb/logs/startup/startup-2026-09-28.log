@@ -1,0 +1,73 @@
+[2026-09-28T00:35:44.747Z] [bootstrap +0ms] bootstrapMainProcess entered
+[2026-09-28T00:35:44.747Z] [bootstrap +0ms] platform created, version=5.3.14
+[2026-09-28T00:35:44.748Z] [bootstrap +1ms] database service skipped for desktop host
+[2026-09-28T00:35:44.814Z] [bootstrap +67ms] CellJS container ready
+[2026-09-28T00:35:44.815Z] [bootstrap +68ms] CellJS deps resolved
+[2026-09-28T00:35:44.819Z] [bootstrap +72ms] CrashLogExporter started
+[2026-09-28T00:35:44.820Z] [bootstrap +73ms] migrateFallbackData completed
+[2026-09-28T00:35:44.821Z] [bootstrap +74ms] starting daemon bootstrap
+[2026-09-28T00:35:44.823Z] [localstorage-migration] migrate() called: sourceSessionPath=/Users/didi/Library/Application Support/WorkBuddy, originUrl=vscode-file://vscode-app
+[2026-09-28T00:35:44.823Z] [localstorage-migration] source session path does not exist, skipping
+[2026-09-28T00:35:49.420Z] [bootstrap +4673ms] remote migration status poll: phase=done
+[2026-09-28T00:35:49.420Z] [bootstrap +4673ms] remote migration wait resolved phase=done
+[2026-09-28T00:38:32.332Z] [bootstrap +0ms] bootstrapMainProcess entered
+[2026-09-28T00:38:32.339Z] [bootstrap +7ms] [StartupLifecycle] init -> app-ready (phase-enter:app-config)
+[2026-09-28T00:38:32.339Z] [bootstrap +7ms] platform created, version=5.6.2
+[2026-09-28T00:38:32.340Z] [bootstrap +8ms] [StartupPipeline] step appconfig.create-platform ok (1ms)
+[2026-09-28T00:38:32.340Z] [bootstrap +8ms] database service skipped for desktop host
+[2026-09-28T00:38:32.340Z] [bootstrap +8ms] [StartupPipeline] step appconfig.create-desktop-database ok (0ms)
+[2026-09-28T00:38:32.427Z] [bootstrap +95ms] CellJS container ready
+[2026-09-28T00:38:32.428Z] [bootstrap +96ms] [StartupPipeline] step appconfig.init-celljs-container ok (88ms)
+[2026-09-28T00:38:32.429Z] [bootstrap +97ms] [StartupPipeline] step appconfig.bind-daemon-providers ok (1ms)
+[2026-09-28T00:38:32.429Z] [bootstrap +97ms] [StartupLifecycle] app-ready -> window-created (phase-enter:window-bringup)
+[2026-09-28T00:38:32.429Z] [bootstrap +97ms] [MainBootstrap] WindowManager created
+[2026-09-28T00:38:32.431Z] [bootstrap +99ms] [StartupPipeline] step window.create-window-manager ok (2ms)
+[2026-09-28T00:38:32.432Z] [bootstrap +100ms] [StartupPipeline] step renderer.install-wb-invoke-handler ok (1ms)
+[2026-09-28T00:38:32.436Z] [bootstrap +104ms] [MainBootstrap] desktop host IPC registered
+[2026-09-28T00:38:32.436Z] [bootstrap +104ms] [StartupPipeline] step window.register-desktop-host-ipc ok (4ms)
+[2026-09-28T00:38:32.525Z] [bootstrap +193ms] [MainBootstrap] main window ensured before daemon bootstrap
+[2026-09-28T00:38:32.527Z] [bootstrap +195ms] [StartupPipeline] step window.ensure-main-window ok (91ms)
+[2026-09-28T00:38:32.527Z] [bootstrap +195ms] [StartupLifecycle] window-created -> daemon-connecting (phase-enter:daemon-bringup)
+[2026-09-28T00:38:32.528Z] [bootstrap +196ms] CellJS deps resolved
+[2026-09-28T00:38:32.528Z] [bootstrap +196ms] [StartupPipeline] step appconfig.resolve-cell-deps ok (0ms)
+[2026-09-28T00:38:32.528Z] [bootstrap +196ms] [StartupPipeline] step daemon.initialize-database ok (0ms)
+[2026-09-28T00:38:32.529Z] [bootstrap +197ms] [StartupPipeline] step daemon.setup-auth-and-sidecar ok (1ms)
+[2026-09-28T00:38:32.552Z] [bootstrap +220ms] CrashLogExporter started
+[2026-09-28T00:38:32.553Z] [bootstrap +221ms] [StartupPipeline] step daemon.start-crash-exporter ok (24ms)
+[2026-09-28T00:38:32.554Z] [bootstrap +222ms] [StartupPipeline] step daemon.create-monitor-service ok (1ms)
+[2026-09-28T00:38:32.555Z] [bootstrap +223ms] [StartupPipeline] step daemon.run-startup-migration ok (0ms)
+[2026-09-28T00:38:32.555Z] [bootstrap +223ms] migrateFallbackData completed
+[2026-09-28T00:38:32.555Z] [bootstrap +223ms] [StartupPipeline] step daemon.merge-fallback-and-schedule-repair ok (0ms)
+[2026-09-28T00:38:32.555Z] [bootstrap +223ms] starting daemon bootstrap
+[2026-09-28T00:38:32.556Z] [bootstrap +224ms] [StartupPipeline] step daemon.prepare-daemon-context ok (0ms)
+[2026-09-28T00:38:32.556Z] [localstorage-migration] migrate() called: sourceSessionPath=/Users/didi/Library/Application Support/WorkBuddy, originUrl=vscode-file://vscode-app
+[2026-09-28T00:38:32.557Z] [localstorage-migration] source session path exists, calling readMatchingKeys
+[2026-09-28T00:38:32.557Z] [localstorage-migration] readMatchingKeys: creating temp session copy
+[2026-09-28T00:38:32.557Z] [localstorage-migration] readMatchingKeys: srcLeveldb=/Users/didi/Library/Application Support/WorkBuddy/Local Storage/leveldb, exists=false
+[2026-09-28T00:38:32.557Z] [localstorage-migration] readMatchingKeys: srcLeveldb missing → fast-return skipped (bypass hidden BrowserWindow ~800ms)
+[2026-09-28T00:38:32.557Z] [localstorage-migration] readMatchingKeys: cleanup temp dir
+[2026-09-28T00:38:32.557Z] [localstorage-migration] readMatchingKeys: cleanup succeeded
+[2026-09-28T00:38:32.558Z] [localstorage-migration] readMatchingKeys returned 0 entries
+[2026-09-28T00:38:33.551Z] [bootstrap +1219ms] [StartupLifecycle] daemon-connecting -> daemon-ready (mark:B9)
+[2026-09-28T00:38:33.551Z] [bootstrap +1219ms] [StartupPipeline] step daemon.select-daemon-runtime ok (995ms)
+[2026-09-28T00:38:33.551Z] [bootstrap +1219ms] [StartupPipeline] step renderer.bridge-wb-invoke ok (0ms)
+[2026-09-28T00:38:33.563Z] [bootstrap +1231ms] [StartupPipeline] step daemon.wire-daemon-bridges ok (12ms)
+[2026-09-28T00:38:33.565Z] [bootstrap +1233ms] [StartupPipeline] step daemon.create-desktop-daemon-state ok (2ms)
+[2026-09-28T00:38:33.565Z] [bootstrap +1233ms] [StartupPipeline] step daemon.start-sandbox-center ok (0ms)
+[2026-09-28T00:38:33.570Z] [bootstrap +1238ms] [StartupPipeline] step daemon.register-desktop-host-rpc ok (4ms)
+[2026-09-28T00:38:33.578Z] [bootstrap +1246ms] [StartupPipeline] step daemon.start-app-server-background ok (7ms)
+[2026-09-28T00:38:33.578Z] [bootstrap +1246ms] [StartupPipeline] step daemon.schedule-post-daemon-tasks ok (0ms)
+[2026-09-28T00:38:33.579Z] [bootstrap +1247ms] [StartupPipeline] step main.assemble-handle-deps ok (1ms)
+[2026-09-28T00:38:33.581Z] [bootstrap +1249ms] [StartupPipeline] step main.register-self-check ok (2ms)
+[2026-09-28T00:38:33.582Z] [bootstrap +1250ms] [StartupPipeline] step post-ready.prefetch-turing-device-token ok (1ms)
+[2026-09-28T00:38:33.582Z] [bootstrap +1250ms] [MainBootstrap] auto-launch reconcile started
+[2026-09-28T00:38:33.851Z] [bootstrap +1519ms] [MainBootstrap] auto-launch reconcile finished
+[2026-09-28T00:38:33.851Z] [bootstrap +1519ms] [StartupPipeline] step post-ready.reconcile-auto-launch ok (269ms)
+[2026-09-28T00:38:33.851Z] [bootstrap +1519ms] [MainBootstrap] dock recent-apps repair started
+[2026-09-28T00:38:33.890Z] [bootstrap +1558ms] [MainBootstrap] dock recent-apps repair finished
+[2026-09-28T00:38:33.890Z] [bootstrap +1558ms] [StartupPipeline] step post-ready.repair-dock-recent-apps ok (39ms)
+[2026-09-28T00:38:34.103Z] [bootstrap +1771ms] [StartupPipeline] step post-ready.repair-office-file-associations ok (213ms)
+[2026-09-28T00:38:34.888Z] [bootstrap +2556ms] [StartupLifecycle] daemon-ready -> renderer-mounted (renderer:ready)
+[2026-09-28T00:38:34.888Z] [bootstrap +2556ms] [StartupLifecycle] renderer-mounted -> ready (renderer:ready)
+[2026-09-28T00:38:35.902Z] [bootstrap +3570ms] remote migration status poll: phase=done
+[2026-09-28T00:38:35.902Z] [bootstrap +3570ms] remote migration wait resolved phase=done

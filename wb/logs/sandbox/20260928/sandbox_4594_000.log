@@ -1,0 +1,34 @@
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] sandbox-cli 启动参数: ["/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/vendor/sandbox/5.6.10/sandbox-cli", "--config", "{\"extraPath\":[\"/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin\"],\"enableGlobalProjection\":false,\"ipcAddress\":\"WorkBuddy_b0bdecd20953ee2e\"}", "--rule_decision", "center", "--uid", "fdee3d54-95b6-4e9c-aaff-50ad9505aab4", "--app_home", "/Users/didi/.workbuddy"]
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] sandbox-cli 环境变量: [("PATH", "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin:/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3/bin:/Users/didi/.workbuddy/binaries/node/versions/.locks/bin:/Users/didi/.SmartWork/bin:/Users/didi/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin"), ("HOME", "/Users/didi"), ("TMPDIR", "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/"), ("SANDBOX_CENTER_IPC_ADDRESS", "/tmp/workbuddy-sandbox-center-1ca7e3acad340de1-3235.sock"), ("NODE_OPTIONS", ""), ("SANDBOX_CENTER_UID", "fdee3d54-95b6-4e9c-aaff-50ad9505aab4")]
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.app_home_dir        = /Users/didi/.workbuddy
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.sandbox_home        = /Users/didi/.workbuddy/workspace
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.logs_dir            = /Users/didi/.workbuddy/logs/sandbox
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] [center_facade] app_home 已初始化: /Users/didi/.workbuddy
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] center uid 已注入 (uid 前缀=fdee...)
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.session(<id>).session_dir          = /Users/didi/.workbuddy/workspace/sessions/<session_id>
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.session(<id>).app_home_session_dir = /Users/didi/.workbuddy/workspace/sessions/<session_id>
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.session(<id>).fs_dir               = /Users/didi/.workbuddy/workspace/sessions/<session_id>/fs
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.session(<id>).snapfile_dir         = /Users/didi/.workbuddy/workspace/sessions/<session_id>/snapfile
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] SandboxPaths.session(<id>).permission_file      = /Users/didi/.workbuddy/workspace/sessions/<session_id>/permission.json
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] configure: ManagerConfig { extra_path: ["/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin"], ipc_address: Some("WorkBuddy_b0bdecd20953ee2e"), app_home_dir: None }
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] MultiplexState::new: 监听 socket=/tmp/WorkBuddy_b0bdecd20953ee2e.sock, shutdown_pipe=(6, 7)
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] sandbox-cli 已启动, 等待client连接，IPC 地址: /tmp/WorkBuddy_b0bdecd20953ee2e.sock
+[2026/9/28 08:48:16.771][6127923200][sandbox-core][I] io_loop: 已启动，等待连接和消息...
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] stdin 不是 pipe (可能是 /dev/null 或 TTY), 跳过 lifeline 线程
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] [parent-monitor] 启动: 初始 parent_pid=3433, 自身 pid=4594
+[2026/9/28 08:48:16.771][8372806208][sandbox-core][I] [parent-monitor-kq] 启动: parent_pid=3433
+[2026/9/28 08:48:16.771][6132215808][sandbox-core][I] [parent-monitor] 线程已启动, parent_pid=3433
+[2026/9/28 08:48:17.271][6127923200][sandbox-core][I] MultiplexState: 新客户端连接 client_id=1
+[2026/9/28 08:48:17.271][6127923200][sandbox-core][I] io_loop: 新 client 连接 client_id=1
+[2026/9/28 08:48:17.271][6127923200][sandbox-core][I] 处理命令: OpenSession (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-0, clientId=1, data={"name":"0a5479d6-a616-4baa-8ade-594ddff67fb1","workingDir":"/Users/didi/WorkBuddy/2026-09-24-21-39-57"})
+[2026/9/28 08:48:17.271][6127923200][sandbox-core][I] [CenterIpcClient] 派生 center socket 地址: /tmp/workbuddy-sandbox-center-1ca7e3acad340de1-3235.sock
+[2026/9/28 08:48:17.272][6127923200][sandbox-core][I] [CenterIpcClient] 已连接 sandbox-center (uid 前缀=fdee..., app_home=/Users/didi/.workbuddy)
+[2026/9/28 08:48:17.272][6138654720][sandbox-core][I] [CenterIpcClient] read_loop 启动
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] session_worker[0a5479d6-a616-4baa-8ade-594ddff67fb1]: 已启动
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] OpenSession: 正在创建 Sandbox (name=0a5479d6-a616-4baa-8ade-594ddff67fb1, sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, workingDir=/Users/didi/WorkBuddy/2026-09-24-21-39-57, appHomeDir=/Users/didi/.workbuddy, fsDir=/Users/didi/.workbuddy/workspace/sessions/0a5479d6-a616-4baa-8ade-594ddff67fb1/fs)
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] OpenSession: 启动内置 HTTP 代理 (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1)
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] [0a5479d6-a616-4baa-8ade-594ddff67fb1] HTTP 代理已启动: 127.0.0.1:64613
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] OpenSession: 内置 HTTP 代理已启动, port=64613, address=Some("http://127.0.0.1:64613"), cost=0ms
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] OpenSession: Sandbox 创建成功，耗时 83.167µs, workingDir=/Users/didi/WorkBuddy/2026-09-24-21-39-57
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] OpenSession 完成: 0a5479d6-a616-4baa-8ade-594ddff67fb1
+[2026/9/28 08:48:17.272][6140801024][sandbox-core][I] 响应: OpenSession (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-0, clientId=1, success=true, data={"workingDir":"/Users/didi/WorkBuddy/2026-09-24-21-39-57"})

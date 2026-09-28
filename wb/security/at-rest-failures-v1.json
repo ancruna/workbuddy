@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "resourceId": "settings/user",
+      "adapter": "credential-fields",
+      "operation": "write",
+      "category": "missing-key",
+      "processRole": "daemon",
+      "firstFailureAt": 1790555913805.434,
+      "lastFailureAt": 1790555913970.1436,
+      "attemptCount": 3,
+      "nextRetryAt": 1790556153970.1436
+    }
+  ],
+  "recoveries": [
+    {
+      "resourceId": "settings/user",
+      "adapter": "credential-fields",
+      "operation": "read",
+      "recoveredAt": 1790572377872.4807
+    }
+  ]
+}

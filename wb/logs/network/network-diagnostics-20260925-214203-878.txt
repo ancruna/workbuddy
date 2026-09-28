@@ -1,0 +1,52 @@
+WorkBuddy Network Diagnostics Report
+==================================
+Generated At: 9/25/2026, 9:42:03 PM
+Report Directory: /Users/didi/.workbuddy/logs/network
+Report File: network-diagnostics-20260925-214203-878.txt
+Report File Path: /Users/didi/.workbuddy/logs/network/network-diagnostics-20260925-214203-878.txt
+
+Overall Status: success
+Overall Summary: overall-success
+
+[Target]
+Endpoint: https://copilot.tencent.com
+Base Endpoint: https://copilot.tencent.com
+Target Host: copilot.tencent.com:443
+Protocol: https
+Prefix Path: /plugin
+Platform: workbuddy
+Proxy Mode: No Proxy
+Proxy URL: N/A
+Hosts File: /etc/hosts
+
+[Checks]
+- Proxy Detection
+  Status: success
+  Summary: proxy-env-none-configured
+  Value: No Proxy
+
+- Hosts Resolution
+  Status: success
+  Summary: no-hosts-dns-ok
+  Value: No explicit hosts entry
+  Detail: Hosts: No explicit hosts entry | Resolved: 39.156.8.106, 120.221.61.48
+
+- Service Connectivity
+  Status: success
+  Summary: service-reachable
+  Value: HTTP OK
+  Duration: 103 ms
+  Detail: Endpoint: https://copilot.tencent.com
+
+- TCP Connection Latency
+  Status: success
+  Summary: tcp-connected
+  Value: copilot.tencent.com:443
+  Duration: 22 ms
+
+- Packet Loss
+  Status: success
+  Summary: packet-loss-none
+  Value: 0% loss
+  Duration: 17110 ms
+  Detail: Sent: 18 · Received: 18

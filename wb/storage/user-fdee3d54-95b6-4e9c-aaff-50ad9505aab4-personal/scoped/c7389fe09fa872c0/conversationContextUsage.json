@@ -1,0 +1,18 @@
+{
+  "0a5479d6-a616-4baa-8ade-594ddff67fb1": {
+    "version": 2,
+    "used": 77760,
+    "size": 1000000,
+    "usageByCategory": {
+      "systemPrompt": 8118,
+      "conversation": 45026,
+      "tools": 21507,
+      "mcp": 263,
+      "skills": 2846,
+      "version": 1
+    },
+    "hasCompletedLlmCall": true,
+    "modelId": "custom-local:kimi-k3",
+    "updatedAt": 1790556530922
+  }
+}

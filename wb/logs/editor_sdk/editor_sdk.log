@@ -1,0 +1,17 @@
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/SDK:log file: /Users/didi/.workbuddy/logs/editor_sdk/editor_sdk.log[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'pdf' #1 (3773755 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'doc' #1 (11428029 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'sheet' #1 (21645814 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'slide' #1 (9447978 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'dc' #1 (28417818 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'markdown' #1 (3221174 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'blank_xlsx' #1 (8439 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'blank_docx' #1 (3397 bytes)[39m
+[32m2026-09-28 08:40:25.401 [0x1f30ee240] I/editor_sdk:Embedded 'blank_pptx' #1 (32207 bytes)[39m
+[33m2026-09-28 08:40:25.405 [0x1f30ee240] W/SDK:Starting editor-sdk server on port 39099 (strict_port=true)[39m
+[33m2026-09-28 08:40:25.406 [0x1f30ee240] W/SDK:Editor SDK server listening on 127.0.0.1:39099 (loopback only)[39m
+[32m2026-09-28 08:40:25.406 [0x1f30ee240] I/SDK:  MCP tools registered: 61 sheet + 67 doc + 79 slide[39m
+[32m2026-09-28 08:40:25.406 [0x1f30ee240] I/SDK:  Static root: <none> (embedded resources only)[39m
+[32m2026-09-28 08:40:25.406 [0x1f30ee240] I/SDK:  Auth: disabled (no token required)[39m
+[32m2026-09-28 08:40:25.454 [0x16bbc3000] I/SDK:GET /health[39m
+[32m2026-09-28 08:40:26.071 [0x16bb37000] I/SDK:Skia font manager initialization finished in 664ms[39m

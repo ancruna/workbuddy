@@ -1,0 +1,5 @@
+2026-09-28T00:38:33.545Z [INFO] [LocalAutomationScheduler] started tickMs=30000 activeTickMs=5000 missedWindowMs=86400000 concurrency=3
+2026-09-28T00:53:19.443Z [INFO] [LocalAutomationScheduler] scheduling suspended
+2026-09-28T02:54:19.975Z [INFO] [LocalAutomationScheduler] scheduling resumed
+2026-09-28T04:00:26.288Z [INFO] [LocalAutomationScheduler] scheduling suspended
+2026-09-28T05:01:19.178Z [INFO] [LocalAutomationScheduler] scheduling resumed

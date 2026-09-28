@@ -1,0 +1,35 @@
+[2026-09-28T00:35:44.437Z] [+0ms] === Process started === pid=2736 argv=["/Applications/WorkBuddy.app/Contents/MacOS/Electron"]
+[2026-09-28T00:35:44.437Z] [+0ms] platform=darwin arch=arm64 node=v22.21.1 execPath=/Applications/WorkBuddy.app/Contents/MacOS/Electron
+[2026-09-28T00:35:44.437Z] [+0ms] cwd=/ resourcesPath=/Applications/WorkBuddy.app/Contents/Resources
+[2026-09-28T00:35:44.437Z] [+0ms] env.APPDATA=N/A env.USERPROFILE=N/A
+[2026-09-28T00:35:44.437Z] [+0ms] Phase: importing reflect-metadata
+[2026-09-28T00:35:44.437Z] [+0ms] Phase: all imports completed OK
+[2026-09-28T00:35:44.441Z] [+4ms] Phase: setBundledAssetsRoot(__dirname=/Applications/WorkBuddy.app/Contents/Resources/app.asar/main)
+[2026-09-28T00:35:44.441Z] [+4ms] Phase: configureDesktopWorkbuddyServerLogger
+[2026-09-28T00:35:44.441Z] [+4ms] Phase: applied --regexp-interpret-all workaround (arm64 darwin)
+[2026-09-28T00:35:44.441Z] [+4ms] Phase: installCrashWriter OK (dir=/Users/didi/.workbuddy/logs)
+[2026-09-28T00:35:44.442Z] [+5ms] host platform detected: hostArch=arm64 via=non-windows cost=1ms
+[2026-09-28T00:35:44.462Z] [+25ms] Phase: loadShellEnv done
+[2026-09-28T00:35:44.462Z] [+25ms] Phase: electron-log initialized, logFilePath=/Users/didi/Library/Logs/WorkBuddy/main.log
+[2026-09-28T00:35:44.469Z] [+32ms] Phase: configureElectronApp done
+[2026-09-28T00:35:44.477Z] [+40ms] Phase: early preflight outcome=spawned
+[2026-09-28T00:35:44.479Z] [+42ms] Phase: single instance lock, gotTheLock=true
+[2026-09-28T00:35:44.581Z] [+144ms] Phase: app.whenReady fired
+[2026-09-28T00:35:44.701Z] [+264ms] Phase: WindowManager created
+[2026-09-28T00:35:44.702Z] [+265ms] Phase: desktop host IPC registered
+[2026-09-28T00:35:44.702Z] [+265ms] Splash crash guard: crashCount=0, skipSplash=false
+[2026-09-28T00:35:44.702Z] [+265ms] Phase: vendor extract check, assetsCount=5
+[2026-09-28T00:35:44.702Z] [+265ms] Phase: vendor isExtractNeeded check
+[2026-09-28T00:35:44.703Z] [+266ms] Phase: vendor extract NOT needed (already done)
+[2026-09-28T00:35:44.703Z] [+266ms] Phase: vendor ensureAll starting
+[2026-09-28T00:35:44.704Z] [+267ms] Phase: vendor ensureAll done, results=PortableGit:true,node:true,python:true,node:true,python:true
+[2026-09-28T00:35:44.705Z] [+268ms] Phase: creating main window before bootstrapMainProcess
+[2026-09-28T00:35:44.746Z] [+309ms] Phase: main window created before bootstrapMainProcess
+[2026-09-28T00:35:44.746Z] [+309ms] Phase: starting bootstrapMainProcess
+[2026-09-28T00:35:47.590Z] [+3153ms] Phase: bootstrapMainProcess completed
+[2026-09-28T00:35:47.633Z] [+3196ms] Phase: awaiting migrationDonePromise
+[2026-09-28T00:35:49.420Z] [+4983ms] Phase: migrationDonePromise resolved
+[2026-09-28T00:35:49.421Z] [+4984ms] Phase: main window already created before bootstrap completion
+[2026-09-28T00:35:49.421Z] [+4984ms] Phase: bootstrap complete - STARTUP COMPLETE
+[2026-09-28T00:38:17.316Z] [+152879ms] Event: before-quit (isQuitting=false, isQuittingForUpdate=true, userConfirmed=false, crashRecovery=false)
+[2026-09-28T00:38:17.330Z] [+152893ms] Event: process.exit code=0 uptime=153s

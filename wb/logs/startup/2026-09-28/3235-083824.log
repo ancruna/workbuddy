@@ -1,0 +1,40 @@
+[2026-09-28T00:38:24.341Z] [+5ms] === Process started === pid=3235 argv=["/Applications/WorkBuddy.app/Contents/MacOS/Electron"]
+[2026-09-28T00:38:24.341Z] [+5ms] platform=darwin arch=arm64 node=v22.21.1 execPath=/Applications/WorkBuddy.app/Contents/MacOS/Electron
+[2026-09-28T00:38:24.341Z] [+5ms] cwd=/ resourcesPath=/Applications/WorkBuddy.app/Contents/Resources
+[2026-09-28T00:38:24.341Z] [+5ms] env.APPDATA=N/A env.USERPROFILE=N/A
+[2026-09-28T00:38:24.341Z] [+5ms] Phase: all imports completed OK
+[2026-09-28T00:38:24.344Z] [+8ms] Phase: [CodeCache] enabled {"processName":"main","status":"enabled","statusRaw":1,"dir":"/Users/didi/.workbuddy/app/CodeCache/5.6.2_13.8.258.32-electron.0/main","appVersion":"5.6.2","v8Version":"13.8.258.32-electron.0","nodeVersion":"22.21.1","versionKey":"5.6.2_13.8.258.32-electron.0","elapsedMs":1,"resolvedDirectory":"/Users/didi/.workbuddy/app/CodeCache/5.6.2_13.8.258.32-electron.0/main"}
+[2026-09-28T00:38:24.347Z] [+11ms] Phase: electron-log initialized, logFilePath=/Users/didi/.workbuddy/logs/main.log
+[2026-09-28T00:38:24.351Z] [+15ms] Phase: credential protection ready
+[2026-09-28T00:38:24.370Z] [+34ms] Phase: configureElectronApp done
+[2026-09-28T00:38:24.371Z] [+35ms] host platform detected: hostArch=arm64 via=non-windows cost=1ms
+[2026-09-28T00:38:24.379Z] [+43ms] Phase: early preflight outcome=spawned
+[2026-09-28T00:38:24.380Z] [+44ms] Phase: single instance lock, gotTheLock=true
+[2026-09-28T00:38:24.466Z] [+130ms] Phase: app.whenReady fired
+[2026-09-28T00:38:24.466Z] [+130ms] Phase: PAC prewarm — session.defaultSession.resolveProxy fired
+[2026-09-28T00:38:24.564Z] [+228ms] Phase: [CodeCache] disk state {"processName":"main","processDir":"/Users/didi/.workbuddy/app/CodeCache/5.6.2_13.8.258.32-electron.0/main","cacheFileCount":0,"cacheSizeBytes":0,"cacheSizeMB":0}
+[2026-09-28T00:38:24.664Z] [+328ms] Phase: PAC prewarm done (198ms rule="DIRECT")
+[2026-09-28T00:38:24.678Z] [+342ms] Splash crash guard: crashCount=0, skipSplash=false
+[2026-09-28T00:38:24.684Z] [+348ms] Phase: vendor extract check, assetsCount=7
+[2026-09-28T00:38:24.686Z] [+350ms] Phase: vendor isExtractNeeded=true (checkMs=2)
+[2026-09-28T00:38:24.687Z] [+351ms] showSplashIfNeeded: creating SplashWindow
+[2026-09-28T00:38:24.687Z] [+351ms] showSplashIfNeeded: calling splashWindow.show()
+[2026-09-28T00:38:24.990Z] [+654ms] showSplashIfNeeded: splash shown OK, crash guard cleared
+[2026-09-28T00:38:24.990Z] [+654ms] Phase: showSplashIfNeeded returned OK
+[2026-09-28T00:38:24.990Z] [+654ms] Phase: vendor ensureAll starting
+[2026-09-28T00:38:32.330Z] [+7994ms] Phase: vendor ensureAll done (elapsed=7340ms), results=PortableGit:skipped,node:skipped,python:skipped,node:extracted,python:extracted,node:skipped,python:skipped
+[2026-09-28T00:38:32.331Z] [+7995ms] Phase: mcp.json path migration starting
+[2026-09-28T00:38:32.331Z] [+7995ms] Phase: mcp.json path migration complete
+[2026-09-28T00:38:32.331Z] [+7995ms] Phase: vendor extract phase complete (totalElapsed=7647ms)
+[2026-09-28T00:38:32.331Z] [+7995ms] Phase: starting bootstrapMainProcess
+[2026-09-28T00:38:34.105Z] [+9769ms] Phase: bootstrapMainProcess completed
+[2026-09-28T00:38:34.105Z] [+9769ms] Phase: awaiting migrationDonePromise
+[2026-09-28T00:38:34.888Z] [+10552ms] Event: renderer:ready received
+[2026-09-28T00:38:35.902Z] [+11566ms] Phase: migrationDonePromise resolved
+[2026-09-28T00:38:35.905Z] [+11569ms] Phase: main window already created before bootstrap completion
+[2026-09-28T00:38:35.905Z] [+11569ms] Phase: bootstrap complete - STARTUP COMPLETE
+[2026-09-28T00:47:39.035Z] [+554699ms] Event: renderer:ready received
+[2026-09-28T05:38:49.163Z] [+18024827ms] Event: before-quit (isQuitting=false, isQuittingForUpdate=false, userConfirmed=false, crashRecovery=false)
+[2026-09-28T05:38:49.183Z] [+18024847ms] Event: before-quit (isQuitting=true, isQuittingForUpdate=false, userConfirmed=true, crashRecovery=false)
+[2026-09-28T05:38:49.184Z] [+18024848ms] Event: before-quit (isQuitting=true, isQuittingForUpdate=false, userConfirmed=true, crashRecovery=false)
+[2026-09-28T05:38:50.472Z] [+18026136ms] finishQuit called (isQuittingForUpdate=false, quitCleanupTimedOut=false)

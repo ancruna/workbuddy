@@ -1,0 +1,22 @@
+[
+  {
+    "id": "kimi-k3",
+    "name": "Kimi K3",
+    "vendor": "Kimi",
+    "url": "https://api.moonshot.cn/v1/chat/completions",
+    "apiKey": "sk-It7lAi7dIwrM4EcZSZS4DDXQh7oyCT8ZTTG1r6b6en339r1I",
+    "supportsToolCall": true,
+    "supportsImages": true,
+    "supportsReasoning": true,
+    "maxInputTokens": 1000000,
+    "maxOutputTokens": 131072,
+    "reasoning": {
+      "defaultEffort": "high",
+      "supportedEfforts": [
+        "low",
+        "high",
+        "max"
+      ]
+    }
+  }
+]

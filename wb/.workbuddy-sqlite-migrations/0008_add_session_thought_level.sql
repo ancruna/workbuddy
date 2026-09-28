@@ -1,0 +1,1 @@
+ALTER TABLE sessions ADD COLUMN thought_level TEXT;

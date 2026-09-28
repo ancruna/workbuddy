@@ -1,0 +1,16 @@
+{
+  "name": "experts",
+  "description": "experts marketplace (auto-generated)",
+  "plugins": [
+    {
+      "name": "meituan-living-assistant",
+      "source": "./plugins/meituan-living-assistant",
+      "description": "Meituan living deals assistant — one-click coupon collection, nearby group-buy food search and ordering, daily deals exploration for dining, coffee, milk tea, hotpot and more."
+    },
+    {
+      "name": "novel-creator",
+      "source": "./plugins/novel-creator",
+      "description": "Long-form novel and story creation partner: worldbuilding architect, character psychologist, and plot-logic auditor combining a 5-stage gated creative protocol, a 4-system continuity tracker, a 5-dimension quality rubric, and an AI-writing-tell scrubber."
+    }
+  ]
+}

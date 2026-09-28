@@ -1,0 +1,24 @@
+{
+  "launchedAt": "2026-09-28T08:35:44.441+08:00",
+  "pid": 2736,
+  "processName": "main",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-28T08:35:45.816+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "An object could not be cloned.",
+      "stack": "Error: An object could not be cloned."
+    }
+  ],
+  "droppedCount": 0
+}

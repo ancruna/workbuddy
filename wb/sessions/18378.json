@@ -1,0 +1,16 @@
+{
+  "pid": 18378,
+  "lastHeartbeat": 1790041854680,
+  "sessionId": "interactive-18378",
+  "cwd": "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/workbuddy-host-cli/__workbuddy_cli_host__-8-c7631b51",
+  "startedAt": 1789973023715,
+  "kind": "interactive",
+  "url": "http://127.0.0.1:52391",
+  "endpoint": "http://127.0.0.1:52391",
+  "mode": "local",
+  "version": "2.115.0",
+  "os": "darwin",
+  "arch": "arm64",
+  "hostname": "localhost",
+  "updatedAt": 1790041854685
+}

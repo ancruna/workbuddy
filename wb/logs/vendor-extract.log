@@ -1,0 +1,116 @@
+2026-08-25T06:46:48.352Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=5
+2026-08-25T06:46:48.352Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-08-25T06:46:48.353Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-08-25T06:46:48.353Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-08-25T06:46:48.353Z [INFO] node: skipped (platform darwin not in [win32])
+2026-08-25T06:46:48.353Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-08-25T06:46:48.353Z [INFO] python: skipped (platform darwin not in [win32])
+2026-08-25T06:46:48.353Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-08-25T06:46:48.353Z [INFO] node: extracting node.tar.gz (47.70 MB)...
+2026-08-25T06:46:48.355Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-08-25T06:46:48.356Z [INFO] python: extracting python.dat (16.93 MB)...
+2026-08-25T06:46:49.478Z [INFO] python: source prepared in 1122ms
+2026-08-25T06:46:49.481Z [INFO] python: stripped top-level directory "python"
+2026-08-25T06:46:49.513Z [INFO] python: chmod +x applied to bin/python3
+2026-08-25T06:46:51.030Z [INFO] node: source prepared in 2677ms
+2026-08-25T06:46:51.031Z [INFO] node: stripped top-level directory "node-v22.22.2-darwin-arm64"
+2026-08-25T06:46:51.040Z [INFO] node: chmod +x applied to bin/node
+2026-08-30T01:14:11.152Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=5
+2026-08-30T01:14:11.152Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-08-30T01:14:11.152Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-08-30T01:14:11.153Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-08-30T01:14:11.153Z [INFO] node: skipped (platform darwin not in [win32])
+2026-08-30T01:14:11.153Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-08-30T01:14:11.153Z [INFO] python: skipped (platform darwin not in [win32])
+2026-08-30T01:14:11.153Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-08-30T01:14:11.153Z [INFO] node: already extracted (v22.22.2)
+2026-08-30T01:14:11.153Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-08-30T01:14:11.153Z [INFO] python: already extracted (v3.13.12)
+2026-09-07T03:02:36.187Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=5
+2026-09-07T03:02:36.189Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-09-07T03:02:36.191Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-09-07T03:02:36.193Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-07T03:02:36.195Z [INFO] node: skipped (platform darwin not in [win32])
+2026-09-07T03:02:36.197Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-07T03:02:36.198Z [INFO] python: skipped (platform darwin not in [win32])
+2026-09-07T03:02:36.199Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-07T03:02:36.199Z [INFO] node: already extracted (v22.22.2)
+2026-09-07T03:02:36.200Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-07T03:02:36.204Z [INFO] python: already extracted (v3.13.12)
+2026-09-22T01:52:22.405Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=5
+2026-09-22T01:52:22.413Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-09-22T01:52:22.413Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-09-22T01:52:22.414Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-22T01:52:22.414Z [INFO] node: skipped (platform darwin not in [win32])
+2026-09-22T01:52:22.414Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-22T01:52:22.414Z [INFO] python: skipped (platform darwin not in [win32])
+2026-09-22T01:52:22.414Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-22T01:52:22.415Z [INFO] node: already extracted (v22.22.2)
+2026-09-22T01:52:22.416Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-22T01:52:22.416Z [INFO] python: already extracted (v3.13.12)
+2026-09-28T00:35:44.703Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=5
+2026-09-28T00:35:44.704Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-09-28T00:35:44.704Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-09-28T00:35:44.704Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-28T00:35:44.704Z [INFO] node: skipped (platform darwin not in [win32])
+2026-09-28T00:35:44.704Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-28T00:35:44.704Z [INFO] python: skipped (platform darwin not in [win32])
+2026-09-28T00:35:44.704Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-28T00:35:44.704Z [INFO] node: already extracted (v22.22.2)
+2026-09-28T00:35:44.704Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-28T00:35:44.704Z [INFO] python: already extracted (v3.13.12)
+2026-09-28T00:38:24.685Z [INFO] node: current file not found, needs extraction
+2026-09-28T00:38:24.991Z [INFO] ensureAll started, resourcesPath=/Applications/WorkBuddy.app/Contents/Resources, codebuddyHome=/Users/didi/.workbuddy, assets=7
+2026-09-28T00:38:24.991Z [INFO] PortableGit: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/PortableGit/versions/1.2.0, managed=true)
+2026-09-28T00:38:24.991Z [INFO] PortableGit: skipped (platform darwin not in [win32])
+2026-09-28T00:38:24.991Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3, managed=true)
+2026-09-28T00:38:24.991Z [INFO] node: skipped (platform darwin not in [win32])
+2026-09-28T00:38:24.991Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-28T00:38:24.991Z [INFO] python: skipped (platform darwin not in [win32])
+2026-09-28T00:38:24.992Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3, managed=true)
+2026-09-28T00:38:24.992Z [INFO] node: current file not found, needs extraction
+2026-09-28T00:38:24.992Z [INFO] node: lock.acquire.start versionDir=22.22.2-3 lockPath=/Users/didi/.workbuddy/binaries/node/versions/.locks/22.22.2-3.lock pid=3235 target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3
+2026-09-28T00:38:24.992Z [INFO] node: current file not found, needs extraction
+2026-09-28T00:38:24.997Z [INFO] node: lock.acquire.ok ownerId=8b6ad951-9d65-442c-9e51-b39f9587999e elapsedMs=5 attempts=1 reclaimedStale=false
+2026-09-28T00:38:24.999Z [INFO] node: current file not found, needs extraction
+2026-09-28T00:38:24.999Z [INFO] node: extract.temp.created tempDir=/Users/didi/.workbuddy/binaries/node/versions/.extracting.node.3235.66682fdd-3e27-4ad9-8cc6-0593a77e19a6
+2026-09-28T00:38:24.999Z [INFO] node: extracting node.dat (100.56 MB)...
+2026-09-28T00:38:25.033Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-28T00:38:25.033Z [INFO] python: current file not found, needs extraction
+2026-09-28T00:38:25.033Z [INFO] python: lock.acquire.start versionDir=3.13.12 lockPath=/Users/didi/.workbuddy/binaries/python/versions/.locks/3.13.12.lock pid=3235 target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12
+2026-09-28T00:38:25.033Z [INFO] python: current file not found, needs extraction
+2026-09-28T00:38:25.078Z [INFO] python: lock.acquire.ok ownerId=2040cc3a-76e4-4772-9c2e-0e81204675f8 elapsedMs=45 attempts=1 reclaimedStale=false
+2026-09-28T00:38:25.078Z [INFO] python: current file not found, needs extraction
+2026-09-28T00:38:25.079Z [INFO] python: extract.temp.created tempDir=/Users/didi/.workbuddy/binaries/python/versions/.extracting.python.3235.74c68eda-4ecb-4eae-b330-e057f5120e37
+2026-09-28T00:38:25.079Z [INFO] python: extracting python.dat (16.93 MB)...
+2026-09-28T00:38:25.086Z [INFO] node: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2, managed=true)
+2026-09-28T00:38:25.086Z [INFO] node: skipped (platform darwin not in [linux])
+2026-09-28T00:38:25.086Z [INFO] python: ensureOne started (platform=darwin, target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12, managed=true)
+2026-09-28T00:38:25.087Z [INFO] python: skipped (platform darwin not in [linux])
+2026-09-28T00:38:25.905Z [INFO] python: dat extracted via patched tar.gz
+2026-09-28T00:38:25.908Z [INFO] python: source prepared in 829ms
+2026-09-28T00:38:25.911Z [INFO] python: stripped top-level directory "python"
+2026-09-28T00:38:25.924Z [INFO] python: chmod +x applied to bin/python3
+2026-09-28T00:38:25.925Z [INFO] python: extract.verify.ok tempDir=/Users/didi/.workbuddy/binaries/python/versions/.extracting.python.3235.74c68eda-4ecb-4eae-b330-e057f5120e37
+2026-09-28T00:38:25.925Z [INFO] python: extract.commit.start tempDir=/Users/didi/.workbuddy/binaries/python/versions/.extracting.python.3235.74c68eda-4ecb-4eae-b330-e057f5120e37 target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12
+2026-09-28T00:38:25.925Z [INFO] python: renamed old dir to 3.13.12.old.3235
+2026-09-28T00:38:26.230Z [INFO] python: extract.commit.ok target=/Users/didi/.workbuddy/binaries/python/versions/3.13.12
+2026-09-28T00:38:26.231Z [INFO] Wrote marker: /Users/didi/.workbuddy/binaries/python/versions/3.13.12/.extracted (version=3.13.12, variant=(none))
+2026-09-28T00:38:26.231Z [INFO] python: wrote current version file (3.13.12)
+2026-09-28T00:38:26.232Z [INFO] python: lock.release ownerId=2040cc3a-76e4-4772-9c2e-0e81204675f8 lockPath=/Users/didi/.workbuddy/binaries/python/versions/.locks/3.13.12.lock
+2026-09-28T00:38:31.645Z [INFO] node: dat extracted via patched tar.gz
+2026-09-28T00:38:31.645Z [INFO] node: source prepared in 6646ms
+2026-09-28T00:38:31.647Z [INFO] node: stripped top-level directory "node-v22.22.2-darwin-arm64"
+2026-09-28T00:38:31.657Z [INFO] node: chmod +x applied to bin/node
+2026-09-28T00:38:31.657Z [INFO] node: extract.verify.ok tempDir=/Users/didi/.workbuddy/binaries/node/versions/.extracting.node.3235.66682fdd-3e27-4ad9-8cc6-0593a77e19a6
+2026-09-28T00:38:31.657Z [INFO] node: extract.commit.start tempDir=/Users/didi/.workbuddy/binaries/node/versions/.extracting.node.3235.66682fdd-3e27-4ad9-8cc6-0593a77e19a6 target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3
+2026-09-28T00:38:31.657Z [INFO] node: extract.commit.ok target=/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3
+2026-09-28T00:38:31.657Z [INFO] Wrote marker: /Users/didi/.workbuddy/binaries/node/versions/22.22.2-3/.extracted (version=22.22.2, variant=3)
+2026-09-28T00:38:31.658Z [INFO] node: wrote current version file (22.22.2-3)
+2026-09-28T00:38:31.658Z [INFO] node: removing old managed version .22.22.2.deleting.3235.1790555911658
+2026-09-28T00:38:32.330Z [INFO] node: lock.release ownerId=8b6ad951-9d65-442c-9e51-b39f9587999e lockPath=/Users/didi/.workbuddy/binaries/node/versions/.locks/22.22.2-3.lock
+2026-09-28T00:38:32.330Z [INFO] ensureAll finished: 2 extracted, 5 skipped, 0 failed
+2026-09-28T00:38:32.331Z [INFO] node: mcp.json path migration started
+2026-09-28T00:38:32.331Z [INFO] node: mcp.json not found, skipping path migration
+2026-09-28T00:38:32.331Z [INFO] python: mcp.json path migration started
+2026-09-28T00:38:32.331Z [INFO] python: mcp.json not found, skipping path migration

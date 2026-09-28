@@ -1,0 +1,4 @@
+{"event":"start","data":{"legacyBundleId":"com.workbuddy.workbuddy","pid":"3393","currentBundleId":"com.tencent.workbuddy.mac","executablePath":"\/Applications\/WorkBuddy.app\/Contents\/Frameworks\/WorkBuddy Legacy Auto Launch Cleaner.app\/Contents\/MacOS\/WorkBuddyLegacyAutoLaunchCleaner","bundleIdentifier":"com.workbuddy.workbuddy","bundlePath":"\/Applications\/WorkBuddy.app\/Contents\/Frameworks\/WorkBuddy Legacy Auto Launch Cleaner.app"},"timestamp":"2026-09-28T00:38:33Z"}
+{"timestamp":"2026-09-28T00:38:33Z","event":"status.before","data":{"status":"notFound"}}
+{"data":{"error":"Error Domain=SMAppServiceErrorDomain Code=1 \"Operation not permitted\" UserInfo={NSLocalizedFailureReason=Operation not permitted}","localizedDescription":"The operation couldn’t be completed. Operation not permitted"},"event":"unregister.failure","timestamp":"2026-09-28T00:38:33Z"}
+{"timestamp":"2026-09-28T00:38:33Z","event":"status.after","data":{"status":"notFound"}}

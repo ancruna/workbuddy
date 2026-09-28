@@ -1,0 +1,6 @@
+2026-09-28T05:12:57.016Z lifecycle:created {"instanceId":"ci-2","state":"idle","transport":"local","restoredOrphanPending":false}
+2026-09-28T05:12:57.052Z method:requests {"instanceId":"ci-2","byteLength":5242880}
+2026-09-28T05:12:57.052Z method:requests:result {"instanceId":"ci-2","itemCount":0,"total":0,"hasOlder":true,"headIds":[],"states":{}}
+2026-09-28T05:12:57.163Z busy-ownership:reconcile {"instanceId":"ci-2","trigger":"history-hydrated","from":"idle","decision":"noop","reason":"state-not-reconcilable","ownerKinds":[],"conflicts":[],"latestRequestState":"completed"}
+2026-09-28T05:12:57.436Z method:requests {"instanceId":"ci-2","byteLength":5242880}
+2026-09-28T05:12:57.436Z method:requests:result {"instanceId":"ci-2","itemCount":20,"total":20,"hasOlder":false,"headIds":["f9c5e8d8824e482292aaa52b64591c91","543c2d22fd9c4d04b2299df918ed189d","237e495d6b7642a2a0eda53d2f348261","c8cde170142c490e9b74d03b49ffe9fe","511c6b45915b40abb2902edf3ac619d2"],"tailIds":["1ed5c2b2f68a4d5d94d86493b135485a","40337749ea43442aa3b85a1413909724","df9cb5c286e0465aa89cdf8378c28a89","5758ebc61e1c42679ba789625f1d339e","349911695d6d4b258b2cd85c615af55b"],"states":{"completed":17,"cancelled":1,"error":2}}

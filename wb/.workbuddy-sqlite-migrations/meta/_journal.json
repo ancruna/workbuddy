@@ -1,0 +1,111 @@
+{
+  "version": "11",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1782445443000,
+      "tag": "0000_workbuddy_sqlite_baseline",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1784544000000,
+      "tag": "0001_session_plugin_context",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790000000000,
+      "tag": "0002_add_addon_selection",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1795000000000,
+      "tag": "0003_add_session_settings",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1800000000000,
+      "tag": "0004_last_user_prompt_expert_selection",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1805000000000,
+      "tag": "0005_add_session_context_window",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1810000000000,
+      "tag": "0006_add_automation_runs_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1815000000000,
+      "tag": "0007_add_buddy_snapshots",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1820000000000,
+      "tag": "0008_add_session_thought_level",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1825000000000,
+      "tag": "0009_add_automation_context_window",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1830000000000,
+      "tag": "0010_create_cloud_conversations",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1835000000000,
+      "tag": "0011_unify_sessions_cloud",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1840000000000,
+      "tag": "0012_add_automation_reasoning_effort",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1845000000000,
+      "tag": "0013_add_session_unread",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1850000000000,
+      "tag": "0014_add_automation_runs_failure_code",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] sandbox-cli 启动参数: ["/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/vendor/sandbox/5.3.3/sandbox-cli", "--config", "{\"extraPath\":[\"/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin\"],\"enableGlobalProjection\":false,\"ipcAddress\":\"WorkBuddy_3367d5f5e37cff97\",\"workbuddyInstallDir\":\"/Applications/WorkBuddy.app\"}", "--gc_retain_sec", "600", "--app_home", "/Users/didi/.workbuddy"]
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] sandbox-cli 环境变量: [("MallocNanoZone", "0"), ("USER", "didi"), ("SECURITYSESSIONID", "186a4"), ("COMMAND_MODE", "unix2003"), ("__CFBundleIdentifier", "com.workbuddy.workbuddy"), ("PATH", "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin:/Users/didi/.workbuddy/binaries/node/versions/22.22.2/bin:/Users/didi/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/bin"), ("HOME", "/Users/didi"), ("SHELL", "/bin/bash"), ("LaunchInstanceID", "1675E3A9-EC35-4DCF-AFE1-5657C0458966"), ("__CF_USER_TEXT_ENCODING", "0x259:0x19:0x34"), ("XPC_SERVICE_NAME", "application.com.workbuddy.workbuddy.16507651.16507939"), ("SSH_AUTH_SOCK", "/private/tmp/com.apple.launchd.OcCfZZldmc/Listeners"), ("XPC_FLAGS", "0x0"), ("LOGNAME", "didi"), ("TMPDIR", "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/"), ("ORIGINAL_XDG_CURRENT_DESKTOP", "undefined"), ("TERM", "xterm-256color"), ("GIT_TERMINAL_PROMPT", "0"), ("PWD", "/"), ("APPLE_SUPPRESS_DEVELOPER_TOOL_POPUP", "1"), ("SHLVL", "2"), ("_", "/usr/bin/env"), ("LANG", "en_US.UTF-8"), ("WORKBUDDY_CONFIG_DIR", "/Users/didi/.workbuddy"), ("WORKBUDDY_DATA_FOLDER_NAME", ".workbuddy"), ("WORKBUDDY_APP_NAME", "WorkBuddy"), ("WORKBUDDY_MENU_LOCALE", "zh-CN"), ("WORKBUDDY_STARTUP_PID", "1004"), ("WORKBUDDY_STARTUP_DATE", "2026-09-22"), ("WORKBUDDY_STARTUP_TIME", "095219"), ("WORKBUDDY_APPLICATION_NAME", "WorkBuddy"), ("WORKBUDDY_APP_PATH", "/Applications/WorkBuddy.app/Contents/Resources/app.asar"), ("WORKBUDDY_APP_VERSION", "5.3.14"), ("WORKBUDDY_FS_PROTECTION_ROLE", "daemon"), ("WORKBUDDY_IS_PACKAGED", "1"), ("WORKBUDDY_LOCALE", "zh-CN"), ("WORKBUDDY_PROMPT_TEMPLATES_DIR", "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/resources/templates"), ("WORKBUDDY_PRODUCT_NAME", "WorkBuddy"), ("WORKBUDDY_RESOURCES_PATH", "/Applications/WorkBuddy.app/Contents/Resources"), ("WORKBUDDY_USER_DATA_DIR", "/Users/didi/.workbuddy/app"), ("WORKBUDDY_LEGACY_LOCALSTORAGE_MIGRATION_RESULT_PATH", "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/workbuddy-localstorage-migration-1004-1790041944492.json"), ("DISABLE_AUTOUPDATER", "1"), ("ELECTRON_RUN_AS_NODE", "1"), ("CODEBUDDY_GIT_REPO_SCAN_DISABLED", "1"), ("CODEBUDDY_PROMPT_SUGGESTION_DISABLED", "1"), ("CODEBUDDY_CONFIG_DIR", "/Users/didi/.workbuddy"), ("CODEBUDDY_GATEWAY_AUTH", "password"), ("CODEBUDDY_GATEWAY_PASSWORD", "-U4OgGCTcHwmFbRxeKTGXEHcNi-sUdyYIcygDH3nYgo"), ("CODEBUDDY_GATEWAY_DISABLE_API_DOCS", "1"), ("CODEBUDDY_DISABLE_CRON", "1"), ("CODEBUDDY_INCLUDE_TOPIC_MESSAGE", "1"), ("CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY", "1"), ("CODEBUDDY_BUILTIN_SKILLS_DIR", "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills"), ("CODEBUDDY_DISABLE_AUTO_MEMORY", "1"), ("CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD", "1"), ("CODEBUDDY_DISABLE_REQUEST_VALIDATION", "1"), ("CODEBUDDY_SKIP_GIT_BASH_CHECK", "1"), ("CODEBUDDY_HOST", "workbuddy-desktop"), ("CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED", "1"), ("CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS", "1"), ("CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP", "1"), ("CODEBUDDY_POWERSHELL_USE_PTY", "1"), ("CODEBUDDY_REPLAY_SHOW_PRE_COMPACT", "1"), ("CODEBUDDY_REASONING_ONLY_END_TURN", "1"), ("CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION", "1080"), ("CODEBUDDY_SKILL_TOOL_CHAR_BUDGET", "30000"), ("CODEBUDDY_DISABLE_FORK_SUBAGENT", "1"), ("CODEBUDDY_ENABLE_SECURITY_AUDIT", "1"), ("CLIENT_INFO_PLATFORM", "WorkBuddy"), ("CLIENT_INFO_PLATFORM_VERSION", "5.3.14"), ("CLIENT_INFO_IDE_TYPE", "WorkBuddy"), ("CLIENT_INFO_PRODUCT_NAME", "WorkBuddy"), ("CLIENT_INFO_PRODUCT_VERSION", "5.3.14"), ("CLIENT_INFO_PLUGIN_NAME", "workbuddy-desktop"), ("CLIENT_INFO_PLUGIN_VERSION", "5.3.14"), ("CLIENT_INFO_USER_AGENT_EXTENSION", "CLI/2.115.0"), ("CLIENT_INFO_MACHINE_ID", "4D6CEDE0-B354-523B-BF1F-9AD4D9EC28D2"), ("CODEBUDDY_INTERNET_ENVIRONMENT", "internal"), ("CODEBUDDY_PLUGIN_DIRS", "/Users/didi/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/agent-browser:/Users/didi/.workbuddy/plugins/marketplaces/codebuddy-plugins-official/plugins/find-skills"), ("WORKBUDDY_PAC_RPC_SOCKET", "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/workbuddy-pac-1710-cff088d96b558375.sock"), ("WORKBUDDY_PAC_RPC_TOKEN", "no1lyvp-lDzEuHinvjVMAYXjcoXptiL6"), ("WORKBUDDY_EXTRA_PATHS", "/Users/didi/.workbuddy/binaries/node/versions/22.22.2/bin:/Users/didi/.workbuddy/binaries/python/versions/3.13.12/bin:/Users/didi/.workbuddy/binaries/node/cli-connector-packages/bin:/Users/didi/.workbuddy/binaries/python/envs/default/bin"), ("WORKBUDDY_NODE_ENV", "production"), ("CODEBUDDY_QIMEI36", "80ddd3ad1f2ba295614b10db20001f418307"), ("CODEBUDDY_DISABLE_IDE", "1"), ("SERVER__PORT", "0"), ("SERVER__HOST", "127.0.0.1"), ("GALILEO_ENABLE", "true"), ("GALILEO_SDK_READY", "1"), ("CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS", "0"), ("TENCENT_DOCS_LOCAL_MCP", "http://127.0.0.1:39099/mcp"), ("TENCENT_DOCS_LOCAL_SERVER", "http://127.0.0.1:39099"), ("editor_sdk_port", "39099"), ("CODEBUDDY_HOST_CAPABILITIES", "elicitation.form,weixinpay.interception")]
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.app_home_dir        = /Users/didi/.workbuddy
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.sandbox_home        = /Users/didi/.workbuddy/workspace
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.logs_dir            = /Users/didi/.workbuddy/logs/sandbox
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.projection_root     = /Users/didi/.workbuddy/workspace/files
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.app_group_id        = None
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.session(<id>).session_dir          = /Users/didi/.workbuddy/workspace/sessions/<session_id>
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.session(<id>).app_home_session_dir = /Users/didi/.workbuddy/workspace/sessions/<session_id>
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.session(<id>).fs_dir               = /Users/didi/.workbuddy/workspace/sessions/<session_id>/fs
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.session(<id>).snapfile_dir         = /Users/didi/.workbuddy/workspace/sessions/<session_id>/snapfile
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] SandboxPaths.session(<id>).permission_file      = /Users/didi/.workbuddy/workspace/sessions/<session_id>/permission.json
+[2026/9/28 06:56:22.220][8372806208][sandbox-core][I] configure: ManagerConfig { extra_path: ["/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/bin/runtime/git/bin"], enable_global_projection: false, ipc_address: Some("WorkBuddy_3367d5f5e37cff97"), app_group_id: None, app_home_dir: None, workbuddy_install_dir: Some("/Applications/WorkBuddy.app"), modify_backup_max_size: 104857600 }
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][I] MultiplexState::new: 监听 socket=/tmp/WorkBuddy_3367d5f5e37cff97.sock, shutdown_pipe=(6, 7)
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][W] SandboxManager: 未配置 app_group_id, 跳过 ext 通道连接; macOS Extension 反向请求将不可用
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][I] sandbox-cli 已启动, 等待client连接，IPC 地址: /tmp/WorkBuddy_3367d5f5e37cff97.sock
+[2026/9/28 06:56:22.221][6095859712][sandbox-core][I] io_loop: 已启动，等待连接和消息...
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][I] stdin 不是 pipe (可能是 /dev/null 或 TTY), 跳过 lifeline 线程
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][I] [parent-monitor] 启动: 初始 parent_pid=79965, 自身 pid=93085
+[2026/9/28 06:56:22.221][8372806208][sandbox-core][I] [parent-monitor-kq] 启动: parent_pid=79965
+[2026/9/28 06:56:22.221][6100152320][sandbox-core][I] [parent-monitor] 线程已启动, parent_pid=79965
+[2026/9/28 06:56:22.692][6095859712][sandbox-core][I] MultiplexState: 新客户端连接 client_id=1
+[2026/9/28 06:56:22.692][6095859712][sandbox-core][I] io_loop: 新 client 连接 client_id=1
+[2026/9/28 06:56:22.693][6095859712][sandbox-core][I] 处理命令: OpenSession (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-0, clientId=1, data={"autoProjection":false,"name":"0a5479d6-a616-4baa-8ade-594ddff67fb1","workingDir":"/Users/didi/WorkBuddy/2026-09-24-21-39-57"})
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] session_worker[0a5479d6-a616-4baa-8ade-594ddff67fb1]: 已启动
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession: 正在创建 Sandbox (name=0a5479d6-a616-4baa-8ade-594ddff67fb1, sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, workingDir=/Users/didi/WorkBuddy/2026-09-24-21-39-57, appHomeDir=/Users/didi/.workbuddy, fsDir=/Users/didi/.workbuddy/workspace/sessions/0a5479d6-a616-4baa-8ade-594ddff67fb1/fs, autoProjection=false)
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] Sandbox::new: 未配置 app_group_id，跳过 NE Bridge 初始化
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] decide_projection: autoProjection=false → 强制跳过投影 (source_dir=/Users/didi/WorkBuddy/2026-09-24-21-39-57)
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession: 跳过投影 (workingDir=/Users/didi/WorkBuddy/2026-09-24-21-39-57)
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][W] QueryNetworkExtensionReady 反向请求失败，回退为 NE 未就绪: SandboxError(0xFFFFFFFF): ext 通道不可用（未配置 app_group_id），无法发送 QueryNetworkExtensionReady 反向请求
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] decide_enable_proxy: macOS NE ready=false → 启用 LocalProxy 降级
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession: 启动内置 HTTP 代理 (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1)
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] [0a5479d6-a616-4baa-8ade-594ddff67fb1] HTTP 代理已启动: 127.0.0.1:50561
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession: 内置 HTTP 代理已启动, port=50561, address=Some("http://127.0.0.1:50561"), cost=0ms
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] sync_network_rules_to_proxy: 同步 0 条网络规则 → AccessController (default=Allow, allowed_domains=0, allowed_ips=0, denied_domains=0, denied_ips=0)
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession: Sandbox 创建成功，耗时 231.875µs, workingDir=/Users/didi/WorkBuddy/2026-09-24-21-39-57, mountPoint=None, sourceDir=Some("/Users/didi/WorkBuddy/2026-09-24-21-39-57")
+[2026/9/28 06:56:22.693][6104444928][sandbox-core][I] OpenSession 完成: 0a5479d6-a616-4baa-8ade-594ddff67fb1
+[2026/9/28 06:56:22.694][6095859712][sandbox-core][I] 处理命令: EnableModifyBackup (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-1, clientId=1, data={"enabled":false})
+[2026/9/28 06:56:22.694][6104444928][sandbox-core][I] cmd_enable_modify_backup: false -> false, file_backup_max_size_mb=None, threshold_mb=None
+[2026/9/28 06:56:22.701][6095859712][sandbox-core][I] 处理命令: SetFileRules (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-2, clientId=1, data={"rules":[{"isDirectory":true,"path":"/","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/WorkBuddy/2026-09-24-21-39-57","source":"global","type":"inherit_user"},{"path":"/dev/stdout","source":"global","type":"inherit_user"},{"path":"/dev/stderr","source":"global","type":"inherit_user"},{"path":"/dev/null","source":"global","type":"inherit_user"},{"path":"/dev/tty","source":"global","type":"inherit_user"},{"path":"/dev/dtracehelper","source":"global","type":"inherit_user"},{"path":"/dev/autofs_nowait","source":"global","type":"inherit_user"},{"path":"/tmp/codebuddy","source":"global","type":"inherit_user"},{"path":"/private/tmp/codebuddy","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.npm/_logs","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/debug","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/statsig","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plugin-marketplace-state-new","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plugins","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/skills","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/skills-marketplace","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/connectors","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/connectors-marketplace","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/binaries","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plans","source":"global","type":"inherit_user"},{"path":"/Users/didi/.codebuddy/skills","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.claude","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.codex","source":"global"...(truncated, total 10545 bytes))
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] setFileRules handler: removed=0, adding=121
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/, pattern=/, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/stdout, pattern=/dev/stdout, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/stderr, pattern=/dev/stderr, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/null, pattern=/dev/null, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/tty, pattern=/dev/tty, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/dtracehelper, pattern=/dev/dtracehelper, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/autofs_nowait, pattern=/dev/autofs_nowait, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/tmp/codebuddy, pattern=/tmp/codebuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/private/tmp/codebuddy, pattern=/private/tmp/codebuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_logs, pattern=/Users/didi/.npm/_logs, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/debug, pattern=/Users/didi/.workbuddy/debug, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/statsig, pattern=/Users/didi/.workbuddy/statsig, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plugin-marketplace-state-new, pattern=/Users/didi/.workbuddy/plugin-marketplace-state-new, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plugins, pattern=/Users/didi/.workbuddy/plugins, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/skills, pattern=/Users/didi/.workbuddy/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/skills-marketplace, pattern=/Users/didi/.workbuddy/skills-marketplace, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/connectors, pattern=/Users/didi/.workbuddy/connectors, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/connectors-marketplace, pattern=/Users/didi/.workbuddy/connectors-marketplace, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/binaries, pattern=/Users/didi/.workbuddy/binaries, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plans, pattern=/Users/didi/.workbuddy/plans, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.codebuddy/skills, pattern=/Users/didi/.codebuddy/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.claude, pattern=/Users/didi/.claude, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.codex, pattern=/Users/didi/.codex, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.openclaw, pattern=/Users/didi/.openclaw, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.hermes, pattern=/Users/didi/.hermes, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.agents/skills, pattern=/Users/didi/.agents/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/caches, pattern=/Users/didi/library/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/python, pattern=/Users/didi/library/python, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.Trash, pattern=/Users/didi/.Trash, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cache, pattern=/Users/didi/.cache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/bin, pattern=/Users/didi/.local/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/lib, pattern=/Users/didi/.local/lib, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/share/pip, pattern=/Users/didi/.local/share/pip, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_cacache, pattern=/Users/didi/.npm/_cacache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_npx, pattern=/Users/didi/.npm/_npx, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.pnpm-store, pattern=/Users/didi/.pnpm-store, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cargo/registry, pattern=/Users/didi/.cargo/registry, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cargo/bin, pattern=/Users/didi/.cargo/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.rustup, pattern=/Users/didi/.rustup, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/go/bin, pattern=/Users/didi/go/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/go/pkg/mod/cache, pattern=/Users/didi/go/pkg/mod/cache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gradle/caches, pattern=/Users/didi/.gradle/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.m2/repository, pattern=/Users/didi/.m2/repository, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.nuget/packages, pattern=/Users/didi/.nuget/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.bun, pattern=/Users/didi/.bun, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.deno, pattern=/Users/didi/.deno, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm-global, pattern=/Users/didi/.npm-global, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/temp, pattern=/Users/didi/appdata/local/temp, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/pip/cache, pattern=/Users/didi/appdata/local/pip/cache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/python, pattern=/Users/didi/appdata/roaming/python, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/pip, pattern=/Users/didi/appdata/roaming/pip, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/npm-cache, pattern=/Users/didi/appdata/roaming/npm-cache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/npm, pattern=/Users/didi/appdata/roaming/npm, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/nuget, pattern=/Users/didi/appdata/roaming/nuget, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/pnpm-store, pattern=/Users/didi/appdata/local/pnpm-store, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/nuget/packages, pattern=/Users/didi/appdata/local/nuget/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/codex, pattern=/Users/didi/appdata/local/codex, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/hermes, pattern=/Users/didi/appdata/local/hermes, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/windowsapps, pattern=/Users/didi/appdata/local/microsoft/windowsapps, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.agent-browser, pattern=/Users/didi/.agent-browser, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.browser-use, pattern=/Users/didi/.browser-use, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/browseruse, pattern=/Users/didi/.config/browseruse, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/caches/ms-playwright, pattern=/Users/didi/library/caches/ms-playwright, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/application support/google/chrome, pattern=/Users/didi/library/application support/google/chrome, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/application support/google/chrome for testing, pattern=/Users/didi/library/application support/google/chrome for testing, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/ms-playwright, pattern=/Users/didi/appdata/local/ms-playwright, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/google/chrome, pattern=/Users/didi/appdata/local/google/chrome, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/google/chrome for testing, pattern=/Users/didi/appdata/local/google/chrome for testing, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/windows/caches, pattern=/Users/didi/appdata/local/microsoft/windows/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.python_history, pattern=/Users/didi/.python_history, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.node_repl_history, pattern=/Users/didi/.node_repl_history, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.wget-hsts, pattern=/Users/didi/.wget-hsts, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/powershell, pattern=/Users/didi/appdata/local/microsoft/powershell, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/packages, pattern=/Users/didi/appdata/local/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=C:\Windows\System32\lxss, pattern=C:\Windows\System32\lxss, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=**\.git\**, pattern=**\.git\**, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=**\.githooks\**, pattern=**\.githooks\**, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy, pattern=/Users/didi/.workbuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, pattern=/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, pattern=/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.tencent-cloudq, pattern=/Users/didi/.tencent-cloudq, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.andonq, pattern=/Users/didi/.andonq, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.xiaoe-cloud, pattern=/Users/didi/.xiaoe-cloud, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/wecom/, pattern=/Users/didi/.config/wecom/, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.lark-cli, pattern=/Users/didi/.lark-cli, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.lark-channel/, pattern=/Users/didi/.lark-channel/, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.dws, pattern=/Users/didi/.dws, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/tmp/dws-cache, pattern=/tmp/dws-cache, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.tmeet, pattern=/Users/didi/.tmeet, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Application Support/tmeet, pattern=/Users/didi/Library/Application Support/tmeet, type=inherit_user, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.ssh/, pattern=/Users/didi/.ssh/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.aws/, pattern=/Users/didi/.aws/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gcp/, pattern=/Users/didi/.gcp/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gnupg/, pattern=/Users/didi/.gnupg/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gpg/, pattern=/Users/didi/.gpg/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.azure/, pattern=/Users/didi/.azure/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/gcloud/, pattern=/Users/didi/.config/gcloud/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.kube/config, pattern=/Users/didi/.kube/config, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.docker/config.json, pattern=/Users/didi/.docker/config.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.docker/daemon.json, pattern=/Users/didi/.docker/daemon.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.netrc, pattern=/Users/didi/.netrc, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npmrc, pattern=/Users/didi/.npmrc, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.pypirc, pattern=/Users/didi/.pypirc, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gem/credentials, pattern=/Users/didi/.gem/credentials, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/gh/hosts.yml, pattern=/Users/didi/.config/gh/hosts.yml, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.git-credentials, pattern=/Users/didi/.git-credentials, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.terraform.d/credentials.tfrc.json, pattern=/Users/didi/.terraform.d/credentials.tfrc.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Keychains/, pattern=/Users/didi/Library/Keychains/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.json, pattern=/Users/didi/.workbuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.local.json, pattern=/Users/didi/.workbuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.json, pattern=/Users/didi/.workbuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.local.json, pattern=/Users/didi/.workbuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=.codebuddy/settings.json, pattern=.codebuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=.codebuddy/settings.local.json, pattern=.codebuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:22.701][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/logs, pattern=/Users/didi/.workbuddy/logs, type=read_only, source=Global
+[2026/9/28 06:56:22.702][6095859712][sandbox-core][I] 处理命令: SetNetworkRules (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-3, clientId=1, data={"rules":[]})
+[2026/9/28 06:56:22.702][6104444928][sandbox-core][I] setNetworkRules handler: removed=0, adding=0
+[2026/9/28 06:56:22.702][6104444928][sandbox-core][I] sync_network_rules_to_proxy: 同步 0 条网络规则 → AccessController (default=Allow, allowed_domains=0, allowed_ips=0, denied_domains=0, denied_ips=0)
+[2026/9/28 06:56:45.191][6095859712][sandbox-core][I] 处理命令: EnableModifyBackup (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-4, clientId=1, data={"enabled":false})
+[2026/9/28 06:56:45.191][6104444928][sandbox-core][I] cmd_enable_modify_backup: false -> false, file_backup_max_size_mb=None, threshold_mb=None
+[2026/9/28 06:56:45.196][6095859712][sandbox-core][I] 处理命令: SetFileRules (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-5, clientId=1, data={"rules":[{"isDirectory":true,"path":"/","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/WorkBuddy/2026-09-24-21-39-57","source":"global","type":"inherit_user"},{"path":"/dev/stdout","source":"global","type":"inherit_user"},{"path":"/dev/stderr","source":"global","type":"inherit_user"},{"path":"/dev/null","source":"global","type":"inherit_user"},{"path":"/dev/tty","source":"global","type":"inherit_user"},{"path":"/dev/dtracehelper","source":"global","type":"inherit_user"},{"path":"/dev/autofs_nowait","source":"global","type":"inherit_user"},{"path":"/tmp/codebuddy","source":"global","type":"inherit_user"},{"path":"/private/tmp/codebuddy","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.npm/_logs","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/debug","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/statsig","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plugin-marketplace-state-new","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plugins","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/skills","source":"global","type":"inherit_user"},{"path":"/Users/didi/.workbuddy/skills-marketplace","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/connectors","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/connectors-marketplace","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/binaries","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.workbuddy/plans","source":"global","type":"inherit_user"},{"path":"/Users/didi/.codebuddy/skills","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.claude","source":"global","type":"inherit_user"},{"isDirectory":true,"path":"/Users/didi/.codex","source":"global"...(truncated, total 10545 bytes))
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] clear_file_rules: 清空 119 条文件规则
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] setFileRules handler: removed=119, adding=121
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/, pattern=/, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/stdout, pattern=/dev/stdout, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/stderr, pattern=/dev/stderr, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/null, pattern=/dev/null, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/tty, pattern=/dev/tty, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/dtracehelper, pattern=/dev/dtracehelper, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/dev/autofs_nowait, pattern=/dev/autofs_nowait, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/tmp/codebuddy, pattern=/tmp/codebuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/private/tmp/codebuddy, pattern=/private/tmp/codebuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_logs, pattern=/Users/didi/.npm/_logs, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/debug, pattern=/Users/didi/.workbuddy/debug, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/statsig, pattern=/Users/didi/.workbuddy/statsig, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plugin-marketplace-state-new, pattern=/Users/didi/.workbuddy/plugin-marketplace-state-new, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plugins, pattern=/Users/didi/.workbuddy/plugins, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/skills, pattern=/Users/didi/.workbuddy/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/skills-marketplace, pattern=/Users/didi/.workbuddy/skills-marketplace, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/connectors, pattern=/Users/didi/.workbuddy/connectors, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/connectors-marketplace, pattern=/Users/didi/.workbuddy/connectors-marketplace, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/binaries, pattern=/Users/didi/.workbuddy/binaries, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/plans, pattern=/Users/didi/.workbuddy/plans, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.codebuddy/skills, pattern=/Users/didi/.codebuddy/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.claude, pattern=/Users/didi/.claude, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.codex, pattern=/Users/didi/.codex, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.openclaw, pattern=/Users/didi/.openclaw, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.hermes, pattern=/Users/didi/.hermes, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.agents/skills, pattern=/Users/didi/.agents/skills, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/caches, pattern=/Users/didi/library/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/python, pattern=/Users/didi/library/python, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.Trash, pattern=/Users/didi/.Trash, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cache, pattern=/Users/didi/.cache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/bin, pattern=/Users/didi/.local/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/lib, pattern=/Users/didi/.local/lib, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/share/pip, pattern=/Users/didi/.local/share/pip, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_cacache, pattern=/Users/didi/.npm/_cacache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm/_npx, pattern=/Users/didi/.npm/_npx, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.pnpm-store, pattern=/Users/didi/.pnpm-store, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cargo/registry, pattern=/Users/didi/.cargo/registry, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.cargo/bin, pattern=/Users/didi/.cargo/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.rustup, pattern=/Users/didi/.rustup, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/go/bin, pattern=/Users/didi/go/bin, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/go/pkg/mod/cache, pattern=/Users/didi/go/pkg/mod/cache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gradle/caches, pattern=/Users/didi/.gradle/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.m2/repository, pattern=/Users/didi/.m2/repository, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.nuget/packages, pattern=/Users/didi/.nuget/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.bun, pattern=/Users/didi/.bun, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.deno, pattern=/Users/didi/.deno, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npm-global, pattern=/Users/didi/.npm-global, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/temp, pattern=/Users/didi/appdata/local/temp, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/pip/cache, pattern=/Users/didi/appdata/local/pip/cache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/python, pattern=/Users/didi/appdata/roaming/python, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/pip, pattern=/Users/didi/appdata/roaming/pip, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/npm-cache, pattern=/Users/didi/appdata/roaming/npm-cache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/npm, pattern=/Users/didi/appdata/roaming/npm, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/roaming/nuget, pattern=/Users/didi/appdata/roaming/nuget, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/pnpm-store, pattern=/Users/didi/appdata/local/pnpm-store, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/nuget/packages, pattern=/Users/didi/appdata/local/nuget/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/codex, pattern=/Users/didi/appdata/local/codex, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/hermes, pattern=/Users/didi/appdata/local/hermes, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/windowsapps, pattern=/Users/didi/appdata/local/microsoft/windowsapps, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.agent-browser, pattern=/Users/didi/.agent-browser, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.browser-use, pattern=/Users/didi/.browser-use, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/browseruse, pattern=/Users/didi/.config/browseruse, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/caches/ms-playwright, pattern=/Users/didi/library/caches/ms-playwright, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/application support/google/chrome, pattern=/Users/didi/library/application support/google/chrome, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/library/application support/google/chrome for testing, pattern=/Users/didi/library/application support/google/chrome for testing, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/ms-playwright, pattern=/Users/didi/appdata/local/ms-playwright, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/google/chrome, pattern=/Users/didi/appdata/local/google/chrome, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/google/chrome for testing, pattern=/Users/didi/appdata/local/google/chrome for testing, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/windows/caches, pattern=/Users/didi/appdata/local/microsoft/windows/caches, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.python_history, pattern=/Users/didi/.python_history, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.node_repl_history, pattern=/Users/didi/.node_repl_history, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.wget-hsts, pattern=/Users/didi/.wget-hsts, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/microsoft/powershell, pattern=/Users/didi/appdata/local/microsoft/powershell, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/appdata/local/packages, pattern=/Users/didi/appdata/local/packages, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=C:\Windows\System32\lxss, pattern=C:\Windows\System32\lxss, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=**\.git\**, pattern=**\.git\**, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=**\.githooks\**, pattern=**\.githooks\**, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy, pattern=/Users/didi/.workbuddy, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, pattern=/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, pattern=/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.tencent-cloudq, pattern=/Users/didi/.tencent-cloudq, type=inherit_user, source=Global
+[2026/9/28 06:56:45.196][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.andonq, pattern=/Users/didi/.andonq, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.xiaoe-cloud, pattern=/Users/didi/.xiaoe-cloud, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/wecom/, pattern=/Users/didi/.config/wecom/, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.lark-cli, pattern=/Users/didi/.lark-cli, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.lark-channel/, pattern=/Users/didi/.lark-channel/, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.dws, pattern=/Users/didi/.dws, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/tmp/dws-cache, pattern=/tmp/dws-cache, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.tmeet, pattern=/Users/didi/.tmeet, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Application Support/tmeet, pattern=/Users/didi/Library/Application Support/tmeet, type=inherit_user, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.ssh/, pattern=/Users/didi/.ssh/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.aws/, pattern=/Users/didi/.aws/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gcp/, pattern=/Users/didi/.gcp/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gnupg/, pattern=/Users/didi/.gnupg/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gpg/, pattern=/Users/didi/.gpg/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.azure/, pattern=/Users/didi/.azure/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/gcloud/, pattern=/Users/didi/.config/gcloud/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.kube/config, pattern=/Users/didi/.kube/config, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.docker/config.json, pattern=/Users/didi/.docker/config.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.docker/daemon.json, pattern=/Users/didi/.docker/daemon.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.netrc, pattern=/Users/didi/.netrc, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.npmrc, pattern=/Users/didi/.npmrc, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.pypirc, pattern=/Users/didi/.pypirc, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.gem/credentials, pattern=/Users/didi/.gem/credentials, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.config/gh/hosts.yml, pattern=/Users/didi/.config/gh/hosts.yml, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.git-credentials, pattern=/Users/didi/.git-credentials, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.terraform.d/credentials.tfrc.json, pattern=/Users/didi/.terraform.d/credentials.tfrc.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Keychains/, pattern=/Users/didi/Library/Keychains/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/, pattern=/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.json, pattern=/Users/didi/.workbuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.local.json, pattern=/Users/didi/.workbuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.json, pattern=/Users/didi/.workbuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/settings.local.json, pattern=/Users/didi/.workbuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=.codebuddy/settings.json, pattern=.codebuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=.codebuddy/settings.local.json, pattern=.codebuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json, pattern=/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] add_file_rule: original_path=/Users/didi/.workbuddy/logs, pattern=/Users/didi/.workbuddy/logs, type=read_only, source=Global
+[2026/9/28 06:56:45.197][6095859712][sandbox-core][I] 处理命令: SetNetworkRules (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-6, clientId=1, data={"rules":[]})
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] setNetworkRules handler: removed=0, adding=0
+[2026/9/28 06:56:45.197][6104444928][sandbox-core][I] sync_network_rules_to_proxy: 同步 0 条网络规则 → AccessController (default=Allow, allowed_domains=0, allowed_ips=0, denied_domains=0, denied_ips=0)
+[2026/9/28 06:56:59.930][6095859712][sandbox-core][I] 处理命令: Ping (sessionId=, messageId=ts-msg-7, clientId=1, data=null)
+[2026/9/28 06:56:59.932][6095859712][sandbox-core][I] 处理命令: RunExecutable (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-8, clientId=1, data={"args":["-c","shopt -u promptvars nullglob extglob nocaseglob dotglob; export NODE_OPTIONS='--require=\"/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim/genie-safe-delete.cjs\"' && export PYTHONPATH='/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/cli/vendor/shim' && export PYTHONDONTWRITEBYTECODE='1' && export PYTHONIOENCODING='utf-8' && export PYTHONUTF8='1' && export GENIE_TRASH_DIR='/Applications/WorkBuddy.app/Contents/Resources/vendor/genie-trash' && export CODEBUDDY_SESSION_ID='0a5479d6-a616-4baa-8ade-594ddff67fb1' && export CODEBUDDY_TOOL_CALL_ID='Bash_4_537dde23' && export CODEBUDDY_CONVERSATION_REQUEST_ID='f695f97074124cfaabe773e80295ba9b' && export CODEBUDDY_MCP_CONFIG='{\"mcpServers\":{\"connector-proxy\":{\"type\":\"http\",\"url\":\"http://127.0.0.1:50052/mcp\",\"headers\":{\"Authorization\":\"Bearer cOfL-tskOzH0GIoU-_2Ciwsc0rZlFnTW6fsU7kmm21Q\",\"X-WorkBuddy-Session-Id\":\"0a5479d6-a616-4baa-8ade-594ddff67fb1\",\"X-WorkBuddy-Welcome-Mode\":\"work\"},\"defer_loading\":true,\"tools\":{\"present_files\":{\"defer_loading\":false},\"connect_cloud_service\":{\"defer_loading\":true,\"bare_name\":true},\"connect_open_platform\":{\"defer_loading\":true,\"bare_name\":true},\"automation_update\":{\"defer_loading\":false},\"read_me\":{\"defer_loading\":false},\"show_widget\":{\"defer_loading\":false},\"conversation_search\":{\"defer_loading\":true,\"bare_name\":true},\"workbuddy_cloudstudio_deploy\":{\"defer_loading\":true,\"bare_name\":true},\"agentic_search\":{\"defer_loading\":true,\"bare_name\":true},\"workbuddy_marketplace_skill\":{\"defer_loading\":true,\"bare_name\":true},\"mcp__agent-mail__upload_attachment\":{\"defer_loading\":true,\"bare_name\":true},\"mcp__agent-mail__download_attachment\":{\"defer_loading\":true,\"bare_name\":true},\"agent-mail_GetMe\":{\"server_name\":\"agent-mail\"},\"agent-mail_ListMessages\":{\"server_name\":\"agent-mail\"},\"agent-mail_GetMessage\":{\"server_name\":\"agent-mail\"},\"agent-mail_SendMessage\":{\"server_name\":\"age...(truncated, total 10170 bytes))
+[2026/9/28 06:56:59.932][6104444928][sandbox-core][I] [msg=ts-msg-8] handle_run_executable: executable=/bin/bash, argc=2, displayCommand=ls -la /Users/didi/WorkBuddy/2026-09-24-21-39-57/ /Users/didi/WorkBuddy/2026-09-24-21-39-57/.workbuddy/memory/ 2>/dev/null, cwd=/Users/didi/WorkBuddy/2026-09-24-21-39-57, timeoutMs=120000, executionMode=Sandbox, stdoutMode=Some("pty"), cols=Some(80), rows=Some(30), pathOverride=None, stdinMode=Some("pipe"), envKeys=27
+[2026/9/28 06:56:59.932][6104444928][sandbox-core][W] symlink 越界: 原始路径 /dev/stdout 解析为 /dev/fd/1，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.933][6104444928][sandbox-core][W] symlink 越界: 原始路径 /dev/stderr 解析为 /dev/fd/2，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/python 解析为 /Users/didi/Library/Python，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/caches 解析为 /Users/didi/Library/Caches，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/application support/google/chrome 解析为 /Users/didi/Library/Application Support/Google/Chrome，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][I] build_platform_rules: 规则已重建, file_rules=119, network_rules=0, size=27219
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][I] prepare_execute: proxy_server=true, proxy_address=Some("http://127.0.0.1:50561")
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][I] prepare_execute: session_id=0a5479d6-a616-4baa-8ade-594ddff67fb1, rules_json_len=27219, shmem=<none, fallback to rules_json>
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][I] [msg=ts-msg-8] run_executable_pty: executable=/bin/bash, argc=2, cwd=/Users/didi/WorkBuddy/2026-09-24-21-39-57
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][W] symlink 越界: 原始路径 /dev/stdout 解析为 /dev/fd/1，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.934][6104444928][sandbox-core][W] symlink 越界: 原始路径 /dev/stderr 解析为 /dev/fd/2，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.935][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/caches 解析为 /Users/didi/Library/Caches，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.935][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/python 解析为 /Users/didi/Library/Python，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.935][6104444928][sandbox-core][W] symlink 越界: 原始路径 /Users/didi/library/application support/google/chrome 解析为 /Users/didi/Library/Application Support/Google/Chrome，真实路径不在原始路径范围内，可能扩大沙盒授权范围
+[2026/9/28 06:56:59.936][6104444928][sandbox-core][I] [msg=ts-msg-8] run_executable_pty_macos: sandbox profile:
+(version 1)
+(debug deny)
+(deny default (with message "WB_SBX_b22786e5"))
+(allow default)
+(allow file-read*)
+(allow file-write-create file-write-data file-write-mode file-write-owner file-write-xattr (subpath "/"))
+(deny file-write-unlink (subpath "/") (with message "WB_SBX_b22786e5"))
+(allow file-write-unlink (subpath "/tmp"))
+(allow file-write-unlink (subpath "/private/tmp"))
+(allow file-write-unlink (subpath "/dev"))
+(allow file-write-unlink (subpath "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write-unlink (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write-unlink (subpath "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/C"))
+(allow file-write-unlink (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/C"))
+(allow file-read* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-write* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-write-unlink (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-read* (subpath "/"))
+(allow file-write* (subpath "/"))
+(allow file-write-unlink (subpath "/"))
+(allow file-read* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-write* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-write-unlink (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57"))
+(allow file-read* (subpath "/dev/stdout"))
+(allow file-write* (subpath "/dev/stdout"))
+(allow file-write-unlink (subpath "/dev/stdout"))
+(allow file-read* (subpath "/dev/fd/1"))
+(allow file-write* (subpath "/dev/fd/1"))
+(allow file-write-unlink (subpath "/dev/fd/1"))
+(allow file-read* (subpath "/dev/stderr"))
+(allow file-write* (subpath "/dev/stderr"))
+(allow file-write-unlink (subpath "/dev/stderr"))
+(allow file-read* (subpath "/dev/fd/2"))
+(allow file-write* (subpath "/dev/fd/2"))
+(allow file-write-unlink (subpath "/dev/fd/2"))
+(allow file-read* (subpath "/dev/null"))
+(allow file-write* (subpath "/dev/null"))
+(allow file-write-unlink (subpath "/dev/null"))
+(allow file-read* (subpath "/dev/tty"))
+(allow file-write* (subpath "/dev/tty"))
+(allow file-write-unlink (subpath "/dev/tty"))
+(allow file-read* (subpath "/dev/dtracehelper"))
+(allow file-write* (subpath "/dev/dtracehelper"))
+(allow file-write-unlink (subpath "/dev/dtracehelper"))
+(allow file-read* (subpath "/dev/autofs_nowait"))
+(allow file-write* (subpath "/dev/autofs_nowait"))
+(allow file-write-unlink (subpath "/dev/autofs_nowait"))
+(allow file-read* (subpath "/tmp/codebuddy"))
+(allow file-write* (subpath "/tmp/codebuddy"))
+(allow file-write-unlink (subpath "/tmp/codebuddy"))
+(allow file-read* (subpath "/private/tmp/codebuddy"))
+(allow file-write* (subpath "/private/tmp/codebuddy"))
+(allow file-write-unlink (subpath "/private/tmp/codebuddy"))
+(allow file-read* (subpath "/Users/didi/.npm/_logs"))
+(allow file-write* (subpath "/Users/didi/.npm/_logs"))
+(allow file-write-unlink (subpath "/Users/didi/.npm/_logs"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/debug"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/debug"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/debug"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/statsig"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/statsig"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/statsig"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/plugin-marketplace-state-new"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/plugin-marketplace-state-new"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/plugin-marketplace-state-new"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/plugins"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/plugins"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/plugins"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/skills"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/skills"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/skills"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/skills-marketplace"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/skills-marketplace"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/skills-marketplace"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/connectors"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/connectors"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/connectors"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/connectors-marketplace"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/connectors-marketplace"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/connectors-marketplace"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/binaries"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/binaries"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/binaries"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/plans"))
+(allow file-write* (subpath "/Users/didi/.workbuddy/plans"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy/plans"))
+(allow file-read* (subpath "/Users/didi/.codebuddy/skills"))
+(allow file-write* (subpath "/Users/didi/.codebuddy/skills"))
+(allow file-write-unlink (subpath "/Users/didi/.codebuddy/skills"))
+(allow file-read* (subpath "/Users/didi/.claude"))
+(allow file-write* (subpath "/Users/didi/.claude"))
+(allow file-write-unlink (subpath "/Users/didi/.claude"))
+(allow file-read* (subpath "/Users/didi/.codex"))
+(allow file-write* (subpath "/Users/didi/.codex"))
+(allow file-write-unlink (subpath "/Users/didi/.codex"))
+(allow file-read* (subpath "/Users/didi/.openclaw"))
+(allow file-write* (subpath "/Users/didi/.openclaw"))
+(allow file-write-unlink (subpath "/Users/didi/.openclaw"))
+(allow file-read* (subpath "/Users/didi/.hermes"))
+(allow file-write* (subpath "/Users/didi/.hermes"))
+(allow file-write-unlink (subpath "/Users/didi/.hermes"))
+(allow file-read* (subpath "/Users/didi/.agents/skills"))
+(allow file-write* (subpath "/Users/didi/.agents/skills"))
+(allow file-write-unlink (subpath "/Users/didi/.agents/skills"))
+(allow file-read* (subpath "/Users/didi/library/caches"))
+(allow file-write* (subpath "/Users/didi/library/caches"))
+(allow file-write-unlink (subpath "/Users/didi/library/caches"))
+(allow file-read* (subpath "/Users/didi/Library/Caches"))
+(allow file-write* (subpath "/Users/didi/Library/Caches"))
+(allow file-write-unlink (subpath "/Users/didi/Library/Caches"))
+(allow file-read* (subpath "/Users/didi/library/python"))
+(allow file-write* (subpath "/Users/didi/library/python"))
+(allow file-write-unlink (subpath "/Users/didi/library/python"))
+(allow file-read* (subpath "/Users/didi/Library/Python"))
+(allow file-write* (subpath "/Users/didi/Library/Python"))
+(allow file-write-unlink (subpath "/Users/didi/Library/Python"))
+(allow file-read* (subpath "/Users/didi/.Trash"))
+(allow file-write* (subpath "/Users/didi/.Trash"))
+(allow file-write-unlink (subpath "/Users/didi/.Trash"))
+(allow file-read* (subpath "/Users/didi/.cache"))
+(allow file-write* (subpath "/Users/didi/.cache"))
+(allow file-write-unlink (subpath "/Users/didi/.cache"))
+(allow file-read* (subpath "/Users/didi/.local/bin"))
+(allow file-write* (subpath "/Users/didi/.local/bin"))
+(allow file-write-unlink (subpath "/Users/didi/.local/bin"))
+(allow file-read* (subpath "/Users/didi/.local/lib"))
+(allow file-write* (subpath "/Users/didi/.local/lib"))
+(allow file-write-unlink (subpath "/Users/didi/.local/lib"))
+(allow file-read* (subpath "/Users/didi/.local/share/pip"))
+(allow file-write* (subpath "/Users/didi/.local/share/pip"))
+(allow file-write-unlink (subpath "/Users/didi/.local/share/pip"))
+(allow file-read* (subpath "/Users/didi/.npm/_cacache"))
+(allow file-write* (subpath "/Users/didi/.npm/_cacache"))
+(allow file-write-unlink (subpath "/Users/didi/.npm/_cacache"))
+(allow file-read* (subpath "/Users/didi/.npm/_npx"))
+(allow file-write* (subpath "/Users/didi/.npm/_npx"))
+(allow file-write-unlink (subpath "/Users/didi/.npm/_npx"))
+(allow file-read* (subpath "/Users/didi/.pnpm-store"))
+(allow file-write* (subpath "/Users/didi/.pnpm-store"))
+(allow file-write-unlink (subpath "/Users/didi/.pnpm-store"))
+(allow file-read* (subpath "/Users/didi/.cargo/registry"))
+(allow file-write* (subpath "/Users/didi/.cargo/registry"))
+(allow file-write-unlink (subpath "/Users/didi/.cargo/registry"))
+(allow file-read* (subpath "/Users/didi/.cargo/bin"))
+(allow file-write* (subpath "/Users/didi/.cargo/bin"))
+(allow file-write-unlink (subpath "/Users/didi/.cargo/bin"))
+(allow file-read* (subpath "/Users/didi/.rustup"))
+(allow file-write* (subpath "/Users/didi/.rustup"))
+(allow file-write-unlink (subpath "/Users/didi/.rustup"))
+(allow file-read* (subpath "/Users/didi/go/bin"))
+(allow file-write* (subpath "/Users/didi/go/bin"))
+(allow file-write-unlink (subpath "/Users/didi/go/bin"))
+(allow file-read* (subpath "/Users/didi/go/pkg/mod/cache"))
+(allow file-write* (subpath "/Users/didi/go/pkg/mod/cache"))
+(allow file-write-unlink (subpath "/Users/didi/go/pkg/mod/cache"))
+(allow file-read* (subpath "/Users/didi/.gradle/caches"))
+(allow file-write* (subpath "/Users/didi/.gradle/caches"))
+(allow file-write-unlink (subpath "/Users/didi/.gradle/caches"))
+(allow file-read* (subpath "/Users/didi/.m2/repository"))
+(allow file-write* (subpath "/Users/didi/.m2/repository"))
+(allow file-write-unlink (subpath "/Users/didi/.m2/repository"))
+(allow file-read* (subpath "/Users/didi/.nuget/packages"))
+(allow file-write* (subpath "/Users/didi/.nuget/packages"))
+(allow file-write-unlink (subpath "/Users/didi/.nuget/packages"))
+(allow file-read* (subpath "/Users/didi/.bun"))
+(allow file-write* (subpath "/Users/didi/.bun"))
+(allow file-write-unlink (subpath "/Users/didi/.bun"))
+(allow file-read* (subpath "/Users/didi/.deno"))
+(allow file-write* (subpath "/Users/didi/.deno"))
+(allow file-write-unlink (subpath "/Users/didi/.deno"))
+(allow file-read* (subpath "/Users/didi/.npm-global"))
+(allow file-write* (subpath "/Users/didi/.npm-global"))
+(allow file-write-unlink (subpath "/Users/didi/.npm-global"))
+(allow file-read* (subpath "/Users/didi/appdata/local/temp"))
+(allow file-write* (subpath "/Users/didi/appdata/local/temp"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/temp"))
+(allow file-read* (subpath "/Users/didi/appdata/local/pip/cache"))
+(allow file-write* (subpath "/Users/didi/appdata/local/pip/cache"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/pip/cache"))
+(allow file-read* (subpath "/Users/didi/appdata/roaming/python"))
+(allow file-write* (subpath "/Users/didi/appdata/roaming/python"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/roaming/python"))
+(allow file-read* (subpath "/Users/didi/appdata/roaming/pip"))
+(allow file-write* (subpath "/Users/didi/appdata/roaming/pip"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/roaming/pip"))
+(allow file-read* (subpath "/Users/didi/appdata/roaming/npm-cache"))
+(allow file-write* (subpath "/Users/didi/appdata/roaming/npm-cache"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/roaming/npm-cache"))
+(allow file-read* (subpath "/Users/didi/appdata/roaming/npm"))
+(allow file-write* (subpath "/Users/didi/appdata/roaming/npm"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/roaming/npm"))
+(allow file-read* (subpath "/Users/didi/appdata/roaming/nuget"))
+(allow file-write* (subpath "/Users/didi/appdata/roaming/nuget"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/roaming/nuget"))
+(allow file-read* (subpath "/Users/didi/appdata/local/pnpm-store"))
+(allow file-write* (subpath "/Users/didi/appdata/local/pnpm-store"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/pnpm-store"))
+(allow file-read* (subpath "/Users/didi/appdata/local/nuget/packages"))
+(allow file-write* (subpath "/Users/didi/appdata/local/nuget/packages"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/nuget/packages"))
+(allow file-read* (subpath "/Users/didi/appdata/local/codex"))
+(allow file-write* (subpath "/Users/didi/appdata/local/codex"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/codex"))
+(allow file-read* (subpath "/Users/didi/appdata/local/hermes"))
+(allow file-write* (subpath "/Users/didi/appdata/local/hermes"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/hermes"))
+(allow file-read* (subpath "/Users/didi/appdata/local/microsoft/windowsapps"))
+(allow file-write* (subpath "/Users/didi/appdata/local/microsoft/windowsapps"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/microsoft/windowsapps"))
+(allow file-read* (subpath "/Users/didi/.agent-browser"))
+(allow file-write* (subpath "/Users/didi/.agent-browser"))
+(allow file-write-unlink (subpath "/Users/didi/.agent-browser"))
+(allow file-read* (subpath "/Users/didi/.browser-use"))
+(allow file-write* (subpath "/Users/didi/.browser-use"))
+(allow file-write-unlink (subpath "/Users/didi/.browser-use"))
+(allow file-read* (subpath "/Users/didi/.config/browseruse"))
+(allow file-write* (subpath "/Users/didi/.config/browseruse"))
+(allow file-write-unlink (subpath "/Users/didi/.config/browseruse"))
+(allow file-read* (subpath "/Users/didi/library/caches/ms-playwright"))
+(allow file-write* (subpath "/Users/didi/library/caches/ms-playwright"))
+(allow file-write-unlink (subpath "/Users/didi/library/caches/ms-playwright"))
+(allow file-read* (subpath "/Users/didi/library/application support/google/chrome"))
+(allow file-write* (subpath "/Users/didi/library/application support/google/chrome"))
+(allow file-write-unlink (subpath "/Users/didi/library/application support/google/chrome"))
+(allow file-read* (subpath "/Users/didi/Library/Application Support/Google/Chrome"))
+(allow file-write* (subpath "/Users/didi/Library/Application Support/Google/Chrome"))
+(allow file-write-unlink (subpath "/Users/didi/Library/Application Support/Google/Chrome"))
+(allow file-read* (subpath "/Users/didi/library/application support/google/chrome for testing"))
+(allow file-write* (subpath "/Users/didi/library/application support/google/chrome for testing"))
+(allow file-write-unlink (subpath "/Users/didi/library/application support/google/chrome for testing"))
+(allow file-read* (subpath "/Users/didi/appdata/local/ms-playwright"))
+(allow file-write* (subpath "/Users/didi/appdata/local/ms-playwright"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/ms-playwright"))
+(allow file-read* (subpath "/Users/didi/appdata/local/google/chrome"))
+(allow file-write* (subpath "/Users/didi/appdata/local/google/chrome"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/google/chrome"))
+(allow file-read* (subpath "/Users/didi/appdata/local/google/chrome for testing"))
+(allow file-write* (subpath "/Users/didi/appdata/local/google/chrome for testing"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/google/chrome for testing"))
+(allow file-read* (subpath "/Users/didi/appdata/local/microsoft/windows/caches"))
+(allow file-write* (subpath "/Users/didi/appdata/local/microsoft/windows/caches"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/microsoft/windows/caches"))
+(allow file-read* (subpath "/Users/didi/.python_history"))
+(allow file-write* (subpath "/Users/didi/.python_history"))
+(allow file-write-unlink (subpath "/Users/didi/.python_history"))
+(allow file-read* (subpath "/Users/didi/.node_repl_history"))
+(allow file-write* (subpath "/Users/didi/.node_repl_history"))
+(allow file-write-unlink (subpath "/Users/didi/.node_repl_history"))
+(allow file-read* (subpath "/Users/didi/.wget-hsts"))
+(allow file-write* (subpath "/Users/didi/.wget-hsts"))
+(allow file-write-unlink (subpath "/Users/didi/.wget-hsts"))
+(allow file-read* (subpath "/Users/didi/appdata/local/microsoft/powershell"))
+(allow file-write* (subpath "/Users/didi/appdata/local/microsoft/powershell"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/microsoft/powershell"))
+(allow file-read* (subpath "/Users/didi/appdata/local/packages"))
+(allow file-write* (subpath "/Users/didi/appdata/local/packages"))
+(allow file-write-unlink (subpath "/Users/didi/appdata/local/packages"))
+(allow file-read* (subpath "C:\\Windows\\System32\\lxss"))
+(allow file-write* (subpath "C:\\Windows\\System32\\lxss"))
+(allow file-write-unlink (subpath "C:\\Windows\\System32\\lxss"))
+(allow file-read* (subpath "**\\.git\\**"))
+(allow file-write* (subpath "**\\.git\\**"))
+(allow file-write-unlink (subpath "**\\.git\\**"))
+(allow file-read* (subpath "**\\.githooks\\**"))
+(allow file-write* (subpath "**\\.githooks\\**"))
+(allow file-write-unlink (subpath "**\\.githooks\\**"))
+(allow file-read* (subpath "/Users/didi/.workbuddy"))
+(allow file-write* (subpath "/Users/didi/.workbuddy"))
+(allow file-write-unlink (subpath "/Users/didi/.workbuddy"))
+(allow file-read* (subpath "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write* (subpath "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write-unlink (subpath "/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-read* (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write* (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write-unlink (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-read* (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write* (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-write-unlink (subpath "/private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T"))
+(allow file-read* (subpath "/Users/didi/.tencent-cloudq"))
+(allow file-write* (subpath "/Users/didi/.tencent-cloudq"))
+(allow file-write-unlink (subpath "/Users/didi/.tencent-cloudq"))
+(allow file-read* (subpath "/Users/didi/.andonq"))
+(allow file-write* (subpath "/Users/didi/.andonq"))
+(allow file-write-unlink (subpath "/Users/didi/.andonq"))
+(allow file-read* (subpath "/Users/didi/.xiaoe-cloud"))
+(allow file-write* (subpath "/Users/didi/.xiaoe-cloud"))
+(allow file-write-unlink (subpath "/Users/didi/.xiaoe-cloud"))
+(allow file-read* (subpath "/Users/didi/.config/wecom/"))
+(allow file-write* (subpath "/Users/didi/.config/wecom/"))
+(allow file-write-unlink (subpath "/Users/didi/.config/wecom/"))
+(allow file-read* (subpath "/Users/didi/.lark-cli"))
+(allow file-write* (subpath "/Users/didi/.lark-cli"))
+(allow file-write-unlink (subpath "/Users/didi/.lark-cli"))
+(allow file-read* (subpath "/Users/didi/.lark-channel/"))
+(allow file-write* (subpath "/Users/didi/.lark-channel/"))
+(allow file-write-unlink (subpath "/Users/didi/.lark-channel/"))
+(allow file-read* (subpath "/Users/didi/.dws"))
+(allow file-write* (subpath "/Users/didi/.dws"))
+(allow file-write-unlink (subpath "/Users/didi/.dws"))
+(allow file-read* (subpath "/tmp/dws-cache"))
+(allow file-write* (subpath "/tmp/dws-cache"))
+(allow file-write-unlink (subpath "/tmp/dws-cache"))
+(allow file-read* (subpath "/Users/didi/.tmeet"))
+(allow file-write* (subpath "/Users/didi/.tmeet"))
+(allow file-write-unlink (subpath "/Users/didi/.tmeet"))
+(allow file-read* (subpath "/Users/didi/Library/Application Support/tmeet"))
+(allow file-write* (subpath "/Users/didi/Library/Application Support/tmeet"))
+(allow file-write-unlink (subpath "/Users/didi/Library/Application Support/tmeet"))
+(allow file-read* (subpath "/Users/didi/.ssh/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.ssh/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.ssh/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.ssh"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.ssh") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.ssh") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.aws/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.aws/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.aws/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.gcp/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.gcp/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.gcp/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.gnupg/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.gnupg/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.gnupg/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.gpg/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.gpg/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.gpg/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.azure/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.azure/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.azure/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.config/gcloud/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.config/gcloud/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.config/gcloud/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.kube/config"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.kube/config") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.kube/config") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.docker/config.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.docker/config.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.docker/config.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.docker/daemon.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.docker/daemon.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.docker/daemon.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.netrc"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.netrc") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.netrc") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.npmrc"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.npmrc") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.npmrc") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.pypirc"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.pypirc") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.pypirc") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.gem/credentials"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.gem/credentials") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.gem/credentials") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.config/gh/hosts.yml"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.config/gh/hosts.yml") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.config/gh/hosts.yml") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.git-credentials"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.git-credentials") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.git-credentials") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.terraform.d/credentials.tfrc.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.terraform.d/credentials.tfrc.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.terraform.d/credentials.tfrc.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/Library/Keychains/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/Library/Keychains/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/Library/Keychains/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/Library/Keychains"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/Library/Keychains") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/Library/Keychains") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/Library/Application Support/CodeBuddyExtension/Data/Public/auth") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/AppData/Local/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.local/share/CodeBuddyExtension/Data/Public/auth/") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/settings.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.workbuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.workbuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/settings.local.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.workbuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.workbuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath ".codebuddy/settings.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath ".codebuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath ".codebuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath ".codebuddy/settings.local.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath ".codebuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath ".codebuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/WorkBuddy/2026-09-24-21-39-57/.codebuddy/settings.local.json") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.workbuddy/logs"))
+(deny file-write-create file-write-data file-write-mode file-write-owner file-write-xattr file-write-unlink (subpath "/Users/didi/.workbuddy/logs") (with message "WB_SBX_b22786e5"))
+(deny file-write* (subpath "/Users/didi/.workbuddy/logs") (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Applications/WorkBuddy.app") (with report) (with message "WB_SBX_b22786e5"))
+(allow file-read* (subpath "/Users/didi/.workbuddy") (with report) (with message "WB_SBX_b22786e5"))
+
+[2026/9/28 06:56:59.958][6104444928][sandbox-core][I] log stream 就绪，session tag: WB_SBX_b22786e5, predicate: ((processID == 0) AND (senderImagePath CONTAINS "/Sandbox"))
+[2026/9/28 06:56:59.958][6104444928][sandbox-core][I] spawn_sandboxed_inner: proxy_address=Some("http://127.0.0.1:50561"), proxy_kvs_generated=true, extra_env_has_proxy=false, extra_env_proxy=[], extra_env_keys=27
+[2026/9/28 06:56:59.959][6104444928][sandbox-core][I] spawn_sandboxed: openpty 成功: master_fd=14, slave_fd=16
+[2026/9/28 06:56:59.959][6104444928][sandbox-core][I] MacPtyProcess::spawn_sandboxed 已创建: pid=93200, master_fd=14
+[2026/9/28 06:56:59.959][6104444928][sandbox-core][I] [msg=ts-msg-8] [proc=proc-1] run_executable_pty_macos: 沙盒 PTY 进程已创建, pid=93200
+[2026/9/28 06:56:59.992][6110883840][sandbox-core][I] [proc=proc-1] pty-reader: 首次 processOutput, bytes=45, preview="/Users/didi/WorkBuddy/2026-09-24-21-39-57/:\r\n"
+[2026/9/28 06:56:59.994][6110883840][sandbox-core][I] [proc=proc-1]: waitpid(93200) 返回, exit_code=1
+[2026/9/28 06:56:59.994][6110883840][sandbox-core][I] [proc=proc-1] exit-waiter: [mac]: 开始 sandbox_pid_cleanup...
+[2026/9/28 06:56:59.994][6110883840][sandbox-core][I] [proc=proc-1] exit-waiter: [mac]: sandbox_pid_cleanup 完成, 耗时 0ms, blocked_count=0
+[2026/9/28 06:56:59.994][6110883840][sandbox-core][I] stop_and_collect v3: tag=WB_SBX_b22786e5
+[2026/9/28 06:57:00.045][6108737536][sandbox-core][I] reader[WB_SBX_b22786e5] line#1 (782B): has_tag=false, parse=None, msg=Sandbox apply: logd_helper[93202] <bytes>
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] stop_and_collect: pre-kill records=0, waited=300ms, tag=WB_SBX_b22786e5
+[2026/9/28 06:57:00.339][6108737536][sandbox-core][I] reader[WB_SBX_b22786e5] EOF, total lines read: 1
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] log monitor 未检测到 deny 记录 (tag=WB_SBX_b22786e5, waited=300ms)
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] exit-waiter: [mac]: 准备调用 send_process_exit, exit_code=1, killed=false
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] pipe-exit: processExit exitCode=1 killed=false | fileBlockRecords=0 | networkBlockRecords=0
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] send_process_exit: 发送 processExit IPC 通知...
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] send_process_exit: IPC 通知已发送, 耗时 0ms
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] send_process_exit: 准备获取 processes 锁以移除进程...
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] send_process_exit: processes 锁+remove 完成, 耗时 0ms, found=true
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] [proc=proc-1] send_process_exit: 开始 drop InteractiveProcess (join reader threads)...
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] InteractiveProcess::drop [proc-1]: 开始, pid=93200, reader_threads=1
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] InteractiveProcess::drop [proc-1]: kill 成功
+[2026/9/28 06:57:00.339][6110883840][sandbox-core][I] InteractiveProcess::drop [proc-1]: join reader thread [1/1] 'sbx-pty-reader-proc-1'...
+[2026/9/28 06:57:05.343][6110883840][sandbox-core][W] InteractiveProcess::drop [proc-1]: reader thread 'sbx-pty-reader-proc-1' join 超时 (5003ms)，放弃等待
+[2026/9/28 06:57:05.343][6110883840][sandbox-core][I] InteractiveProcess::drop [proc-1]: 完成
+[2026/9/28 06:57:05.343][6110883840][sandbox-core][E] MacPtyProcess Drop: waitpid(93200) 失败
+[2026/9/28 06:57:05.343][6110883840][sandbox-core][W] [proc=proc-1] send_process_exit: drop InteractiveProcess 耗时 5003ms (异常慢!)
+[2026/9/28 06:57:05.343][6110883840][sandbox-core][I] [proc=proc-1] exit-waiter: [mac]: send_process_exit 完成, 线程即将退出
+[2026/9/28 07:06:22.709][6095859712][sandbox-core][I] 处理命令: FlushAccessTelemetry (sessionId=0a5479d6-a616-4baa-8ade-594ddff67fb1, messageId=ts-msg-9, clientId=1, data={})

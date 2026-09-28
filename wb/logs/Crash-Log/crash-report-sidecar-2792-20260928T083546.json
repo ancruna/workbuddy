@@ -1,0 +1,30 @@
+{
+  "launchedAt": "2026-09-28T08:35:46.586+08:00",
+  "pid": 2792,
+  "processName": "sidecar",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-28T08:38:17.345+08:00",
+      "type": "child_process_crash",
+      "errorName": "ChildProcessCrash",
+      "errorMessage": "Child process gone (cli): reason=signal:0, exitCode=0",
+      "stack": null,
+      "childProcess": {
+        "processType": "spawned",
+        "reason": "signal:0",
+        "exitCode": 0,
+        "name": "cli"
+      }
+    }
+  ],
+  "droppedCount": 0
+}

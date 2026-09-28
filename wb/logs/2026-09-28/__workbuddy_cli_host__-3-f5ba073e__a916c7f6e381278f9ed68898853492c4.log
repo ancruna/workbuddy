@@ -1,0 +1,165 @@
+Workspace Path: /private/var/folders/f3/2gv0jww54zb8r9tg9bk508s00000ks/T/workbuddy-host-cli/__workbuddy_cli_host__-3-f5ba073e
+[9/28/2026, 8:00:12 AM.867] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:00:12 AM.867] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:00:12 AM.935] [Info] [WorkflowMemProbe] tick runId=(none) | rss=87.7MB heap=159.4/168.1MB external=53.7MB arrayBuffers=0MB
+[9/28/2026, 8:00:13 AM.043] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:00:13 AM.043] [Info] [CloudProductManager]  Fetched configuration from remote [174ms]
+[9/28/2026, 8:00:13 AM.047] [Info] [PluginsProductProvider.provide] active=9, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,agent-browser@inline,find-skills@inline]
+[9/28/2026, 8:00:13 AM.047] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,weixinpay,sheetagent] allServers=[connector-proxy:connected,weixinpay:connected,sheetagent:connected]
+[9/28/2026, 8:00:13 AM.047] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,weixinpay,sheetagent] (size=3)
+[9/28/2026, 8:00:13 AM.054] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:00:13 AM.054] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:00:13 AM.055] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:00:13 AM.055] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.055] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:00:13 AM.074] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:00:13 AM.074] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:00:13 AM.074] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:00:13 AM.074] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/28/2026, 8:00:13 AM.074] [Info] [Startup] AgentManager.rebuildAgents: completed in 13ms, resolving readyDeferred
+[9/28/2026, 8:00:13 AM.075] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/28/2026, 8:00:13 AM.075] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:00:13 AM.075] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:00:13 AM.075] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=0ms migration=0ms total=0ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:00:13 AM.075] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/28/2026, 8:00:13 AM.076] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:00:13 AM.076] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:00:13 AM.078] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=3ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/28/2026, 8:00:15 AM.064] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:00:15 AM.064] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:00:42 AM.942] [Info] [WorkflowMemProbe] tick runId=(none) | rss=94.3MB heap=166.8/177.1MB external=54.9MB arrayBuffers=0MB
+[9/28/2026, 8:16:15 AM.475] [Info] [WorkflowMemProbe] tick runId=(none) | rss=99.2MB heap=164.6/172.2MB external=53.8MB arrayBuffers=0MB
+[9/28/2026, 8:16:15 AM.598] [Info] [GitInfoCollector]  CODEBUDDY_GIT_REPO_SCAN_DISABLED 1
+[9/28/2026, 8:16:15 AM.598] [Info] [GitInfoCollector]  Git repository scan is disabled via CODEBUDDY_GIT_REPO_SCAN_DISABLED environment variable
+[9/28/2026, 8:16:16 AM.502] [Info] [CloudProductManager]  fetch cloud product success, agents(1): cli, models(53): auto,fast-model,balanced-model,deep-model,hy3,hy3-b,hy3-c,hy3-x,hy4-preview,hy4-preview-f,minimax-m2.5,glm-5v-turbo,glm-5.3,glm-5.3-flash,glm-5.2,glm-5.1,glm-5.0-turbo,glm-4.6v,kimi-k3-1,kimi-k2.8-preview,kimi-k2.7,kimi-k2.6,kimi-k2.5,kimi-k2-thinking,minimax-m3,minimax-m2.7,glm-4.6,deepseek-v4-flash,deepseek-v4.1-flash,deepseek-v4-pro,deepseek-v3-2-volc,deepseek-v3-1-volc,deepseek-v3-1-lkeap,deepseek-v3-1,deepseek-v3-0324-lkeap,deepseek-r1-0528-lkeap,kimi-k2-instruct-taiji,completion-gf,default-1.1,hunyuan-3b,hunyuan-7b-dense,codewise-completions,codewise-rewrite,codewise-nes-a4-027-aide,codewise-jump,deepseek-r1-0528,deepseek-v3-0324-taco-completion,deepseek-v3-0324,default-1.2,hunyuan-2.0-instruct,hunyuan-chat,hunyuan-image-alpha,hunyuan-image-alpha-edit
+[9/28/2026, 8:16:16 AM.502] [Info] [CloudProductManager]  Fetched configuration from remote [903ms]
+[9/28/2026, 8:16:16 AM.503] [Info] [PluginsProductProvider.provide] active=9, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,agent-browser@inline,find-skills@inline]
+[9/28/2026, 8:16:16 AM.503] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,weixinpay,sheetagent] allServers=[connector-proxy:connected,weixinpay:connected,sheetagent:connected]
+[9/28/2026, 8:16:16 AM.503] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,weixinpay,sheetagent] (size=3)
+[9/28/2026, 8:16:16 AM.511] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:16:16 AM.511] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:16:16 AM.511] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:16:16 AM.511] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.511] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:16:16 AM.529] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:16:16 AM.529] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:16:16 AM.529] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:16:16 AM.529] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/28/2026, 8:16:16 AM.529] [Info] [Startup] AgentManager.rebuildAgents: completed in 13ms, resolving readyDeferred
+[9/28/2026, 8:16:16 AM.530] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/28/2026, 8:16:16 AM.530] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:16:16 AM.530] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:16:16 AM.532] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=2ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:16:16 AM.533] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/28/2026, 8:16:16 AM.534] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=1ms readAndRepair=1ms migration=0ms total=2ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:16:16 AM.534] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:16:16 AM.537] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=5ms storage=2ms builtIn=0ms autoUpdate=0ms
+[9/28/2026, 8:16:18 AM.518] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:16:18 AM.518] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:16:45 AM.479] [Info] [WorkflowMemProbe] tick runId=(none) | rss=135MB heap=154.8/164.2MB external=53.7MB arrayBuffers=0MB
+[9/28/2026, 8:23:46 AM.072] [Info] [WorkflowMemProbe] tick runId=(none) | rss=133.2MB heap=155/164.2MB external=53.7MB arrayBuffers=0MB
+[9/28/2026, 8:23:53 AM.201] [Info] [TracingService]  [primary] Exported 6 spans, traceIds: 7d6bed429ba2b93cd18f8c6ecf28db0a, aeb55e8265517c001ef469aa7e29680b, 4488851be541367cce6c52df2615741a, c98397fe6a9db2f4c823b0d66c3cb99d, 61d6eaed058774aee42bbb0087523ccd, dc2fb2e7f2916eea5220b6f91480f968
+[9/28/2026, 8:24:16 AM.074] [Info] [WorkflowMemProbe] tick runId=(none) | rss=54.9MB heap=156.3/164.2MB external=53.8MB arrayBuffers=0MB
+[9/28/2026, 8:24:16 AM.093] [Info] [PluginsProductProvider.provide] active=9, ids=[weixinpay@workbuddy-builtin,tencent-docs-plugin@workbuddy-builtin,sheetagent@workbuddy-builtin,tencent-pptx@workbuddy-builtin,tencent-docx@workbuddy-builtin,agent-browser@codebuddy-plugins-official,find-skills@codebuddy-plugins-official,agent-browser@inline,find-skills@inline]
+[9/28/2026, 8:24:16 AM.093] [Info] [MCP][cacheDbg] getConnectedServers() called: nonInteractive=true waitForSettle=false cacheNow=[connector-proxy,weixinpay,sheetagent] allServers=[connector-proxy:connected,weixinpay:connected,sheetagent:connected]
+[9/28/2026, 8:24:16 AM.093] [Info] [MCP][cacheDbg] getConnectedServers() returning: [connector-proxy,weixinpay,sheetagent] (size=3)
+[9/28/2026, 8:24:16 AM.100] [Info] [CustomModelsProductProvider] productName=WorkBuddy, isWorkBuddy=true, userConfigPath=/Users/didi/.workbuddy/models.json
+[9/28/2026, 8:24:16 AM.100] [Info] Loaded custom models config from user: /Users/didi/.workbuddy/models.json
+[9/28/2026, 8:24:16 AM.100] [Info] [ModelsProductProvider] enterpriseId: undefined, endpoint: https://copilot.tencent.com
+[9/28/2026, 8:24:16 AM.100] [Warning] [ModelsProductProvider] enterpriseId is missing, skipping models API call
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] product config input: 54 models, 23 agents
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] model ids: auto, fast-model, balanced-model, deep-model, hy3, hy3-b, hy3-c, hy3-x, hy4-preview, hy4-preview-f, minimax-m2.5, glm-5v-turbo, glm-5.3, glm-5.3-flash, glm-5.2, glm-5.1, glm-5.0-turbo, glm-4.6v, kimi-k3-1, kimi-k2.8-preview, kimi-k2.7, kimi-k2.6, kimi-k2.5, kimi-k2-thinking, minimax-m3, minimax-m2.7, glm-4.6, deepseek-v4-flash, deepseek-v4.1-flash, deepseek-v4-pro, deepseek-v3-2-volc, deepseek-v3-1-volc, deepseek-v3-1-lkeap, deepseek-v3-1, deepseek-v3-0324-lkeap, deepseek-r1-0528-lkeap, kimi-k2-instruct-taiji, completion-gf, default-1.1, hunyuan-3b, hunyuan-7b-dense, codewise-completions, codewise-rewrite, codewise-nes-a4-027-aide, codewise-jump, deepseek-r1-0528, deepseek-v3-0324-taco-completion, deepseek-v3-0324, default-1.2, hunyuan-2.0-instruct, hunyuan-chat, hunyuan-image-alpha, hunyuan-image-alpha-edit, custom-local:kimi-k3
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "cli" original_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"] -> resolved_models=["auto","hy4-preview-f","hy3","hy3-x","deepseek-v4.1-flash","glm-5.3","glm-5.3-flash","glm-5.2","glm-5.1","glm-5v-turbo","minimax-m3","kimi-k3-1","kimi-k2.8-preview","kimi-k2.7","kimi-k2.6","deepseek-v4-pro"]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "general-purpose" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "compact" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "contextSummary" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "contentAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "terminalTitleGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "promptSuggestion" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "memorySelector" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "summaryGenerator" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "autoModeClassifier" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "promptHookEvaluator" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "insightsAnalyzer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "agentInstructions" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "statusline-setup" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "Explore" original_models=["lite"] -> resolved_models=["lite"]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "Plan" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "pulse" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "handoff-summary" original_models=undefined -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "enhance-prompt" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "sheet-agent" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "doc-converter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "doc-formatter" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.100] [Info] [AgentModelResolver] agent "doc-writer" original_models=[] -> resolved_models=[]
+[9/28/2026, 8:24:16 AM.117] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] ProductManager.onDidChange fired, reloading policies...
+[9/28/2026, 8:24:16 AM.117] [Info] [PluginPolicyService]  [MergedPlugins][DEBUG] Current config builtInMarketPluginsMerge: [{"autoEnable":true,"marketplaceName":"codebuddy-plugins-official","name":"agent-browser","scope":"user"}]
+[9/28/2026, 8:24:16 AM.117] [Info] [PluginPolicyService]  [MergedPlugins] Loaded 1 merged plugin entries
+[9/28/2026, 8:24:16 AM.117] [Info] [Startup] AgentManager.rebuildAgents: START
+[9/28/2026, 8:24:16 AM.117] [Info] [Startup] AgentManager.rebuildAgents: completed in 12ms, resolving readyDeferred
+[9/28/2026, 8:24:16 AM.117] [Info] [PluginManager]  Checking for built-in marketplaces to install...
+[9/28/2026, 8:24:16 AM.117] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:24:16 AM.117] [Info] [PluginManager]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:24:16 AM.118] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:24:16 AM.118] [Info] [PluginManager]  All built-in marketplaces are already installed
+[9/28/2026, 8:24:16 AM.119] [Info] [MarketplaceStorage]  [MarketplaceStorage] getMarketplaces ensureConfigFile=0ms readAndRepair=1ms migration=0ms total=1ms count=5 path=/Users/didi/.workbuddy/plugins/known_marketplaces.json
+[9/28/2026, 8:24:16 AM.119] [Info] [BuiltInMarketplaceProvider]  Found 2 built-in marketplace(s)
+[9/28/2026, 8:24:16 AM.121] [Info] [PluginManager]  Loaded 5 marketplaces (2 built-in) total=3ms storage=1ms builtIn=0ms autoUpdate=0ms
+[9/28/2026, 8:24:18 AM.107] [Info] [TracingService]  Tracing uses @tencent/galileo-node-sdk global OpenTelemetry provider; @genie OTLP exporter is skipped.
+[9/28/2026, 8:24:18 AM.107] [Info] [TracingService]  Tracing config resolved: {"productEnabled":true,"enabledByEnv":false,"endpoint":"https://copilot.tencent.com","galileoEnabled":true}
+[9/28/2026, 8:24:46 AM.076] [Info] [WorkflowMemProbe] tick runId=(none) | rss=98.1MB heap=163.8/170.4MB external=54.9MB arrayBuffers=0MB
+[9/28/2026, 8:25:16 AM.077] [Info] [WorkflowMemProbe] tick runId=(none) | rss=55.9MB heap=163.9/170.7MB external=54.9MB arrayBuffers=0MB
+[9/28/2026, 8:25:46 AM.079] [Info] [WorkflowMemProbe] tick runId=(none) | rss=65MB heap=164.1/170.9MB external=54.9MB arrayBuffers=0MB
+[9/28/2026, 8:26:16 AM.080] [Info] [WorkflowMemProbe] tick runId=(none) | rss=62.9MB heap=164.3/171.2MB external=55MB arrayBuffers=0MB
+[9/28/2026, 8:26:46 AM.082] [Info] [WorkflowMemProbe] tick runId=(none) | rss=58.9MB heap=164.5/171.2MB external=55MB arrayBuffers=0MB
+[9/28/2026, 8:27:16 AM.082] [Info] [WorkflowMemProbe] tick runId=(none) | rss=54.3MB heap=164.7/171.4MB external=55MB arrayBuffers=0MB
+[9/28/2026, 8:27:46 AM.082] [Info] [WorkflowMemProbe] tick runId=(none) | rss=59.6MB heap=164.8/171.7MB external=55MB arrayBuffers=0MB
+[9/28/2026, 8:28:10 AM.471] [Error] [ProcessExit] signal | reason=SIGTERM

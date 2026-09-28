@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "skills": {
+    "expert-manager": {
+      "id": "expert-manager",
+      "type": "skill",
+      "lastUsedDate": "2026-09-26",
+      "recentDates": [
+        "2026-09-26",
+        "2026-08-30",
+        "2026-08-25"
+      ],
+      "firstSeenDate": "2026-08-25"
+    },
+    "wb-finance-skill": {
+      "id": "wb-finance-skill",
+      "type": "skill",
+      "lastUsedDate": "2026-09-28",
+      "recentDates": [
+        "2026-09-28",
+        "2026-09-24"
+      ],
+      "firstSeenDate": "2026-09-24"
+    }
+  },
+  "mcps": {
+    "netdrive": {
+      "id": "netdrive",
+      "type": "mcp",
+      "lastUsedDate": "2026-09-28",
+      "recentDates": [
+        "2026-09-28",
+        "2026-09-27"
+      ],
+      "firstSeenDate": "2026-09-27"
+    }
+  },
+  "activeDays": [
+    "2026-09-28",
+    "2026-09-27",
+    "2026-09-26",
+    "2026-09-24",
+    "2026-08-30",
+    "2026-08-25"
+  ],
+  "dismissedIdle": {}
+}

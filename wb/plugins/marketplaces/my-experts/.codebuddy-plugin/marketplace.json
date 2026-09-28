@@ -1,0 +1,11 @@
+{
+  "name": "my-experts",
+  "description": "my-experts marketplace (auto-generated)",
+  "plugins": [
+    {
+      "name": "fantasy-novel-writer",
+      "source": "./plugins/fantasy-novel-writer",
+      "description": "Collaborative web novel writing expert specialized in Eastern fantasy (xuanhuan) and xianxia, covering worldbuilding, cultivation systems, plot design and fast-paced serialization for Fanqie/Qimao style platforms."
+    }
+  ]
+}

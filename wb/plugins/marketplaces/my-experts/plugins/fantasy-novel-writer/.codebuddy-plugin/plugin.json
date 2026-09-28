@@ -1,0 +1,39 @@
+{
+  "name": "fantasy-novel-writer",
+  "version": "1.0.0",
+  "description": "Collaborative web novel writing expert specialized in Eastern fantasy (xuanhuan) and xianxia, covering worldbuilding, cultivation systems, plot design and fast-paced serialization for Fanqie/Qimao style platforms.",
+  "agents": ["./agents/fantasy-novel-writer.md"],
+
+  "expertType": "agent",
+  "agentName": "fantasy-novel-writer",
+
+  "displayName": {
+    "en": "MoXuan",
+    "zh": "墨玄"
+  },
+  "profession": {
+    "en": "Web Novel Writing Expert",
+    "zh": "网文小说写作专家"
+  },
+  "displayDescription": {
+    "en": "Focused on Eastern fantasy and xianxia web novels, expert in worldbuilding, cultivation system design and hook-driven pacing, helping you produce hit serializations from outline to final draft.",
+    "zh": "专注东方玄幻与仙侠网文，擅长世界观架构、修炼体系设计与爽点节奏把控，助你从大纲到成稿产出爆款连载。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "帮我构思一部东方玄幻小说的世界观与修炼体系",
+    "en": "Help me design the worldbuilding and cultivation system for an Eastern fantasy novel"
+  },
+  "plugin": "fantasy-novel-writer",
+  "tags": [
+    { "en": "Fantasy Novel Writing", "zh": "玄幻小说创作" },
+    { "en": "Xianxia Worldbuilding", "zh": "仙侠世界观架构" },
+    { "en": "Hook & Payoff Pacing", "zh": "爽文节奏把控" }
+  ],
+  "quickPrompts": [
+    { "en": "Help me design the worldbuilding and cultivation system for an Eastern fantasy novel", "zh": "帮我构思一部东方玄幻小说的世界观与修炼体系" },
+    { "en": "Write Chapter 1 from the outline with a strong hook and payoff", "zh": "根据大纲写第一章正文，要突出爽点和开篇钩子" },
+    { "en": "Rewrite this scene with Fanqie-style pacing for stronger conflict and anticipation", "zh": "帮我把这段情节改得更符合番茄节奏，增强冲突与期待感" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "launchedAt": "2026-09-22T09:52:25.905+08:00",
+  "pid": 1710,
+  "processName": "daemon",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-24T21:40:47.357+08:00",
+      "type": "unhandled_rejection",
+      "errorName": "ChSdkReconnectExhaustedError",
+      "errorMessage": "[publish] retries exhausted: fetch failed",
+      "stack": "ChSdkReconnectExhaustedError: [publish] retries exhausted: fetch failed\n    at publishEnvelopeToAPISIX (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/lib.js:2132:8)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async CfPublisher.publishViaApisix (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/lib.js:2384:32)\n    at async CfPublisher.dispatch (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/lib.js:2341:9)\n    at async CfPublisher.publish (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/lib.js:2268:3)"
+    }
+  ],
+  "droppedCount": 0
+}

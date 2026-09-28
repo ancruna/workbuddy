@@ -1,0 +1,54 @@
+{
+  "isSupported": true,
+  "checkedAt": 1790343723878,
+  "overallStatus": "success",
+  "overallSummary": "overall-success",
+  "target": {
+    "endpoint": "https://copilot.tencent.com",
+    "baseEndpoint": "https://copilot.tencent.com",
+    "host": "copilot.tencent.com",
+    "port": 443,
+    "protocol": "https",
+    "prefixPath": "/plugin",
+    "platform": "workbuddy",
+    "proxyMode": "No Proxy",
+    "hostsFilePath": "/etc/hosts"
+  },
+  "proxy": {
+    "status": "success",
+    "summary": "proxy-env-none-configured",
+    "value": "No Proxy"
+  },
+  "hosts": {
+    "status": "success",
+    "summary": "no-hosts-dns-ok",
+    "detail": "Hosts: No explicit hosts entry\nResolved: 39.156.8.106, 120.221.61.48",
+    "value": "No explicit hosts entry"
+  },
+  "service": {
+    "status": "success",
+    "summary": "service-reachable",
+    "detail": "Endpoint: https://copilot.tencent.com",
+    "value": "HTTP OK",
+    "durationMs": 103
+  },
+  "tcp": {
+    "status": "success",
+    "summary": "tcp-connected",
+    "value": "copilot.tencent.com:443",
+    "durationMs": 22
+  },
+  "packetLoss": {
+    "status": "success",
+    "summary": "packet-loss-none",
+    "detail": "Sent: 18 · Received: 18",
+    "value": "0% loss",
+    "durationMs": 17110
+  },
+  "report": {
+    "directory": "/Users/didi/.workbuddy/logs/network",
+    "filePath": "/Users/didi/.workbuddy/logs/network/network-diagnostics-20260925-214203-878.txt",
+    "fileName": "network-diagnostics-20260925-214203-878.txt",
+    "content": "WorkBuddy Network Diagnostics Report\n==================================\nGenerated At: 9/25/2026, 9:42:03 PM\nReport Directory: /Users/didi/.workbuddy/logs/network\nReport File: network-diagnostics-20260925-214203-878.txt\nReport File Path: /Users/didi/.workbuddy/logs/network/network-diagnostics-20260925-214203-878.txt\n\nOverall Status: success\nOverall Summary: overall-success\n\n[Target]\nEndpoint: https://copilot.tencent.com\nBase Endpoint: https://copilot.tencent.com\nTarget Host: copilot.tencent.com:443\nProtocol: https\nPrefix Path: /plugin\nPlatform: workbuddy\nProxy Mode: No Proxy\nProxy URL: N/A\nHosts File: /etc/hosts\n\n[Checks]\n- Proxy Detection\n  Status: success\n  Summary: proxy-env-none-configured\n  Value: No Proxy\n\n- Hosts Resolution\n  Status: success\n  Summary: no-hosts-dns-ok\n  Value: No explicit hosts entry\n  Detail: Hosts: No explicit hosts entry | Resolved: 39.156.8.106, 120.221.61.48\n\n- Service Connectivity\n  Status: success\n  Summary: service-reachable\n  Value: HTTP OK\n  Duration: 103 ms\n  Detail: Endpoint: https://copilot.tencent.com\n\n- TCP Connection Latency\n  Status: success\n  Summary: tcp-connected\n  Value: copilot.tencent.com:443\n  Duration: 22 ms\n\n- Packet Loss\n  Status: success\n  Summary: packet-loss-none\n  Value: 0% loss\n  Duration: 17110 ms\n  Detail: Sent: 18 · Received: 18\n"
+  }
+}

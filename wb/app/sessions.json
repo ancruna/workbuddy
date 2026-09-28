@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-28T05:20:03.818Z",
+  "sessions": [
+    {
+      "conversationId": "c5e4c3f0-d040-4b36-b925-a1ec2eab98a7",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-15-46-57",
+      "startedAt": "2026-08-25T07:47:01.515Z",
+      "resumedAt": "2026-09-28T05:20:03.818Z"
+    },
+    {
+      "conversationId": "0a5479d6-a616-4baa-8ade-594ddff67fb1",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-09-24-21-39-57",
+      "startedAt": "2026-09-24T13:39:59.941Z",
+      "resumedAt": "2026-09-27T23:56:58.758Z"
+    },
+    {
+      "conversationId": "1d0fad9a-ec24-4488-8756-70880f7c2e72",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-09-27-17-55-36",
+      "startedAt": "2026-09-27T09:55:41.112Z",
+      "resumedAt": "2026-09-27T11:21:56.639Z"
+    },
+    {
+      "conversationId": "ee377bc2-f28f-4cf7-a5fe-fbd56c0ee9cc",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-17-46-05",
+      "startedAt": "2026-08-25T09:46:09.506Z",
+      "resumedAt": "2026-08-25T09:46:09.506Z"
+    },
+    {
+      "conversationId": "d0230eff-2ffd-4f70-912d-bc7bd80c310d",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-15-39-25",
+      "startedAt": "2026-08-25T07:39:27.253Z",
+      "resumedAt": "2026-08-25T07:39:27.253Z"
+    },
+    {
+      "conversationId": "5fd4725a-8414-42ff-bc8b-9874c1076e53",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-14-52-42",
+      "startedAt": "2026-08-25T06:52:43.919Z",
+      "resumedAt": "2026-08-25T06:52:43.919Z"
+    },
+    {
+      "conversationId": "f62374c3-9914-461d-a1e6-c5f4d6ff6bff",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-14-49-51",
+      "startedAt": "2026-08-25T06:49:52.419Z",
+      "resumedAt": "2026-08-25T06:49:52.419Z"
+    },
+    {
+      "conversationId": "cb51f78e-b1b2-48be-8371-0456c6c0f247",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/Claw",
+      "startedAt": "2026-08-25T06:49:09.964Z",
+      "resumedAt": "2026-08-25T06:49:09.964Z"
+    },
+    {
+      "conversationId": "cd988390-42d7-4042-8c46-58dcfd52e241",
+      "userId": "fdee3d54-95b6-4e9c-aaff-50ad9505aab4",
+      "workDir": "/Users/didi/WorkBuddy/2026-08-25-14-48-42",
+      "startedAt": "2026-08-25T06:48:44.617Z",
+      "resumedAt": "2026-08-25T06:48:44.617Z"
+    }
+  ]
+}

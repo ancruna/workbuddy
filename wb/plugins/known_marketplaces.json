@@ -1,0 +1,96 @@
+{
+  "cb_teams_marketplace": {
+    "manifestName": "cb_teams_marketplace",
+    "type": "zip",
+    "source": {
+      "source": "zip",
+      "path": "https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace-ab2eb0bb-7465-4062-92d1-1df8288f86d1.zip",
+      "url": "https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace-ab2eb0bb-7465-4062-92d1-1df8288f86d1.zip"
+    },
+    "installLocation": "/Users/didi/.workbuddy/plugins/marketplaces/cb_teams_marketplace",
+    "description": "Marketplace from https://download.codebuddy.cn/plugin-marketplace/cb_teams_marketplace-ab2eb0bb-7465-4062-92d1-1df8288f86d1.zip",
+    "lastUpdated": "2026-09-28T05:13:12.341Z",
+    "autoUpdate": true,
+    "isBuiltIn": true
+  },
+  "codebuddy-plugins-official": {
+    "manifestName": "codebuddy-plugins-official",
+    "type": "zip",
+    "source": {
+      "source": "zip",
+      "path": "https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official-4b9366ac-f7e5-4cef-b60a-99a5229ce2b2.zip",
+      "url": "https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official-4b9366ac-f7e5-4cef-b60a-99a5229ce2b2.zip"
+    },
+    "installLocation": "/Users/didi/.workbuddy/plugins/marketplaces/codebuddy-plugins-official",
+    "description": "Marketplace from https://download.codebuddy.cn/plugin-marketplace/codebuddy-plugins-official-4b9366ac-f7e5-4cef-b60a-99a5229ce2b2.zip",
+    "lastUpdated": "2026-09-28T05:13:17.010Z",
+    "autoUpdate": true,
+    "isBuiltIn": true
+  },
+  "experts": {
+    "type": "directory",
+    "source": {
+      "source": "directory",
+      "path": "/Users/didi/.workbuddy/plugins/marketplaces/experts"
+    },
+    "installLocation": "/Users/didi/.workbuddy/plugins/marketplaces/experts",
+    "isBuiltIn": false,
+    "autoUpdate": true,
+    "description": "experts marketplace (auto-generated)",
+    "lastUpdated": "2026-09-27T09:55:46.318Z",
+    "manifest": {
+      "name": "experts",
+      "description": "experts marketplace (auto-generated)",
+      "plugins": [
+        {
+          "name": "meituan-living-assistant",
+          "source": "./plugins/meituan-living-assistant",
+          "description": "Meituan living deals assistant — one-click coupon collection, nearby group-buy food search and ordering, daily deals exploration for dining, coffee, milk tea, hotpot and more."
+        },
+        {
+          "name": "novel-creator",
+          "source": "./plugins/novel-creator",
+          "description": "Long-form novel and story creation partner: worldbuilding architect, character psychologist, and plot-logic auditor combining a 5-stage gated creative protocol, a 4-system continuity tracker, a 5-dimension quality rubric, and an AI-writing-tell scrubber."
+        }
+      ]
+    },
+    "manifestName": "experts"
+  },
+  "my-experts": {
+    "type": "directory",
+    "source": {
+      "source": "directory",
+      "path": "/Users/didi/.workbuddy/plugins/marketplaces/my-experts"
+    },
+    "installLocation": "/Users/didi/.workbuddy/plugins/marketplaces/my-experts",
+    "description": "Marketplace from /Users/didi/.workbuddy/plugins/marketplaces/my-experts",
+    "lastUpdated": "2026-08-25T07:47:01.552Z",
+    "autoUpdate": false,
+    "manifestName": "my-experts"
+  },
+  "workbuddy-connector-plugins-official": {
+    "manifestName": "workbuddy-connector-plugins-official",
+    "type": "directory",
+    "source": {
+      "source": "directory",
+      "path": "/Users/didi/.workbuddy/plugins/marketplaces/workbuddy-connector-plugins-official"
+    },
+    "installLocation": "/Users/didi/.workbuddy/plugins/marketplaces/workbuddy-connector-plugins-official",
+    "description": "Marketplace from /Users/didi/.workbuddy/plugins/marketplaces/workbuddy-connector-plugins-official",
+    "lastUpdated": "2026-09-28T00:38:39.214Z",
+    "autoUpdate": false
+  },
+  "workbuddy-builtin": {
+    "manifestName": "workbuddy-builtin",
+    "type": "directory",
+    "source": {
+      "source": "directory",
+      "path": "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/resources/plugins/workbuddy-builtin"
+    },
+    "installLocation": "/Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/resources/plugins/workbuddy-builtin",
+    "description": "Marketplace from /Applications/WorkBuddy.app/Contents/Resources/app.asar.unpacked/resources/plugins/workbuddy-builtin",
+    "lastUpdated": "2026-09-28T05:13:07.988Z",
+    "autoUpdate": false,
+    "isBuiltIn": true
+  }
+}

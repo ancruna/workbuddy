@@ -1,0 +1,52 @@
+{
+  "launchedAt": "2026-09-28T08:35:45.073+08:00",
+  "pid": 2761,
+  "processName": "daemon",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-28T08:38:17.372+08:00",
+      "type": "uncaught_exception",
+      "errorName": "Error",
+      "errorMessage": "write EPIPE",
+      "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at Console.value (node:internal/console/constructor:298:16)\n    at Console.info (node:internal/console/constructor:391:26)\n    at Object.logPolling [as log] (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:43699:21)"
+    },
+    {
+      "timestamp": "2026-09-28T08:38:17.373+08:00",
+      "type": "uncaught_exception",
+      "errorName": "Error",
+      "errorMessage": "write EPIPE",
+      "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at writeDaemonStdioFrame (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19603:9)\n    at /Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19918:6\n    at new Promise (<anonymous>)"
+    },
+    {
+      "timestamp": "2026-09-28T08:38:17.676+08:00",
+      "type": "uncaught_exception",
+      "errorName": "Error",
+      "errorMessage": "write EPIPE",
+      "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at writeDaemonStdioFrame (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19603:9)\n    at /Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19918:6\n    at new Promise (<anonymous>)"
+    },
+    {
+      "timestamp": "2026-09-28T08:38:17.844+08:00",
+      "type": "uncaught_exception",
+      "errorName": "Error",
+      "errorMessage": "write EPIPE",
+      "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at writeDaemonStdioFrame (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19603:9)\n    at /Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19918:6\n    at new Promise (<anonymous>)"
+    },
+    {
+      "timestamp": "2026-09-28T08:38:18.246+08:00",
+      "type": "uncaught_exception",
+      "errorName": "Error",
+      "errorMessage": "write EPIPE",
+      "stack": "Error: write EPIPE\n    at afterWriteDispatched (node:internal/stream_base_commons:159:15)\n    at writeGeneric (node:internal/stream_base_commons:150:3)\n    at Socket._writeGeneric (node:net:966:11)\n    at Socket._write (node:net:978:8)\n    at writeOrBuffer (node:internal/streams/writable:572:12)\n    at _write (node:internal/streams/writable:501:10)\n    at Writable.write (node:internal/streams/writable:510:10)\n    at writeDaemonStdioFrame (/Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19603:9)\n    at /Applications/WorkBuddy.app/Contents/Resources/app.asar/main/initialize.js:19918:6\n    at new Promise (<anonymous>)"
+    }
+  ],
+  "droppedCount": 0
+}

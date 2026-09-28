@@ -1,0 +1,6 @@
+[2026-09-27T22:55:41.156Z] [listTasks] {"projectId":"p_4e41df8d5c0b4bc5818ea451bd41736c","params":{"scope":"all","view":"active","page":1,"size":15}}
+[2026-09-27T22:55:41.394Z] [listTasks:res] {"total":1,"localCount":0}
+[2026-09-27T22:55:41.419Z] [listTasks] {"projectId":"p_4e41df8d5c0b4bc5818ea451bd41736c","params":{"scope":"all","view":"active","page":1,"size":15}}
+[2026-09-27T22:55:41.426Z] [listTasks] {"projectId":"p_4e41df8d5c0b4bc5818ea451bd41736c","params":{"view":"active","size":100}}
+[2026-09-27T22:55:42.066Z] [listTasks:res] {"total":1,"localCount":0}
+[2026-09-27T22:55:42.069Z] [listTasks:res] {"total":1,"localCount":0}

@@ -1,0 +1,157 @@
+{
+  "launchedAt": "2026-09-22T09:52:19.636+08:00",
+  "pid": 1004,
+  "processName": "main",
+  "versions": {
+    "node": "22.21.1",
+    "electron": "37.10.3",
+    "chrome": "138.0.7204.251",
+    "v8": "13.8.258.32-electron.0"
+  },
+  "platform": "darwin",
+  "arch": "arm64",
+  "appVersion": "5.3.14",
+  "entries": [
+    {
+      "timestamp": "2026-09-22T09:52:26.611+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "An object could not be cloned.",
+      "stack": "Error: An object could not be cloned."
+    },
+    {
+      "timestamp": "2026-09-25T21:42:58.243+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-25T21:48:06.445+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-25T21:48:16.924+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-26T11:47:41.743+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-26T11:50:24.977+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-26T11:50:28.221+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-26T11:54:19.946+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-27T19:29:26.058+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-27T19:30:06.885+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-27T20:54:57.241+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-27T22:02:47.268+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-27T22:17:00.337+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:53:46.717+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:53:56.396+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:54:10.031+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:55:05.409+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:55:37.834+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:55:43.987+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "Failed to fetch",
+      "stack": "TypeError: Failed to fetch\n    at w.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/http-logger-BRAEwsxg.js:437:27)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3189:279\n    at Object.next (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:187:13)\n    at file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:135:33\n    at new Promise (<anonymous>)\n    at Y (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:114:11)\n    at wr.find.window.fetch.window.fetch (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3141:12)\n    at a (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3624:68)\n    at l (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/aegis.min-BZJu8HNU.js:3630:42)\n    at fetchMpScenes (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/main-content-core-xA-0NNgy.js:5037:18)"
+    },
+    {
+      "timestamp": "2026-09-28T06:55:44.323+08:00",
+      "type": "renderer_js_error",
+      "errorName": "RendererJSError",
+      "errorMessage": "BodyStreamBuffer was aborted",
+      "stack": "AbortError: BodyStreamBuffer was aborted\n    at abortController.signal.addEventListener.once (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/common-DmYVkoTi.js:8819:77)\n    at Object.close (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/common-DmYVkoTi.js:8961:19)\n    at async StreamableHttpClient.disconnect (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/common-DmYVkoTi.js:9801:6)\n    at async CloudAgentConnection.disconnect (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/common-DmYVkoTi.js:10337:4)\n    at async ProjectChatService.tearDown (file:///Applications/WorkBuddy.app/Contents/Resources/app.asar/renderer/assets/plan-upgrade-wwHOEHn3.js:2585:5)"
+    }
+  ],
+  "droppedCount": 0
+}

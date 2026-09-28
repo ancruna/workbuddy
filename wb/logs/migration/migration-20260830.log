@@ -1,0 +1,28 @@
+
+================================================================================
+  Session started at 2026-08-30T01:14:11.987Z
+================================================================================
+[2026-08-30T01:14:11.987Z] [INFO ] Logger initialized at /Users/didi/.workbuddy/logs/migration/migration-20260830.log
+[2026-08-30T01:14:12.054Z] [INFO ] === Migration Started ===
+[2026-08-30T01:14:12.054Z] [INFO ] Type: all, Force: false, HistoryBlockingTimeoutMs: 2000
+[2026-08-30T01:14:12.055Z] [INFO ] [Automation] Already completed, source unchanged, skipping
+[2026-08-30T01:14:12.079Z] [INFO ] [Plan] Already completed, skipping
+[2026-08-30T01:14:12.081Z] [INFO ] [LegacyTodos] Already completed, skipping
+[2026-08-30T01:14:12.086Z] [INFO ] [Brain] Already completed, skipping
+[2026-08-30T01:14:12.087Z] [INFO ] [MediaIndex] Already completed, skipping
+[2026-08-30T01:14:12.104Z] [INFO ] [LocalStorage] Already completed, skipping
+[2026-08-30T01:14:12.105Z] [INFO ] [ClawSettings] Already completed, skipping
+[2026-08-30T01:14:12.106Z] [INFO ] [McpOAuth] Already completed, source unchanged, skipping
+[2026-08-30T01:14:12.108Z] [INFO ] [History] sourcePath=/Users/didi/Library/Application Support/WorkBuddy/codebuddy-sessions.vscdb, exists=false
+[2026-08-30T01:14:12.108Z] [INFO ] [History] historyDataRoot=/Users/didi/Library/Application Support/WorkBuddyExtension/Data, exists=false
+[2026-08-30T01:14:12.108Z] [INFO ] [History][Debug] existingMeta=present, force=false
+[2026-08-30T01:14:12.108Z] [INFO ] [History][Debug] status=skipped, reason=legacy_vscdb_missing, repairChecked=undefined, repairAbandoned=undefined, repairAttempts=undefined, completedAt=1787640411924
+[2026-08-30T01:14:12.108Z] [INFO ] [History] Incremental check: vscdbMtime=0, historyDirMtime=0, effectiveMtime=0, lastCompletedAt=1787640411924, diff=-1787640411924ms
+[2026-08-30T01:14:12.111Z] [INFO ] [History][Debug] repairChecked=false, missingCount=0
+[2026-08-30T01:14:12.113Z] [INFO ] [History] Already completed, source unchanged, repair check passed, skipping
+[2026-08-30T01:14:12.113Z] [INFO ] [History] Completed within 2000ms budget
+[2026-08-30T01:14:12.113Z] [INFO ] [SessionModelPatch] Already completed, skipping
+[2026-08-30T01:14:12.113Z] [INFO ] === Migration Completed ===
+[2026-08-30T01:14:12.113Z] [INFO ] Status: SUCCESS
+[2026-08-30T01:14:12.113Z] [INFO ] Message: Migration completed successfully (9 steps)
+[2026-08-30T01:14:12.116Z] [INFO ] [SessionFragmentRepair] Non-Windows platform, skipping

@@ -1,0 +1,27 @@
+
+================================================================================
+  Session started at 2026-09-07T03:02:43.713Z
+================================================================================
+[2026-09-07T03:02:43.713Z] [INFO ] Logger initialized at /Users/didi/.workbuddy/logs/migration/migration-20260907.log
+[2026-09-07T03:02:43.900Z] [INFO ] === Migration Started ===
+[2026-09-07T03:02:43.900Z] [INFO ] Type: all, Force: false, HistoryBlockingTimeoutMs: 2000
+[2026-09-07T03:02:43.901Z] [INFO ] [Automation] Already completed, source unchanged, skipping
+[2026-09-07T03:02:44.055Z] [INFO ] [Plan] Already completed, skipping
+[2026-09-07T03:02:44.056Z] [INFO ] [LegacyTodos] Already completed, skipping
+[2026-09-07T03:02:44.058Z] [INFO ] [Brain] Already completed, skipping
+[2026-09-07T03:02:44.063Z] [INFO ] [MediaIndex] Already completed, skipping
+[2026-09-07T03:02:44.098Z] [INFO ] [LocalStorage] Already completed, skipping
+[2026-09-07T03:02:44.099Z] [INFO ] [ClawSettings] Already completed, skipping
+[2026-09-07T03:02:44.100Z] [INFO ] [McpOAuth] Already completed, source unchanged, skipping
+[2026-09-07T03:02:44.102Z] [INFO ] [History] sourcePath=/Users/didi/Library/Application Support/WorkBuddy/codebuddy-sessions.vscdb, exists=false
+[2026-09-07T03:02:44.102Z] [INFO ] [History] historyDataRoot=/Users/didi/Library/Application Support/WorkBuddyExtension/Data, exists=false
+[2026-09-07T03:02:44.102Z] [INFO ] [History][Debug] existingMeta=present, force=false
+[2026-09-07T03:02:44.102Z] [INFO ] [History][Debug] status=skipped, reason=legacy_vscdb_missing, repairChecked=true, repairAbandoned=undefined, repairAttempts=undefined, completedAt=1787640411924
+[2026-09-07T03:02:44.102Z] [INFO ] [History] Incremental check: vscdbMtime=0, historyDirMtime=0, effectiveMtime=0, lastCompletedAt=1787640411924, diff=-1787640411924ms
+[2026-09-07T03:02:44.102Z] [INFO ] [History] Already completed, source unchanged, repairChecked=true, skipping
+[2026-09-07T03:02:44.103Z] [INFO ] [History] Completed within 2000ms budget
+[2026-09-07T03:02:44.103Z] [INFO ] [SessionModelPatch] Already completed, skipping
+[2026-09-07T03:02:44.103Z] [INFO ] === Migration Completed ===
+[2026-09-07T03:02:44.103Z] [INFO ] Status: SUCCESS
+[2026-09-07T03:02:44.103Z] [INFO ] Message: Migration completed successfully (9 steps)
+[2026-09-07T03:02:44.117Z] [INFO ] [SessionFragmentRepair] Non-Windows platform, skipping

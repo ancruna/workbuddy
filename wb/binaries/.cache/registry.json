@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "lastUpdated": 1790555918646,
+  "binaries": {
+    "node": {
+      "22.22.2": {
+        "source": "managed",
+        "executablePath": "/Users/didi/.workbuddy/binaries/node/versions/22.22.2/bin/node",
+        "installPath": "/Users/didi/.workbuddy/binaries/node/versions/22.22.2",
+        "installedAt": 1790555746316,
+        "verified": true,
+        "size": 112989184,
+        "mtimeMs": 1774313550000
+      },
+      "22.22.2-3": {
+        "source": "managed",
+        "executablePath": "/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3/bin/node",
+        "installPath": "/Users/didi/.workbuddy/binaries/node/versions/22.22.2-3",
+        "installedAt": 1790555918646,
+        "verified": true,
+        "size": 112989184,
+        "mtimeMs": 1774313550000
+      }
+    },
+    "python": {
+      "3.13.12": {
+        "source": "managed",
+        "executablePath": "/Users/didi/.workbuddy/binaries/python/versions/3.13.12/bin/python3",
+        "installPath": "/Users/didi/.workbuddy/binaries/python/versions/3.13.12",
+        "installedAt": 1790555918630,
+        "verified": true,
+        "size": 50264,
+        "mtimeMs": 1704067200000
+      }
+    }
+  },
+  "systemDetectionCache": {
+    "node": {
+      "path": "/opt/homebrew/bin/node",
+      "version": "25.9.0",
+      "detectedAt": 1790555749261
+    },
+    "python": {
+      "path": "/usr/bin/python3",
+      "version": "3.9.6",
+      "detectedAt": 1790555746364
+    }
+  }
+}

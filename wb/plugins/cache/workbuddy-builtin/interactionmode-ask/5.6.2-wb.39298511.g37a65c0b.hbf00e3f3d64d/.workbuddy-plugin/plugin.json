@@ -1,0 +1,14 @@
+{
+  "name": "interactionmode-ask",
+  "version": "5.6.2-wb.39298511.g37a65c0b.hbf00e3f3d64d",
+  "description": "WorkBuddy ask interaction mode fragment and tool policy.",
+  "author": {
+    "name": "WorkBuddy"
+  },
+  "category": "interaction",
+  "keywords": [
+    "workbuddy",
+    "interaction",
+    "ask"
+  ]
+}

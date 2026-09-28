@@ -1,0 +1,6 @@
+[2026-09-28T00:35:49.500Z] [listTasks] {"projectId":"p_cbfff243436246c1897a31c3bea2897d","params":{"view":"active","size":100}}
+[2026-09-28T00:35:51.943Z] [listTasks] {"projectId":"p_cbfff243436246c1897a31c3bea2897d","params":{"scope":"all","view":"active","page":1,"size":15}}
+[2026-09-28T00:35:53.187Z] [listTasks:res] {"total":3,"localCount":3}
+[2026-09-28T00:35:53.383Z] [listTasks:res] {"total":3,"localCount":3}
+[2026-09-28T05:12:52.560Z] [listTasks] {"projectId":"p_cbfff243436246c1897a31c3bea2897d","params":{"scope":"all","view":"active","page":1,"size":15}}
+[2026-09-28T05:12:52.850Z] [listTasks:res] {"total":4,"localCount":3,"cloudTotal":1,"cloudBatches":1,"windowItems":4}
