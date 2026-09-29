@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="docx-page-size" content="A4">
+  <title>桂林 · 阳朔 · 漓江三日深度游攻略</title>
+  <style>
+  @page {
+    @bottom-center { content: counter(page); }
+  }
+  @page cover {
+    @bottom-center { content: none; }
+  }
+
+  :root {
+    --fs-h1: var(--typography-fontSize-h1, 22pt);
+    --fs-h2: var(--typography-fontSize-h2, 18pt);
+    --fs-h3: var(--typography-fontSize-h3, 14pt);
+    --fs-h4: var(--typography-fontSize-h4, 12pt);
+    --fs-body: var(--typography-fontSize-body, 11pt);
+    --fs-small: var(--typography-fontSize-small, 9pt);
+    --ff-heading: var(--typography-fontFamily-heading, "PingFang SC", "微软雅黑", sans-serif);
+    --ff-body: var(--typography-fontFamily-body, "PingFang SC", "微软雅黑", sans-serif);
+    --ff-mono: var(--typography-fontFamily-mono, monospace);
+    --lh-body: var(--typography-lineHeight-body, 1.7);
+    --lh-heading: var(--typography-lineHeight-heading, 1.3);
+    --fw-bold: var(--typography-fontWeight-heading, 600);
+    --fw-normal: var(--typography-fontWeight-body, 400);
+    --color-primary: var(--color-primary, #2563EB);
+    --color-text: var(--color-text, #111827);
+    --color-muted: var(--color-textSecondary, #6B7280);
+    --color-border: var(--color-border, #E5E7EB);
+    --color-bg: var(--color-background, #FFFFFF);
+    --color-highlight: var(--color-highlight, #FEF3C7);
+    --color-cover-bg: #F0F7FF;
+    --spacing-paragraph: var(--spacing-paragraph, 0.5em);
+    --spacing-section: var(--spacing-sectionGap, 2em);
+    --spacing-block: var(--spacing-paragraphAfter, 0.5em);
+    --margin-page: var(--layout-margin, 2.5cm);
+    --page-content-width: var(--layout-maxContentWidth, 165mm);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--color-text);
+    background: var(--color-bg);
+    max-width: var(--page-content-width);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* === Cover === */
+  section[role="cover"] {
+    page: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-align: center;
+    background: var(--color-cover-bg);
+    padding: var(--margin-page);
+  }
+  section[role="cover"] h1 {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    color: var(--color-text);
+    text-align: center;
+    margin-bottom: var(--spacing-paragraph);
+    line-height: var(--lh-heading);
+  }
+  .cover-subtitle {
+    font-family: var(--ff-body);
+    font-size: var(--fs-h3);
+    color: var(--color-muted);
+    text-align: center;
+    margin-bottom: var(--spacing-section);
+  }
+  .cover-meta {
+    font-family: var(--ff-body);
+    font-size: var(--fs-small);
+    color: var(--color-muted);
+    text-align: center;
+    margin-top: var(--spacing-section);
+  }
+  .cover-tag {
+    display: inline-block;
+    padding: 0.3em 1em;
+    background: var(--color-primary);
+    color: #fff;
+    border-radius: 2em;
+    font-size: var(--fs-small);
+    margin-bottom: var(--spacing-block);
+  }
+
+  /* === Body === */
+  section[role="body"] {
+    padding: var(--margin-page);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--ff-heading);
+    line-height: var(--lh-heading);
+    font-weight: var(--fw-bold);
+    margin-top: var(--spacing-section);
+    margin-bottom: var(--spacing-paragraph);
+    color: var(--color-text);
+    text-align: left;
+  }
+  h1 { font-size: var(--fs-h1); }
+  h2 { font-size: var(--fs-h2); }
+  h3 { font-size: var(--fs-h3); }
+  h4 { font-size: var(--fs-h4); }
+
+  p {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--color-text);
+    text-align: left;
+    margin-bottom: var(--spacing-paragraph);
+  }
+
+  ul, ol {
+    padding-left: 2em;
+    margin-bottom: var(--spacing-paragraph);
+  }
+  li {
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    line-height: var(--lh-body);
+    color: var(--color-text);
+    text-align: left;
+    margin-bottom: 0.3em;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: var(--spacing-block);
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    color: var(--color-text);
+  }
+  th, td {
+    padding: 0.5em 0.8em;
+    border: 1px solid var(--color-border);
+    text-align: left;
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    color: var(--color-text);
+  }
+  th {
+    font-weight: var(--fw-bold);
+    background: #F3F4F6;
+    color: var(--color-text);
+  }
+  tr:nth-child(even) { background: #FAFAFA; }
+  caption {
+    font-family: var(--ff-body);
+    font-size: var(--fs-small);
+    color: var(--color-muted);
+    margin-bottom: 0.4em;
+    text-align: left;
+  }
+
+  /* Blockquote / Tips */
+  blockquote {
+    margin: var(--spacing-block) 0;
+    padding: 0.8em 1em 0.8em 1.2em;
+    border-left: 3px solid var(--color-primary);
+    background: #F8FAFC;
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    color: var(--color-text);
+    text-align: left;
+  }
+  blockquote p {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  /* Callout */
+  .callout {
+    margin: var(--spacing-block) 0;
+    padding: 0.8em 1em;
+    background: #EFF6FF;
+    border-left: 3px solid var(--color-primary);
+    border-radius: 0 4px 4px 0;
+    font-family: var(--ff-body);
+    font-size: var(--fs-body);
+    color: var(--color-text);
+    text-align: left;
+  }
+  .callout-title {
+    font-weight: var(--fw-bold);
+    margin-bottom: 0.3em;
+    color: var(--color-primary);
+    text-align: left;
+  }
+
+  /* Section marker */
+  .day-marker {
+    display: inline-block;
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.2em 0.8em;
+    border-radius: 4px;
+    font-size: var(--fs-small);
+    font-weight: var(--fw-bold);
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  /* Key tag */
+  .key-tag {
+    display: inline-block;
+    background: var(--color-highlight);
+    color: var(--color-text);
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    font-size: var(--fs-small);
+    margin-right: 0.3em;
+  }
+
+  /* Divider */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: var(--spacing-section) 0;
+  }
+
+  /* Footer */
+  .doc-footer {
+    margin-top: var(--spacing-section);
+    color: var(--color-muted);
+    font-size: var(--fs-small);
+    text-align: center;
+    font-family: var(--ff-body);
+  }
+  </style>
+</head>
+<body>
+
+<!-- ===== COVER ===== -->
+<section role="cover">
+  <div class="cover-tag">深度游攻略</div>
+  <h1>桂林 · 阳朔 · 漓江<br>三日深度游攻略</h1>
+  <p class="cover-subtitle">甲天下的不只是山水，还有你在这三天里<br>遇见的每一场晨雾、每一次竹筏过坝、每一口桂林米粉</p>
+  <p class="cover-meta">最佳季节：4–10月 ｜ 人均预算：¥800–1500 ｜ 2026年9月版</p>
+</section>
+
+<!-- ===== BODY ===== -->
+<section role="body">
+
+<h2>行程总览</h2>
+<table>
+  <caption>三天行程速查表</caption>
+  <tr><th>天数</th><th>主题</th><th>核心体验</th><th>住宿建议</th></tr>
+  <tr><td>Day 1</td><td>桂林市区：山水之城</td><td>象鼻山 → 东西巷 → 两江四湖夜游</td><td>桂林市中心/两江四湖周边</td></tr>
+  <tr><td>Day 2</td><td>漓江精华：百里画廊</td><td>漓江竹筏/游船 → 兴坪古镇 → 西街</td><td>阳朔西街外围或遇龙河边</td></tr>
+  <tr><td>Day 3</td><td>阳朔田园：遇龙河慢时光</td><td>遇龙河竹筏 → 十里画廊骑行 → 返程</td><td>返程</td></tr>
+</table>
+
+<div class="callout">
+  <div class="callout-title">出行贴士</div>
+  9月秋高气爽，江面能见度高，是全年最舒适的旅行窗口。人均预算800–1500元（不含往返大交通）。
+</div>
+
+<hr class="divider">
+
+<h2>Day 1：桂林市区——山水之间的城市漫步</h2>
+<p><span class="key-tag">关键词</span> 城市山水 · 历史人文 · 夜景天花板</p>
+
+<h3>上午：象鼻山（免费，需预约）</h3>
+<p>桂林的城市名片，山形酷似一头大象在漓江边饮水。作为桂林山水的象征，这里几乎是每个游客的必打卡地。</p>
+<ul>
+  <li><strong>最佳时间</strong>：8:30–10:30，避开旅行团高峰</li>
+  <li><strong>玩法</strong>：从1号门进，沿江边步道走到象鼻山正前方拍照；然后爬山（约15分钟）到山顶俯瞰桂林全景</li>
+  <li><strong>拍照点</strong>：爱情岛观景台是拍摄象鼻山全景的最佳机位</li>
+  <li><strong>Tips</strong>：免费开放但需在官方小程序提前预约；水月洞（象鼻与象腿之间的圆洞）是桂林三花酒的窖藏地，洞内常年恒温</li>
+</ul>
+
+<h3>中午：正宗桂林米粉</h3>
+<p>"桂林山水甲天下，桂林米粉冠广西"。来桂林不吃一碗地道米粉，等于白来。</p>
+
+<h4>推荐店铺</h4>
+<ul>
+  <li><strong>老东江米粉</strong>（龙隐路总店）：本地人扎堆的苍蝇馆子，卤菜粉经典</li>
+  <li><strong>崇善米粉</strong>（多家连锁）：游客友好，口味稳定，适合第一次尝试</li>
+  <li><strong>十字街附近无名小店</strong>：越破旧越正宗，看店里坐满戴安全帽的工人就进去</li>
+</ul>
+
+<div class="callout">
+  <div class="callout-title">正确吃法</div>
+  先干拌吃粉，吃完再加骨汤——这是桂林人的仪式感。必加锅烧（脆皮五花肉）和酸豆角。
+</div>
+
+<h3>下午：东西巷 + 靖江王府</h3>
+<p><strong>东西巷</strong>是桂林明清时期遗留下来的唯一一片历史街巷，近年修复后成为集文化、商业、餐饮于一体的步行街。</p>
+<ul>
+  <li><strong>玩法</strong>：逛逛老巷，吃碗桂花糕或马蹄糕；逍遥楼是免费登楼的，可以俯瞰漓江</li>
+  <li><strong>靖江王府</strong>（门票约100元）：明代藩王府邸，内有独秀峰——桂林城的发祥地，"桂林山水甲天下"这句诗就刻在山崖上</li>
+  <li><strong>Tips</strong>：王府内的贡院科举体验可以参与，有古装换装；独秀峰不高但台阶较陡，约20分钟登顶</li>
+</ul>
+
+<h3>傍晚至晚上：两江四湖夜游（必去）</h3>
+<p>如果说白天的桂林是水墨画，那么夜晚的桂林就是一幅流光溢彩的工笔画。</p>
+<ul>
+  <li><strong>最佳时间</strong>：日落后30分钟（约19:00–19:30），天色将暗未暗时最美</li>
+  <li><strong>玩法</strong>：步行沿杉湖、榕湖漫步，看日月双塔亮灯；或乘坐游船（约210元/人，约90分钟）</li>
+  <li><strong>核心看点</strong>：日月双塔（金银双色，倒影绝美）、玻璃桥、古南门</li>
+  <li><strong>免费替代方案</strong>：沿湖边步道散步，经过每一个桥洞都是不同风景，比坐船更自由</li>
+</ul>
+
+<h3>Day 1 住宿推荐</h3>
+<table>
+  <tr><th>类型</th><th>推荐区域</th><th>理由</th></tr>
+  <tr><td>性价比</td><td>中心广场/十字街周边</td><td>交通便利，步行可达各景点，餐饮密集</td></tr>
+  <tr><td>景观党</td><td>两江四湖/象鼻山周边</td><td>推窗见湖，夜景观赏方便</td></tr>
+  <tr><td>品质控</td><td>香格里拉/漓江大瀑布酒店</td><td>老牌五星，地理位置优越</td></tr>
+</table>
+
+<hr class="divider">
+
+<h2>Day 2：漓江精华——山水画卷的灵魂</h2>
+<p><span class="key-tag">关键词</span> 漓江竹筏 · 20元人民币 · 兴坪古镇 · 喀斯特峰林</p>
+<p>今天是整个行程的高光日——你将亲眼见到小学课本里的"桂林山水甲天下"。</p>
+
+<h3>上午：漓江精华游（二选一）</h3>
+
+<h4>方案A：漓江竹筏漂流（强烈推荐）</h4>
+<p>比游船更贴近水面，更能感受"舟行碧波上，人在画中游"。</p>
+<ul>
+  <li><strong>推荐线路</strong>：杨堤码头 → 九马画山 → 兴坪古镇（约2.5–3小时）</li>
+  <li><strong>票价</strong>：单程约140元/人（电动排筏，4人/筏）；包筏约560元</li>
+  <li><strong>精华看点</strong>：
+    <ul>
+      <li><strong>九马画山</strong>：临江石壁上天然形成的九匹骏马图案，据说能看出几匹马就有几品官运</li>
+      <li><strong>黄布倒影</strong>：20元人民币背面取景地，江面如镜时，倒影比实景更震撼</li>
+      <li><strong>兴坪佳境</strong>：漓江最美的一段，两岸峰林如剑，直插云霄</li>
+    </ul>
+  </li>
+  <li><strong>最佳时间</strong>：7:00–9:00 首班竹筏，江面有晨雾，光线柔和，旅行团尚未抵达</li>
+</ul>
+
+<div class="callout">
+  <div class="callout-title">竹筏 Tips</div>
+  给筏工10–20元小费，会开得慢一些、讲解更详细；准备好雨衣或雨裤，竹筏过坝时会溅水；手机务必拿稳，掉江里基本找不回来。
+</div>
+
+<h4>方案B：漓江三星/四星游船</h4>
+<ul>
+  <li><strong>线路</strong>：桂林磨盘山/竹江码头 → 阳朔（全程约4小时）</li>
+  <li><strong>票价</strong>：三星约224元（含车），四星约360元</li>
+  <li><strong>适合人群</strong>：老人、小孩、怕晒怕水溅的游客</li>
+  <li><strong>Tips</strong>：四星船环境更好，午餐是自助餐；三星船是盒饭。上船后直奔甲板占个好位置</li>
+</ul>
+
+<h3>中午：兴坪古镇</h3>
+<p>下了竹筏或船，就是兴坪古镇——一座有着1700多年历史的漓江古镇。</p>
+<ul>
+  <li><strong>必做三件事</strong>：
+    <ol>
+      <li>在20元人民币背景观景台拍一张"同款"（观景台在古镇外，可步行或坐电瓶车）</li>
+      <li>逛古镇老街，吃一碗兴坪油茶或艾叶粑粑</li>
+      <li>登老寨山（约40分钟，免费）俯瞰漓江大拐弯——这是摄影师的私藏机位，日落时分极美</li>
+    </ol>
+  </li>
+  <li><strong>午餐推荐</strong>：古镇里的农家餐馆，尝尝漓江鱼、田螺酿</li>
+  <li><strong>Tips</strong>：老寨山山路较陡，没有正规台阶，穿防滑鞋；如果体力一般，可以在山脚的观景台拍拍照就好</li>
+</ul>
+
+<h3>晚上：阳朔西街</h3>
+<p>西街是阳朔最热闹的地方，1400多年历史的老街融合了中西文化，被称为"地球村"。</p>
+<ul>
+  <li><strong>玩法</strong>：逛小店、挑一家酒吧听现场音乐、吃阳朔啤酒鱼</li>
+  <li><strong>啤酒鱼必吃</strong>：谢三姐啤酒鱼（老牌连锁）、大师傅啤酒鱼（西街旗舰店，排队是常态）</li>
+  <li><strong>避坑</strong>：一定要选活鱼现杀，问清单价（按斤算），防止被宰</li>
+  <li><strong>Tips</strong>：西街主街晚上非常吵，如果想要安静，可以往西街外围的小巷走，那边有很多精品咖啡馆和清吧</li>
+</ul>
+
+<h3>Day 2 住宿推荐</h3>
+<table>
+  <tr><th>类型</th><th>推荐区域</th><th>理由</th></tr>
+  <tr><td>热闹派</td><td>西街周边</td><td>夜生活丰富，吃喝方便</td></tr>
+  <tr><td>安静派</td><td>遇龙河/十里画廊沿线</td><td>推窗见山，田园风光，远离喧嚣</td></tr>
+  <tr><td>性价比</td><td>阳朔县城外围民宿</td><td>价格实惠，租电动车方便</td></tr>
+</table>
+
+<hr class="divider">
+
+<h2>Day 3：阳朔田园——遇龙河的慢时光</h2>
+<p><span class="key-tag">关键词</span> 人工竹筏 · 田园骑行 · 发呆哲学</p>
+<p>如果说漓江是大家闺秀，遇龙河就是小家碧玉——更温婉、更安静、更治愈。</p>
+
+<h3>上午：遇龙河人工竹筏漂流（必体验）</h3>
+<p>遇龙河竹筏是人工撑篙，没有马达轰鸣，只有竹竿点水声和鸟鸣，是阳朔最诗意的体验。</p>
+<ul>
+  <li><strong>推荐线路</strong>：金龙桥 → 旧县（约90分钟，最经典）</li>
+  <li><strong>票价</strong>：双人筏约255–320元/筏（按线路不同）</li>
+  <li><strong>为什么比漓江竹筏更推荐</strong>：
+    <ul>
+      <li>人工撑篙，安静缓慢，能听见风声和水声</li>
+      <li>沿途经过多个冲坝，水花飞溅充满趣味</li>
+      <li>两岸是田园风光：稻田、古桥、凤尾竹、水牛</li>
+      <li>早上6–7点可以承包整条河，雾气缭绕如仙境</li>
+    </ul>
+  </li>
+  <li><strong>拍照点</strong>：富里桥（明代古桥，桥拱倒影如满月，汉服拍照绝配）</li>
+</ul>
+
+<div class="callout">
+  <div class="callout-title">遇龙河 Tips</div>
+  提前一天在官方小程序订票，热门时段经常售罄；带一套备用衣服，冲坝时裤子会湿；可以给筏工小费，让他多停留几个拍照点。
+</div>
+
+<h3>中午：旧县古村 + 农家午餐</h3>
+<p>旧县是遇龙河边的一个古村落，有着1400年历史，村中有不少保存完好的明清老宅。</p>
+<ul>
+  <li><strong>玩法</strong>：在旧县村逛一逛，找一家有院子的农家餐厅吃饭</li>
+  <li><strong>推荐</strong>：尝尝竹筒鸡、田螺酿、荔浦芋扣肉</li>
+  <li><strong>Tips</strong>：旧县村有一些精品民宿（如秘密花园、拙见），如果预算充足，住一晚体验极佳</li>
+</ul>
+
+<h3>下午：十里画廊骑行</h3>
+<p>租一辆电动车（约30–50元/天），沿着十里画廊骑行，是阳朔最自由的打开方式。</p>
+<ul>
+  <li><strong>骑行路线</strong>：工农桥 → 大榕树 → 月亮山 → 蝴蝶泉 → 聚龙潭</li>
+  <li><strong>核心看点</strong>：
+    <ul>
+      <li><strong>工农桥</strong>：遇龙河与十里画廊交汇处，桥上 panoramic 视角极美</li>
+      <li><strong>大榕树</strong>（门票约20元）：电影《刘三姐》取景地，一棵千年古榕独木成林</li>
+      <li><strong>月亮山</strong>（远观即可）：山体中间天然形成一个圆洞，像一轮满月</li>
+    </ul>
+  </li>
+  <li><strong>Tips</strong>：电动车是最优解，自行车在烈日下会消耗太多体力；沿途有网红咖啡店（如溯舍、遇龙河咖啡），可以停下来喝一杯；注意防晒，十里画廊几乎无遮阴</li>
+</ul>
+
+<h3>备选方案：银子岩溶洞</h3>
+<p>如果不骑行，可以选择去银子岩溶洞（门票约65元，距阳朔约20分钟车程）。</p>
+<ul>
+  <li>喀斯特溶洞奇观，洞内钟乳石如银似雪，被灯光照亮后极为壮观</li>
+  <li>游览约1.5小时，全程步行约2公里</li>
+  <li>洞内恒温约20℃，夏天进去非常凉爽</li>
+  <li>民间谚语："游了银子岩，一世不缺钱"</li>
+</ul>
+
+<h3>傍晚：返程</h3>
+<p>从阳朔乘高铁返程（阳朔高铁站位于兴坪，约30分钟车程），或返回桂林市区乘飞机/高铁。</p>
+
+<hr class="divider">
+
+<h2>必吃美食地图</h2>
+<table>
+  <tr><th>美食</th><th>地点</th><th>人均</th><th>推荐理由</th></tr>
+  <tr><td>桂林米粉</td><td>桂林市区</td><td>¥8–15</td><td>先干拌后加汤，锅烧必加</td></tr>
+  <tr><td>阳朔啤酒鱼</td><td>西街</td><td>¥80–150</td><td>活鱼现杀，剑骨鱼最佳</td></tr>
+  <tr><td>田螺酿</td><td>阳朔农家</td><td>¥40–60</td><td>螺肉剁碎加猪肉塞回螺壳，风味独特</td></tr>
+  <tr><td>荔浦芋扣肉</td><td>阳朔/桂林</td><td>¥50–80</td><td>荔浦芋头绵软，五花肉肥而不腻</td></tr>
+  <tr><td>桂花糕</td><td>东西巷</td><td>¥5–10</td><td>软糯香甜，桂花香气浓郁</td></tr>
+  <tr><td>油茶</td><td>兴坪古镇</td><td>¥5–10</td><td>桂林传统早餐，微苦回甘</td></tr>
+  <tr><td>竹筒鸡</td><td>旧县村</td><td>¥80–120</td><td>竹林散养鸡，竹香渗入肉质</td></tr>
+</table>
+
+<hr class="divider">
+
+<h2>实用贴士与防坑指南</h2>
+
+<h3>交通</h3>
+<ul>
+  <li><strong>大交通</strong>：高铁首选桂林站（离市区最近），其次桂林北站；阳朔也有高铁站（兴坪站）</li>
+  <li><strong>桂林 → 阳朔</strong>：
+    <ul>
+      <li>漓江游船（4小时，224元）：风景最好，但时间较长</li>
+      <li>大巴（1.5小时，约25元）：桂林汽车南站发车</li>
+      <li>顺风车/拼车（1小时，约40–60元）：灵活方便</li>
+    </ul>
+  </li>
+  <li><strong>阳朔内部</strong>：租电动车是最佳方式（30–50元/天），十里画廊和遇龙河沿线均可骑行</li>
+</ul>
+
+<h3>防坑指南</h3>
+<ol>
+  <li><strong>啤酒鱼问价</strong>：进店先问清鱼的价格（按斤算），确认重量后再杀，避免"天价鱼"</li>
+  <li><strong>竹筏小费</strong>：给不给、给多少自愿，筏工索要过高小费可以拒绝</li>
+  <li><strong>照相收费</strong>：部分景点有穿民族服装的阿姨主动拉你拍照，拍完后收费，提前问清价格</li>
+  <li><strong>购物陷阱</strong>：西街和兴坪的"手工银饰"、"鸡血玉"大概率是假的，慎买</li>
+  <li><strong>打车绕路</strong>：桂林/阳朔打车建议用滴滴，避免黑车绕路</li>
+</ol>
+
+<h3>装备清单</h3>
+<ul>
+  <li>防晒霜 + 遮阳帽（广西紫外线强，十里画廊几乎无遮阴）</li>
+  <li>轻便雨衣或雨裤（竹筏过坝会溅水）</li>
+  <li>防滑运动鞋（老寨山、溶洞台阶湿滑）</li>
+  <li>薄外套（溶洞内温度较低，约20℃）</li>
+  <li>充电宝（拍照耗电快，竹筏上无充电）</li>
+  <li>驱蚊液（遇龙河傍晚蚊虫多）</li>
+</ul>
+
+<h3>最佳拍照时间</h3>
+<ul>
+  <li><strong>漓江晨雾</strong>：6:30–8:00（需早起，但绝对值得）</li>
+  <li><strong>黄布倒影</strong>：上午9–10点，水面最平静</li>
+  <li><strong>老寨山日落</strong>：17:30–18:30，提前1小时上山占机位</li>
+  <li><strong>日月双塔夜景</strong>：20:00–21:00，灯光最璀璨</li>
+</ul>
+
+<hr class="divider">
+
+<h2>预算参考（人均）</h2>
+<table>
+  <tr><th>项目</th><th>经济型</th><th>舒适型</th><th>品质型</th></tr>
+  <tr><td>住宿（2晚）</td><td>¥200</td><td>¥400</td><td>¥800+</td></tr>
+  <tr><td>门票+竹筏</td><td>¥300</td><td>¥400</td><td>¥500</td></tr>
+  <tr><td>餐饮（3天）</td><td>¥200</td><td>¥400</td><td>¥600</td></tr>
+  <tr><td>交通（当地）</td><td>¥100</td><td>¥150</td><td>¥200</td></tr>
+  <tr><td><strong>合计</strong></td><td><strong>¥800</strong></td><td><strong>¥1350</strong></td><td><strong>¥2100+</strong></td></tr>
+</table>
+<blockquote>
+  <p>注：不含往返桂林的大交通费用。</p>
+</blockquote>
+
+<hr class="divider">
+
+<h2>写在最后</h2>
+<p>桂林的美，不在于你打卡了多少个景点，而在于某个清晨，你坐在遇龙河的竹筏上，看着雾气从水面缓缓升起，两岸的凤尾竹在微风中轻轻摇曳——那一刻，你会真正理解为什么古人说"愿做桂林人，不愿做神仙"。</p>
+
+<p>所以，别急着赶路。留半天什么都不安排，只是在遇龙河边发发呆，比打卡十个景点更值。</p>
+
+<blockquote>
+  <p><strong>祝你旅途愉快，山水有相逢。</strong></p>
+</blockquote>
+
+<div class="doc-footer">
+  <p>本攻略信息更新于 2026年9月，票价与政策可能随季节调整，出行前请以官方渠道为准。</p>
+</div>
+
+</section>
+</body>
+</html>
